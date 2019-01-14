@@ -4,7 +4,6 @@
 from flask import Flask, render_template, request, make_response, redirect, session
 from json import load, dump # parse and add json data
 import urllib.request
-import xml.etree.ElementTree as ET
 
 # Import os
 import os
