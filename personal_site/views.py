@@ -6,4 +6,4 @@ from flask import render_template, request, make_response, redirect, session
 # Views
 @app.route("/", methods=['GET'])
 def index():
-    return render_template('flask_index.html')
+    return render_template('flask_index.py')
