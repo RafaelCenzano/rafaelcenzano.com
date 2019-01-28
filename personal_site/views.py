@@ -7,3 +7,6 @@ from flask import render_template, request, make_response, redirect, session
 @app.route("/", methods=['GET'])
 def index():
     return render_template('flask_index.py')
+
+@app.route("/resume", methods=['GET'])
+    return redirect('https://www.linkedin.com/in/rafael-cenzano/')
