@@ -1,12 +1,15 @@
-# Imports
+"""
+Imports
+"""
 
 # Flask imports
 from flask import Flask
 
-# Flask app
+# Create Flask app
 app = Flask(__name__)
 
-# Add Configs
+# Add Configurations to app
 app.config.from_pyfile('config.py', silent=True)
 
+# Import all views
 import personal_site.views
