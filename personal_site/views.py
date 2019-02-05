@@ -10,3 +10,6 @@ def index():
 
 @app.route("/resume", methods=['GET'])
     return redirect('https://www.linkedin.com/in/rafael-cenzano/')
+
+@app.route("/contact", methods=['GET','POST'])
+    return redirect('contact.py')
