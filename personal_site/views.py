@@ -9,7 +9,9 @@ def index():
     return render_template('flask_index.py')
 
 @app.route("/resume", methods=['GET'])
+def linkedin():
     return redirect('https://www.linkedin.com/in/rafael-cenzano/')
 
 @app.route("/contact", methods=['GET','POST'])
+def contact():
     return redirect('contact.py')
