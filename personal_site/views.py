@@ -9,9 +9,13 @@ def index():
     return render_template('flask_index.py')
 
 @app.route("/resume", methods=['GET'])
-def linkedin():
+def resume():
     return redirect('https://www.linkedin.com/in/rafael-cenzano/')
 
 @app.route("/contact", methods=['GET','POST'])
 def contact():
     return redirect('contact.py')
+
+@app.route("/404", methods=['GET'])
+def error_404():
+    return render_template('404.property')
