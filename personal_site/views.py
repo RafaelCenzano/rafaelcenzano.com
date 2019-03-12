@@ -18,4 +18,4 @@ def contact():
 
 @app.route("/404", methods=['GET'])
 def error_404():
-    return render_template('404.property')
+    return render_template('404.py')
