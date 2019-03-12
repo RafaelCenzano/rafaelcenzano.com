@@ -27,5 +27,5 @@
 {% endblock %}
 
 {% block content %}
-  <h1>hi</h1>
+  <h1>Rafael Cenzano</h1>
 {% endblock %}
