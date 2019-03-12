@@ -22,6 +22,10 @@
 	<meta itemprop="image" content="{{ url_for('static', filename='img/profile.jpeg') }}">
 {% endblock %}
 
+{% block head_css %}
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/main/home.css') }}>
+{% endblock %}
+
 {% block content %}
   <h1>hi</h1>
 {% endblock %}
