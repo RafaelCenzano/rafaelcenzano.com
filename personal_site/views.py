@@ -15,7 +15,8 @@ def resume():
 @app.route("/contact", methods=['GET','POST'])
 def contact():
     return redirect('contact.py')
-'''
+
 @app.route("/404", methods=['GET'])
 def error_404():
     return render_template('404.py')
+'''
