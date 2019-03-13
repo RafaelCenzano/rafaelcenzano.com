@@ -1,5 +1,7 @@
 {% extends 'base_file.py' %}
 
+{% block title %}Rafael Cenzano{% endblock %}
+
 {% block meta %}
 	<!-- Facebook -->
 	<meta property="og:url" content="http://rafaelcenzano.com/">
