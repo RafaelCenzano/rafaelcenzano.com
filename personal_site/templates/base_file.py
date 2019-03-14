@@ -21,6 +21,24 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='img/favicon-16x16.png') }}">
     <link rel="mask-icon" href="{{ url_for('static', filename='img/safari-pinned-tab.svg') }}" color="#5bbad5">
 
+	<!-- Facebook -->
+	<meta property="og:image" content="{{ url_for('static', filename='img/profile.jpeg') }}">
+	<meta property="og:description" content="Personal website to display Rafael Cenzano's work">
+	<meta property="og:title" content="Rafael Cenzano">
+	<meta property="og:site_name" content="Rafael Cenzano's Personal website">
+	<meta property="og:see_also" content="http://rafaelcenzano.com">
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="Rafael Cenzano's Personal website">
+	<meta name="twitter:title" content="Rafael Cenzano">
+	<meta name="twitter:description" content="Personal website to display Rafael Cenzano's work">
+	<meta name="twitter:image" content="{{ url_for('static', filename='img/profile.jpeg') }}">
+
+	<!-- Google+ -->
+	<meta itemprop="name" content="Rafael Cenzano">
+	<meta itemprop="description" content="Personal website to display Rafael Cenzano's work">
+	<meta itemprop="image" content="{{ url_for('static', filename='img/profile.jpeg') }}">
+
 	{% block meta %}
 	{% endblock %}
     {% block head_css %}
