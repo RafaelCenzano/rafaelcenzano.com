@@ -28,6 +28,18 @@ def error_404():
 def server_error():
     return render_template('500.py'), 500
 
+# SEO
+@app.route('/robots.txt', methods=['GET'])
+def robots():
+    return send_file('templates/seo/robots.txt')
+
+@app.route('/sitemap.xml', methods=['GET'])
+def sitemap():
+    sitemap_xml = render_template('seo/sitemap.xml')
+    response = make_response(sitemap_xml)
+    response.headers["Content-Type"] = "application/xml"
+    return response
+
 # Error Handelers
 @app.errorhandler(400)
 def bad_request(e):
