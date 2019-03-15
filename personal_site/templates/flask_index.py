@@ -34,7 +34,7 @@
 		    	<img src={{ url_for('static', filename='img/profile.jpeg') }} alt="Rafael Cenzano's Profile Image" class="profile">
 			</div>
 			<div class="back">
-		    	<img src={{ url_for('static', filename='img/hcb.svg') }} alt="Rafael Cenzano's Profile Image" class="profile">
+		    	<img src="https://www.python.org/static/community_logos/python-powered-h.svg" alt="Rafael Cenzano's Profile Image" class="profile">
 			</div>
 		</div>
 	</div>
