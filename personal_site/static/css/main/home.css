@@ -260,8 +260,6 @@ h1 {
 }
 .flip-container {
 	perspective: 1000px;
-  padding-left: 100px;
-  padding-top: 50px;
 }
 .flip-container:hover .flipper, .flip-container.hover .flipper {
 	transform: rotateY(180deg);
@@ -287,6 +285,10 @@ h1 {
 }
 .back {
 	transform: rotateY(180deg);
+}
+.profile-wrapper {
+  padding-left: 80px;
+  padding-top: 50px;
 }
 .profile {
   height: 200px;
