@@ -8,10 +8,6 @@ from flask import render_template, request, make_response, redirect, session, ur
 def index():
     return render_template('flask_index.py')
 
-@app.route("/resume", methods=['GET'])
-def resume():
-    return redirect('resume.py')
-
 @app.route("/contact", methods=['GET','POST'])
 def contact():
     return redirect('contact.py')
