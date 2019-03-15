@@ -28,8 +28,16 @@
 			<h1 class="glitch" data-text="Rafael Cenzano">Rafael Cenzano</h1>
 		</div>
 	</div>
-	<div class="profile-wrapper">
-    	<img src={{ url_for('static', filename='img/profile.jpeg') }} alt="Rafael Cenzano's Profile Image" class="profile">
+	<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		<div class="flipper">
+			<div class="front">
+		    	<img src={{ url_for('static', filename='img/profile.jpeg') }} alt="Rafael Cenzano's Profile Image" class="profile">
+			</div>
+			<div class="back">
+		    	<img src={{ url_for('static', filename='img/hcb.svg') }} alt="Rafael Cenzano's Profile Image" class="profile">
+			</div>
+		</div>
 	</div>
+
 
 {% endblock %}
