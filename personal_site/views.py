@@ -12,10 +12,6 @@ def index():
 def contact():
     return redirect('contact.py')
 
-@app.route("/400", methods=['GET'])
-def error_400():
-    return render_template('400.py'), 400
-
 @app.route("/404", methods=['GET'])
 def error_404():
     return render_template('404.py'), 404
@@ -37,10 +33,6 @@ def sitemap():
     return response
 
 # Error Handelers
-@app.errorhandler(400)
-def bad_request(e):
-    return redirect(url_for('error_400'))
-
 @app.errorhandler(404)
 def page_not_found(e):
     return redirect(url_for('error_404'))
