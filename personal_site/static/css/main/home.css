@@ -24,8 +24,8 @@ h1 {
 .glitch {
   position: relative;
   color: white;
-  font-size: 4em;
-  letter-spacing: 0.5em;
+  font-size: 4.3em;
+  letter-spacing: 0.3em;
   animation: glitch-skew 1s infinite linear alternate-reverse;
 }
 .glitch::before {
