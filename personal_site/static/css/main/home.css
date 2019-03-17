@@ -24,8 +24,8 @@ h1 {
 .glitch {
   position: relative;
   color: white;
-  font-size: 4em;
-  letter-spacing: 0.5em;
+  font-size: 4.3em;
+  letter-spacing: 0.3em;
   animation: glitch-skew 1s infinite linear alternate-reverse;
 }
 .glitch::before {
@@ -258,9 +258,37 @@ h1 {
     transform: skew(3deg);
   }
 }
+.flip-container {
+	perspective: 1000px;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(-180deg);
+}
+.flip-container, .front, .back {
+	width: 200px;
+	height: 200px;
+}
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+.back {
+	transform: rotateY(180deg);
+}
 .profile-wrapper {
+  padding-left: 80px;
   padding-top: 50px;
-  padding-left: 75px;
 }
 .profile {
   height: 200px;

@@ -3,3 +3,4 @@ import os
 
 SECRET_KEY = str(os.urandom(64))
 WTF_CSRF_ENABLED = False
+STATIC_FOLDER = 'static'
