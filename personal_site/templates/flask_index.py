@@ -25,7 +25,8 @@
 	<div id="app">
 		<div id="glitch-wrapper">
 			<!-- Make sure data-text equals the text you put inside the tags. -->
-			<h1 class="glitch" data-text="Rafael Cenzano">Rafael Cenzano</h1>
+			<h1 class="glitch" data-text="Rafael">Rafael</h1><br />
+			<h1 class="glitch" data-text="Cenzano">Cenzano</h1><br />
 		</div>
 	</div>
 	<div class="profile-wrapper">
