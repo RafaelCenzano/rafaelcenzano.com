@@ -5,11 +5,22 @@ h1 {
   text-align: center;
   font-size: 3em;
   letter-spacing: 0.2em;
+  color: currentColor;
+}
+.color-changer {
   -webkit-animation: color-change 5s infinite;
   -moz-animation: color-change 5s infinite;
   -o-animation: color-change 5s infinite;
   -ms-animation: color-change 5s infinite;
   animation: color-change 5s infinite;
+}
+.profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 10px solid;
+  border-color: currentColor;
 }
 @-webkit-keyframes color-change {
   0% { color: #19b70e; }
@@ -60,26 +71,4 @@ h1 {
   62.5% { color: #b76609; }
   75% { color: #b7b409; }
   100% { color: #19b70e; }
-}
-body.dark-mode {
-  background-color: #111;
-  color: #eee;
-}
-body.dark-mode a {
-  color: #111;
-}
-body.dark-mode button {
-  background-color: #eee;
-  color: #111;
-}
-body.light-mode {
-  background-color: #eee;
-  color: #111;
-}
-body.light-mode a {
-  color: #111;
-}
-body.light-mode button {
-  background-color: #111;
-  color: #eee;
 }
