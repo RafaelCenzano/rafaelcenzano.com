@@ -21,6 +21,8 @@
 {% endblock %}
 
 {% block content %}
-	<h1>RAFAEL</h1>
-	<h1>CENZANO</h1>
+	<h1 class="color-changer">RAFAEL</h1>
+	<h1 class="color-changer">CENZANO</h1>
+
+	<img src={{ url_for('static', filename='img/profile.jpeg') }} alt="Rafael Cenzano's profile image" class="color-changer profile">
 {% endblock %}

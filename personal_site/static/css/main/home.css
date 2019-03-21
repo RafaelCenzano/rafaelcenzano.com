@@ -5,11 +5,22 @@ h1 {
   text-align: center;
   font-size: 3em;
   letter-spacing: 0.2em;
+  color: currentColor;
+}
+.color-changer {
   -webkit-animation: color-change 5s infinite;
   -moz-animation: color-change 5s infinite;
   -o-animation: color-change 5s infinite;
   -ms-animation: color-change 5s infinite;
   animation: color-change 5s infinite;
+}
+.profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 10px solid;
+  border-color: currentColor;
 }
 @-webkit-keyframes color-change {
   0% { color: #19b70e; }
