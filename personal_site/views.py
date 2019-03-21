@@ -1,7 +1,8 @@
-from personal_site import app
-from json import load, dump # parse and add json data
-import urllib.request
+from personal_site import app, mail
+from json import load, dump
 from flask import render_template, request, make_response, redirect, session, url_for, send_file
+from personal_site.forms import ContactForm
+from flask_mail import Message
 
 # Views
 @app.route("/", methods=['GET'])
@@ -10,7 +11,24 @@ def index():
 
 @app.route("/contact", methods=['GET','POST'])
 def contact():
-    return redirect('contact.py')
+    form = ContactForm()
+
+    if request.method == 'POST':
+        if form.validate() == False:
+            flash('All fields are required.')
+            return render_template('contact.py', form=form)
+        else:
+            name = form.name.data
+            email = form.email.data
+            message = form.message.data
+
+            msg = Message('Hello', sender = 'RafaelCenzanoNoReply <contact@lowelldev.club>', recipients = [email])
+            msg.body = "Hello Flask message sent from Flask-Mail"
+            mail.send(msg)
+
+            return render_template('success.py')
+    elif request.method == 'GET':
+        return render_template('contact.py', form=form)
 
 @app.route("/404", methods=['GET'])
 def error_404():
@@ -40,4 +58,4 @@ def page_not_found(e):
 # Error Handelers
 @app.errorhandler(500)
 def server_error(e):
-    return redirect(url_for('error_500'))
+    return redirect(url_for('server_error'))

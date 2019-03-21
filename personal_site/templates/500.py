@@ -17,4 +17,5 @@
 {% endblock %}
 
 {% block content %}
+	<h1>SERVER ERROR</h1>
 {% endblock %}
