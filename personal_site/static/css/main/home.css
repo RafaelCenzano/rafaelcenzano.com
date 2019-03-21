@@ -1,68 +1,29 @@
 html, body {
-  font-size: 1em;
+  font-family: "Avenir Next", system-ui, "Helvetica Neue", sans-serif;
 }
+
 h1 {
-  font-size: 3em;
-  letter-spacing: 0.2em;
-  color: currentColor;
   text-align: center;
+  font-size: 3rem;
+  line-height: 1.25;
+  letter-spacing: 0.2em;
+  max-width: 32rem;
+  margin: 2rem auto 1rem;
 }
+
 .color-changer {
-  -webkit-animation: color-change 5s infinite;
-  -moz-animation: color-change 5s infinite;
-  -o-animation: color-change 5s infinite;
-  -ms-animation: color-change 5s infinite;
   animation: color-change 5s infinite;
 }
+
 .profile {
+  display: block;
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  border: 10px solid;
-  border-color: currentColor;
-  display: block;
-  margin: 0 auto;
+  margin: 1rem auto;
+  border: 10px solid currentColor;
 }
-@-webkit-keyframes color-change {
-  0% { color: #19b70e; }
-  12.5% { color: #0db79a; }
-  25% { color: #0c34b7; }
-  37.5% { color: #6c0bb7; }
-  50% { color: #b70a0a; }
-  62.5% { color: #b76609; }
-  75% { color: #b7b409; }
-  100% { color: #19b70e; }
-}
-@-moz-keyframes color-change {
-  0% { color: #19b70e; }
-  12.5% { color: #0db79a; }
-  25% { color: #0c34b7; }
-  37.5% { color: #6c0bb7; }
-  50% { color: #b70a0a; }
-  62.5% { color: #b76609; }
-  75% { color: #b7b409; }
-  100% { color: #19b70e; }
-}
-@-ms-keyframes color-change {
-  0% { color: #19b70e; }
-  12.5% { color: #0db79a; }
-  25% { color: #0c34b7; }
-  37.5% { color: #6c0bb7; }
-  50% { color: #b70a0a; }
-  62.5% { color: #b76609; }
-  75% { color: #b7b409; }
-  100% { color: #19b70e; }
-}
-@-o-keyframes color-change {
-  0% { color: #19b70e; }
-  12.5% { color: #0db79a; }
-  25% { color: #0c34b7; }
-  37.5% { color: #6c0bb7; }
-  50% { color: #b70a0a; }
-  62.5% { color: #b76609; }
-  75% { color: #b7b409; }
-  100% { color: #19b70e; }
-}
+
 @keyframes color-change {
   0% { color: #19b70e; }
   12.5% { color: #0db79a; }
