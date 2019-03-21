@@ -2,10 +2,10 @@ html, body {
   font-size: 1em;
 }
 h1 {
-  text-align: center;
   font-size: 3em;
   letter-spacing: 0.2em;
   color: currentColor;
+  text-align: center;
 }
 .color-changer {
   -webkit-animation: color-change 5s infinite;
@@ -18,9 +18,10 @@ h1 {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  margin: 10px;
   border: 10px solid;
   border-color: currentColor;
+  display: block;
+  margin: 0 auto;
 }
 @-webkit-keyframes color-change {
   0% { color: #19b70e; }
