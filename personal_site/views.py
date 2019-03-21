@@ -2,7 +2,7 @@ from personal_site import app, mail
 from json import load, dump
 from flask import render_template, request, make_response, redirect, session, url_for, send_file
 from personal_site.forms import ContactForm
-from flask_mail import Mail, Message
+from flask_mail import Message
 
 # Views
 @app.route("/", methods=['GET'])
