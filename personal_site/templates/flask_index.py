@@ -46,7 +46,7 @@
   		</a>
 	</div>
 <div class="button-wrapper">
-  <button>Hover me !</button>
+  <button>Contact me !</button>
 </div>
 
 {% endblock %}
