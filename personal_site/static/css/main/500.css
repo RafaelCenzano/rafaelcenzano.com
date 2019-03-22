@@ -9,7 +9,7 @@ h1 {
 }
 
 .text-change {
-  animation: text-enlargement 5s infinite;
+  animation: text-enlargement 2.5s infinite;
 }
 
 @keyframes text-enlargement {

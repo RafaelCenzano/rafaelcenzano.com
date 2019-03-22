@@ -33,5 +33,5 @@
 {% block trailing_js %}
 
 	<script src={{ url_for('static', filename='js/main/500.js') }}></script>
-	
+
 {% endblock %}
