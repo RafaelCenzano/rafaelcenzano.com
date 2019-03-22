@@ -18,14 +18,32 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
+	<link href='https://use.fontawesome.com/releases/v5.7.1/css/all.css' rel='stylesheet' type='text/css'>
+
 {% endblock %}
 
 {% block content %}
 
 	<article class="color-changer">
   		<h1>RAFAEL CENZANO</h1>
-		<img src={{ url_for('static', filename='img/profile.jpeg') }} alt="Rafael Cenzano's profile image" class="profile">
+		<img src="https://rafaelcenzano-com.herokuapp.com/static/img/profile.jpeg" alt="Rafael Cenzano's profile image" class="profile">
 	</article>
-	<h2>Projects</h1>
+	<div class="social-buttons">
+  		<a href="#" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
+    		<span class="social-button__inner">
+     			<i class="fab fa-facebook-f"></i>
+    		</span>
+  		</a>
+  		<a href="#" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
+    		<span class="social-button__inner">
+     			<i class="fab fa-linkedin-in"></i>
+    		</span>
+  		</a>
+  		<a href="#" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
+    		<span class="social-button__inner">
+     			<i class="fab fa-github"></i>
+    		</span>
+  		</a>
+	</div>
 
 {% endblock %}
