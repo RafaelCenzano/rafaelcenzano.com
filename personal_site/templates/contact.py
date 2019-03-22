@@ -19,6 +19,7 @@
 {% endblock %}
 
 {% block content %}
+
     <h1>Contact Me</h1>
     <h2 style = "text-align: center;">Contact Form</h2>
 
@@ -30,7 +31,7 @@
         <div>{{ message }}</div>
     {% endfor %}
 
-    <form action = "https://www.rafaelcenzano.me/contact" method = post>
+    <form action = "https://www.rafaelcenzano.me/contact/" method = post>
        <fieldset>
           <legend>Contact Form</legend>
               {{ form.hidden_tag() }}
@@ -50,4 +51,5 @@
 
         </fieldset>
     </form>
+
 {% endblock %}
