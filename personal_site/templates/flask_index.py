@@ -26,24 +26,27 @@
 
 	<article class="color-changer">
   		<h1>RAFAEL CENZANO</h1>
-		<img src="https://rafaelcenzano-com.herokuapp.com/static/img/profile.jpeg" alt="Rafael Cenzano's profile image" class="profile">
+		<img src={{ url_for('static', filename='img/profile.jpeg') }}" alt="Rafael Cenzano's profile image" class="profile">
 	</article>
 	<div class="social-buttons">
-  		<a href="#" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
+  		<a href="https://www.facebook.com/profile.php?id=100008046498255" class="social-buttons__button social-button social-button--facebook" target="_blank" aria-label="Facebook">
     		<span class="social-button__inner">
      			<i class="fab fa-facebook-f"></i>
     		</span>
   		</a>
-  		<a href="#" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
+  		<a href="https://www.linkedin.com/in/rafael-cenzano/" class="social-buttons__button social-button social-button--linkedin" target="_blank" aria-label="LinkedIn">
     		<span class="social-button__inner">
      			<i class="fab fa-linkedin-in"></i>
     		</span>
   		</a>
-  		<a href="#" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
+  		<a href="https://github.com/RafaelCenzano" class="social-buttons__button social-button social-button--github" target="_blank" aria-label="GitHub">
     		<span class="social-button__inner">
      			<i class="fab fa-github"></i>
     		</span>
   		</a>
 	</div>
+<div class="button-wrapper">
+  <button>Hover me !</button>
+</div>
 
 {% endblock %}
