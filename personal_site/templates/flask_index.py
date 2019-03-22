@@ -26,5 +26,6 @@
   		<h1>RAFAEL CENZANO</h1>
 		<img src={{ url_for('static', filename='img/profile.jpeg') }} alt="Rafael Cenzano's profile image" class="profile">
 	</article>
+	<h2>Projects</h1>
 
 {% endblock %}
