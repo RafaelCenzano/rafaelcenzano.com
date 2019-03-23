@@ -20,6 +20,8 @@
 
 	<link href='https://use.fontawesome.com/releases/v5.7.1/css/all.css' rel='stylesheet' type='text/css'>
 
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+
 {% endblock %}
 
 {% block content %}
@@ -45,8 +47,12 @@
     		</span>
   		</a>
 	</div>
-<div class="button-wrapper">
-  <button>Contact me !</button>
-</div>
+	<div class="button-wrapper">
+  		<a href="#"><button>Contact me !</button></a>
+	</div>
+	<div class="title-wrapper">
+  		<u><h2>Projects<h2></u>
+	</div>
+
 
 {% endblock %}

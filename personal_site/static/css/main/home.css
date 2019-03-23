@@ -161,3 +161,9 @@ button:hover:before,button:hover:after{
   text-align: center;
   padding-top: 20px;
 }
+.title-wrapper {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 1.7em;
+  color: #212121;
+}
