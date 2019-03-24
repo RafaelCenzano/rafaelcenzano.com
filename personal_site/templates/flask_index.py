@@ -53,6 +53,7 @@
 	<div class="title-wrapper">
   		<u><h2>Projects<h2></u>
 	</div>
-
+	<div class="projects">
+    </div
 
 {% endblock %}
