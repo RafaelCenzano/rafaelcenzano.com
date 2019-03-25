@@ -54,6 +54,11 @@
   		<u><h2>Projects<h2></u>
 	</div>
 	<div class="projects">
+		<div class="project-base">
+			<a href="https://www.rafaelcenzano.me/lowelldashboard" class="project-url">
+        	    <h3 class="project-title">Lowell Dashboard</h3>
+       		</a>
+       	</div>
     </div
 
 {% endblock %}

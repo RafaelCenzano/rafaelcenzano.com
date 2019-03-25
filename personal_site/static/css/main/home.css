@@ -167,3 +167,18 @@ button:hover:before,button:hover:after{
   font-size: 1.7em;
   color: #212121;
 }
+.project-base {
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  background: #4286f4;
+  border-radius: 25px;
+}
+.project-url {
+  text-decoration: none;
+}
+.project-title {
+  padding-top: 15px;
+  color: #ddd;
+  padding-bottom: 2px;
+}
