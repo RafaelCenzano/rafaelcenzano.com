@@ -9,7 +9,7 @@ from flask_mail import Message
 def index():
     return render_template('flask_index.py')
 
-@app.route("/contact", methods=['GET','POST'])
+@app.route("/contact/", methods=['GET','POST'])
 def contact():
     form = ContactForm()
 

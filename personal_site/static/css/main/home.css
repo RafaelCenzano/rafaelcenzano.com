@@ -2,7 +2,6 @@ html, body {
   font-family: "Avenir Next", system-ui, "Helvetica Neue", sans-serif;
   background-color: #ddd;
 }
-
 h1 {
   text-align: center;
   font-size: 3.5rem;
@@ -11,11 +10,9 @@ h1 {
   max-width: 32rem;
   margin: 2rem auto 1rem;
 }
-
 .color-changer {
   animation: color-change 5s infinite;
 }
-
 .profile {
   display: block;
   height: 200px;
@@ -24,7 +21,6 @@ h1 {
   margin: 1rem auto;
   border: 10px solid currentColor;
 }
-
 @keyframes color-change {
   0% { color: #19b70e; }
   12.5% { color: #0db79a; }
@@ -35,83 +31,155 @@ h1 {
   75% { color: #b7b409; }
   100% { color: #19b70e; }
 }
- .social-buttons {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   margin-top: -10px;
+.social-buttons {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin-top: -10px;
 }
- .social-buttons__button {
-   margin: 10px 5px 0;
+.social-buttons__button {
+ margin: 10px 5px 0;
 }
- .social-button {
-   position: relative;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   outline: none;
-   width: 70px;
-   height: 70px;
-   text-decoration: none;
+.social-button {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ outline: none;
+ width: 70px;
+ height: 70px;
+ text-decoration: none;
 }
- .social-button__inner {
-   position: relative;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: calc(100% - 2px);
-   height: calc(100% - 2px);
-   border-radius: 100%;
-   background: #fff;
-   text-align: center;
+.social-button__inner {
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: calc(100% - 2px);
+ height: calc(100% - 2px);
+ border-radius: 100%;
+ background: #fff;
+ text-align: center;
 }
- .social-button i, .social-button svg {
-   position: relative;
-   z-index: 1;
-   transition: 0.3s;
+.social-button i, .social-button svg {
+ position: relative;
+ z-index: 1;
+ transition: 0.3s;
 }
- .social-button i {
-   font-size: 28px;
+.social-button i {
+ font-size: 28px;
 }
- .social-button svg {
-   height: 40%;
-   width: 40%;
+.social-button svg {
+ height: 40%;
+ width: 40%;
 }
- .social-button::after {
-   content: "";
-   position: absolute;
-   top: 0;
-   left: 50%;
-   display: block;
-   width: 0;
-   height: 0;
-   border-radius: 100%;
-   transition: 0.3s;
+.social-button::after {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 50%;
+ display: block;
+ width: 0;
+ height: 0;
+ border-radius: 100%;
+ transition: 0.3s;
 }
- .social-button:focus, .social-button:hover {
-   color: #fff;
+.social-button:focus, .social-button:hover {
+ color: #fff;
 }
- .social-button:focus::after, .social-button:hover::after {
-   width: 100%;
-   height: 100%;
-   margin-left: -50%;
+.social-button:focus::after, .social-button:hover::after {
+ width: 100%;
+ height: 100%;
+ margin-left: -50%;
 }
- .social-button--facebook {
-   color: #3b5999;
+.social-button--facebook {
+ color: #3b5999;
 }
- .social-button--facebook::after {
-   background: #3b5999;
+.social-button--facebook::after {
+ background: #3b5999;
 }
- .social-button--linkedin {
-   color: #0077b5;
+.social-button--linkedin {
+ color: #0077b5;
 }
- .social-button--linkedin::after {
-   background: #0077b5;
+.social-button--linkedin::after {
+ background: #0077b5;
 }
- .social-button--github {
-   color: #6e5494;
+.social-button--github {
+ color: #6e5494;
 }
- .social-button--github::after {
-   background: #6e5494;
+.social-button--github::after {
+ background: #6e5494;
 }
- 
+body:before{
+  content:'';
+  height:100%;
+  display:inline-block;
+  vertical-align:middle;
+}
+button{
+  background:#1AAB8A;
+  color:#ddd;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background: #ddd;
+  color:#1AAB8A;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+.button-wrapper {
+  text-align: center;
+  padding-top: 20px;
+}
+.title-wrapper {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 1.7em;
+  color: #212121;
+}
+.project-base {
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  background: #4286f4;
+  border-radius: 25px;
+}
+.project-url {
+  text-decoration: none;
+}
+.project-title {
+  padding-top: 15px;
+  color: #ddd;
+  padding-bottom: 2px;
+}
+.project-description {
+  margin: auto;
+  max-width: 85%;
+  padding-bottom: 20px;
+  color: #fff;
+}
