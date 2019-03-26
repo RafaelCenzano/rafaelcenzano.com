@@ -57,6 +57,7 @@
 		<div class="project-base">
 			<a href="https://www.rafaelcenzano.me/lowelldashboard" class="project-url">
         	    <h3 class="project-title">Lowell Dashboard</h3>
+        	    <p class="project-description">A website created using Flask App Builder. The website is a dashboard for student at Lowell High School. Includes resources like up to date news, pdf textbooks, and a place to post homework for a class to help connect students and relieve the stress of having to look far and wide for resources.</p>
        		</a>
        	</div>
     </div

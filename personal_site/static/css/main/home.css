@@ -2,7 +2,6 @@ html, body {
   font-family: "Avenir Next", system-ui, "Helvetica Neue", sans-serif;
   background-color: #ddd;
 }
-
 h1 {
   text-align: center;
   font-size: 3.5rem;
@@ -11,11 +10,9 @@ h1 {
   max-width: 32rem;
   margin: 2rem auto 1rem;
 }
-
 .color-changer {
   animation: color-change 5s infinite;
 }
-
 .profile {
   display: block;
   height: 200px;
@@ -24,7 +21,6 @@ h1 {
   margin: 1rem auto;
   border: 10px solid currentColor;
 }
-
 @keyframes color-change {
   0% { color: #19b70e; }
   12.5% { color: #0db79a; }
@@ -156,7 +152,6 @@ button:hover:before,button:hover:after{
   width:100%;
   transition:800ms ease all;
 }
-
 .button-wrapper {
   text-align: center;
   padding-top: 20px;
@@ -181,4 +176,10 @@ button:hover:before,button:hover:after{
   padding-top: 15px;
   color: #ddd;
   padding-bottom: 2px;
+}
+.project-description {
+  margin: auto;
+  max-width: 85%;
+  padding-bottom: 20px;
+  color: #fff;
 }
