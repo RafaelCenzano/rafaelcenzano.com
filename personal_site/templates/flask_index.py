@@ -28,7 +28,7 @@
 
 	<article class="color-changer">
   		<h1>RAFAEL CENZANO</h1>
-		<img src={{ url_for('static', filename='img/profile.jpeg') }}" alt="Rafael Cenzano's profile image" class="profile">
+		<img src={{ url_for('static', filename='img/profile.jpeg') }} alt="Rafael Cenzano's profile image" class="profile">
 	</article>
 	<div class="social-buttons">
   		<a href="https://www.facebook.com/profile.php?id=100008046498255" class="social-buttons__button social-button social-button--facebook" target="_blank" aria-label="Facebook">
