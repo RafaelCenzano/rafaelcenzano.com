@@ -57,13 +57,20 @@
 		<div class="project-base">
 			<a href="https://www.rafaelcenzano.me/lowelldashboard" class="project-url">
         	    <h3 class="project-title">Lowell Dashboard</h3>
-        	    <p class="project-description">A website created using Flask App Builder. The website is a dashboard for student at Lowell High School. Includes resources like up to date news, pdf textbooks, and a place to post homework for a class to help connect students and relieve the stress of having to look far and wide for resources.</p>
+        	    <p class="project-description">
+        	    	A website created using Flask App Builder. The website is a dashboard for student at Lowell High School.
+                </p>
+                <p class="project-description">
+                	Includes resources like up to date news, pdf textbooks, and a place to post homework for a class to help connect students and relieve the stress of having to look far and wide for resources.
+                </p>
        		</a>
        	</div>
        	<div class="project-base">
 			<a href="https://www.rafaelcenzano.me/marvinvirtualassistant" class="project-url">
         	    <h3 class="project-title">Marvin Virtual Assistant</h3>
-        	    <p class="project-description">A virtual assistant in python that currently has 3 versions. This is a project that has tons of room to grow and will always be updated with hopes to have it be a open source project people want to join in.</p>
+        	    <p class="project-description">
+        	    	A virtual assistant in python that currently has 3 versions. This is a project that has tons of room to grow and will always be updated with hopes to have it be a open source project people want to join in.
+        	    </p>
        		</a>
        	</div>
     </div
