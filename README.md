@@ -1,6 +1,3 @@
-# personal-site
-Site created with backend Flask and front end with Jinja2 and html
-
 # Personal Site
 
 Personal website hosted on heroku and can be found at https://www.rafaelcenzano.com or https://www.rafaelcenzano.me
