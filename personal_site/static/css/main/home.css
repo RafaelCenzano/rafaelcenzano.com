@@ -2,16 +2,30 @@ html, body {
   font-family: "Avenir Next", system-ui, "Helvetica Neue", sans-serif;
   background-color: #ddd;
 }
+a {
+  text-decoration: none;
+}
 h1 {
   text-align: center;
   font-size: 3.5rem;
   line-height: 1.25;
   letter-spacing: 0.2em;
-  max-width: 32rem;
   margin: 2rem auto 1rem;
 }
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+    max-width: 50%;
+  }
+}
+@media (min-width: 801px) {
+  h1 {
+    font-size: 3.5rem;
+    max-width: 32rem;
+  }
+}
 .color-changer {
-  animation: color-change 5s infinite;
+  animation: color-change 10s infinite;
 }
 .profile {
   display: block;
@@ -152,22 +166,34 @@ button:hover:before,button:hover:after{
   width:100%;
   transition:800ms ease all;
 }
+
 .button-wrapper {
   text-align: center;
   padding-top: 20px;
 }
 .title-wrapper {
-  padding-top: 5px;
   text-align: center;
   font-size: 1.7em;
   color: #212121;
+  margin: 5px 0px -10px 0px;
+  letter-spacing: 0.1em;
 }
 .project-base {
   text-align: center;
   margin: auto;
-  width: 30%;
   background: #4286f4;
   border-radius: 25px;
+  transition: transform .4s;
+}
+@media (max-width: 800px) {
+  .project-base {
+    width: 85%;
+  }
+}
+@media (min-width: 801px) {
+  .project-base {
+    width: 40%;
+  }
 }
 .project-url {
   text-decoration: none;
@@ -176,10 +202,42 @@ button:hover:before,button:hover:after{
   padding-top: 15px;
   color: #ddd;
   padding-bottom: 2px;
+  font-size: 2em;
 }
 .project-description {
   margin: auto;
-  max-width: 85%;
   padding-bottom: 20px;
   color: #fff;
+  font-size: 1em;
+  transition-duration: 2.5s;
+}
+@media (max-width: 800px) {
+  .project-description {
+    max-width: 85%;
+  }
+}
+@media (min-width: 801px) {
+  .project-description {
+    max-width: 90%;
+  }
+}
+.project-base:hover {
+  transform: translateY(-18px);
+}
+footer {
+  text-align: center;
+}
+.copyright {
+  margin: 20px 0px -15px 0px;
+  color: #515151;
+}
+.source-wrapper {
+  margin: auto;
+}
+.source {
+  text-decoration: none;
+  color: #777;
+}
+.source:hover {
+  color: #000;
 }
