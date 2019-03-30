@@ -73,6 +73,14 @@
         	    </p>
        		</a>
        	</div>
-    </div
+    </div>
+    <footer>
+        <p class="copyright">© 2019 Rafael Cenzano</p>
+        <div class="source-wrapper">
+            <a href="https://github.com/RafaelCenzano/rafaelcenzano.com">
+                <p class="source">Source</p>
+            </a>
+        </div>
+    </footer>
 
 {% endblock %}

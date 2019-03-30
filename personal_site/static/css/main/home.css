@@ -2,13 +2,27 @@ html, body {
   font-family: "Avenir Next", system-ui, "Helvetica Neue", sans-serif;
   background-color: #ddd;
 }
+a {
+  text-decoration: none;
+}
 h1 {
   text-align: center;
   font-size: 3.5rem;
   line-height: 1.25;
   letter-spacing: 0.2em;
-  max-width: 32rem;
   margin: 2rem auto 1rem;
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+    max-width: 50%;
+  }
+}
+@media (min-width: 801px) {
+  h1 {
+    font-size: 3.5rem;
+    max-width: 32rem;
+  }
 }
 .color-changer {
   animation: color-change 10s infinite;
@@ -158,10 +172,11 @@ button:hover:before,button:hover:after{
   padding-top: 20px;
 }
 .title-wrapper {
-  padding-top: 5px;
   text-align: center;
   font-size: 1.7em;
   color: #212121;
+  margin: 5px 0px -10px 0px;
+  letter-spacing: 0.1em;
 }
 .project-base {
   text-align: center;
@@ -208,4 +223,21 @@ button:hover:before,button:hover:after{
 }
 .project-base:hover {
   transform: translateY(-18px);
+}
+footer {
+  text-align: center;
+}
+.copyright {
+  margin: 20px 0px -15px 0px;
+  color: #515151;
+}
+.source-wrapper {
+  margin: auto;
+}
+.source {
+  text-decoration: none;
+  color: #777;
+}
+.source:hover {
+  color: #000;
 }
