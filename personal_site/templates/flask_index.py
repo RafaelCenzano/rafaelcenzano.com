@@ -74,6 +74,23 @@
        		</a>
        	</div>
     </div>
+    <div class="title-wrapper">
+        <u><h2>Experiences<h2></u>
+    </div>
+    <div class="experiences center things">
+        <h4><a href="https://hackthefog.com/" class="experience">Hack The Fog</a></h4>
+        <p class="experience-description">Organized Hack The Fog which was the first high school hackathon in San Francisco</p>
+            <p class="current-experience-description experience-description"><a class="experience-link"href="https://hackthefog.com">~ Currently organizing Hack The Fog 2.0 (Organizer) ~</a></p>
+            <p class="current-experience-description experience-description"><a class="experience-link" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">~ Organized Hack The Fog (Operations) ~</a></p>
+        </div>
+    </div>
+    <br>
+    <div class="experiences center things">
+        <h4><a href="https://jcyc.org/jyl.htm" class="experience">Japantown Youth Leader (JYL)</a></h4>
+        <p class="experience-description">Organized Hack The Fog which was the first high school hackathon in San Francisco</p>
+            <p class="current-experience-description experience-description"><a class="experience-link"href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader ~</a></p>
+        </div>
+    </div>
     <footer>
         <p class="copyright">© 2019 Rafael Cenzano</p>
         <div class="source-wrapper">
