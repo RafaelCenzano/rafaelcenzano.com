@@ -87,9 +87,15 @@
     <br>
     <div class="experiences center things">
         <h4><a href="https://jcyc.org/jyl.htm" class="experience">Japantown Youth Leader (JYL)</a></h4>
-        <p class="experience-description">Organized Hack The Fog which was the first high school hackathon in San Francisco</p>
+        <p class="experience-description">Youth Leadership program in Japantown San Francisco. We go into the community and Voulnteer to help the community.</p>
             <p class="current-experience-description experience-description"><a class="experience-link"href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader ~</a></p>
+        <p class="current-experience-description experience-description"><a class="experience-link"href="https://jcyc.org/jyl.htm">~ 1yr 7months | 107 volunteer hours total ~</a></p>
         </div>
+        <br>
+        <div class="experiences center things">
+        <h4><a href="https://jcyc.org/jyl.htm" class="experience">Dev Club</a></h4>
+        <p class="experience-description">Programming club at Lowell High School. Our mission is to make people interested in programming and have amazing experiences that stay for them for their whole life.</p>
+            <p class="current-experience-description experience-description"><a class="experience-link"href="https://www.lowelldev.club">~ Founder and Co-Leader ~</a></p>
     </div>
     <footer>
         <p class="copyright">© 2019 Rafael Cenzano</p>
