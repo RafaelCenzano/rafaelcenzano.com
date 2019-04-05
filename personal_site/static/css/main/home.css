@@ -5,8 +5,11 @@ html, body {
 a {
   text-decoration: none;
 }
-h1 {
+.center {
   text-align: center;
+  margin: auto;
+}
+h1 {
   font-size: 3.5rem;
   line-height: 1.25;
   letter-spacing: 0.2em;
@@ -14,17 +17,19 @@ h1 {
 }
 @media (max-width: 800px) {
   h1 {
-    font-size: 2rem;
-    max-width: 50%;
+    font-size: 2em;
   }
 }
 @media (min-width: 801px) {
   h1 {
-    font-size: 3.5rem;
-    max-width: 32rem;
+    font-size: 3.5em;
   }
 }
+.top-title {
+  margin: -10px 0px 0px 0px;
+}
 .color-changer {
+  text-align: center;
   animation: color-change 10s infinite;
 }
 .profile {
@@ -46,157 +51,120 @@ h1 {
   100% { color: #19b70e; }
 }
 .social-buttons {
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- margin-top: -10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -10px;
 }
 .social-buttons__button {
- margin: 10px 5px 0;
+  margin: 10px 5px 0;
 }
 .social-button {
- position: relative;
- display: flex;
- justify-content: center;
- align-items: center;
- outline: none;
- width: 70px;
- height: 70px;
- text-decoration: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 70px;
+  height: 70px;
+  text-decoration: none;
 }
 .social-button__inner {
- position: relative;
- display: flex;
- align-items: center;
- justify-content: center;
- width: calc(100% - 2px);
- height: calc(100% - 2px);
- border-radius: 100%;
- background: #fff;
- text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 100%;
+  background: #fff;
+  text-align: center;
 }
 .social-button i, .social-button svg {
- position: relative;
- z-index: 1;
- transition: 0.3s;
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
 }
 .social-button i {
- font-size: 28px;
+  font-size: 28px;
 }
 .social-button svg {
- height: 40%;
- width: 40%;
+  height: 40%;
+  width: 40%;
 }
 .social-button::after {
- content: "";
- position: absolute;
- top: 0;
- left: 50%;
- display: block;
- width: 0;
- height: 0;
- border-radius: 100%;
- transition: 0.3s;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 100%;
+  transition: 0.3s;
 }
 .social-button:focus, .social-button:hover {
- color: #fff;
+  color: #fff;
 }
 .social-button:focus::after, .social-button:hover::after {
- width: 100%;
- height: 100%;
- margin-left: -50%;
+  width: 100%;
+  height: 100%;
+  margin-left: -50%;
 }
 .social-button--facebook {
- color: #3b5999;
+  color: #3b5999;
 }
 .social-button--facebook::after {
- background: #3b5999;
+  background: #3b5999;
 }
 .social-button--linkedin {
- color: #0077b5;
+  color: #0077b5;
 }
 .social-button--linkedin::after {
- background: #0077b5;
+  background: #0077b5;
 }
 .social-button--github {
- color: #6e5494;
+  color: #6e5494;
 }
 .social-button--github::after {
- background: #6e5494;
+  background: #6e5494;
 }
-body:before{
-  content:'';
-  height:100%;
-  display:inline-block;
-  vertical-align:middle;
-}
-button{
-  background:#1AAB8A;
-  color:#ddd;
-  border:none;
-  position:relative;
-  height:60px;
-  font-size:1.6em;
-  padding:0 2em;
-  cursor:pointer;
-  transition:800ms ease all;
-  outline:none;
-}
-button:hover{
-  background: #ddd;
-  color:#1AAB8A;
-}
-button:before,button:after{
-  content:'';
-  position:absolute;
-  top:0;
-  right:0;
-  height:2px;
-  width:0;
-  background: #1AAB8A;
-  transition:400ms ease all;
-}
-button:after{
-  right:inherit;
-  top:inherit;
-  left:0;
-  bottom:0;
-}
-button:hover:before,button:hover:after{
-  width:100%;
-  transition:800ms ease all;
-}
-
 .button-wrapper {
-  text-align: center;
   padding-top: 20px;
+}
+.contact {
+  background-color: #00d16f;
+  font-size: 1.6em;
+  color: #ddd;
+  padding: 5px 12px 5px 12px;
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+.contact:hover {
+  background-color: #fff;
+  color: #00d16f;
 }
 .title-wrapper {
   text-align: center;
-  font-size: 1.7em;
+  font-size: 2em;
   color: #212121;
-  margin: 5px 0px -10px 0px;
+  margin: -25px 0px -10px 0px;
   letter-spacing: 0.1em;
 }
 .project-base {
-  text-align: center;
-  margin: auto;
   background: #4286f4;
   border-radius: 25px;
   transition: transform .4s;
 }
-@media (max-width: 800px) {
-  .project-base {
+@media (max-width: 1000px) {
+  .things {
     width: 85%;
   }
 }
-@media (min-width: 801px) {
-  .project-base {
+@media (min-width: 1001px) {
+  .things {
     width: 40%;
   }
-}
-.project-url {
-  text-decoration: none;
 }
 .project-title {
   padding-top: 15px;
@@ -211,21 +179,41 @@ button:hover:before,button:hover:after{
   font-size: 1em;
   transition-duration: 2.5s;
 }
-@media (max-width: 800px) {
-  .project-description {
+@media (max-width: 1000px) {
+  .things-description {
     max-width: 85%;
   }
 }
-@media (min-width: 801px) {
-  .project-description {
+@media (min-width: 1001px) {
+  .things-description {
     max-width: 90%;
   }
 }
 .project-base:hover {
   transform: translateY(-18px);
 }
+.experience {
+  color: rgb(56, 56, 56);
+  font-size: 1.5em;
+}
+.experiences {
+  background-color: rgb(211, 211, 211);
+  border-radius: 25px;
+  padding: 5px 0px 5px 0px;
+}
+.experience-description {
+  color: rgb(40, 40, 40);
+  padding: 0px 20px 0px 20px;
+}
+.current-experience-description {
+  font-size: 20px;
+}
+.experience-link {
+  color: rgb(40, 40, 40);
+}
 footer {
   text-align: center;
+  margin: auto;
 }
 .copyright {
   margin: 20px 0px -15px 0px;
@@ -235,9 +223,8 @@ footer {
   margin: auto;
 }
 .source {
-  text-decoration: none;
   color: #777;
 }
 .source:hover {
-  color: #000;
+  color: rgb(10,10,10);
 }
