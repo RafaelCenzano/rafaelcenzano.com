@@ -47,31 +47,29 @@
     		</span>
   		</a>
 	</div>
-	<div class="button-wrapper">
-  		<a href="#"><button>Contact me !</button></a>
-	</div>
+	<div class="button-wrapper center">
+        <a href="/contact" class="contact">Contact me !</a>
+    </div>
 	<div class="title-wrapper">
   		<u><h2>Projects<h2></u>
 	</div>
-	<div class="projects">
-		<div class="project-base">
-			<a href="https://www.rafaelcenzano.me/lowelldashboard" class="project-url">
-        	    <h3 class="project-title">Lowell Dashboard</h3>
-        	    <p class="project-description">
-        	    	A website created using Flask App Builder. The website is a dashboard for student at Lowell High School.
+	<div class="projects things center">
+        <div class="project-base">
+            <a href="https://www.rafaelcenzano.me/lowelldashboard">
+                <h3 class="project-title">Lowell Dashboard</h3>
+                <p class="project-description things-description">A website created using Flask App Builder. The website is a dashboard for students at Lowell High School in San Francisco.
                 </p>
-                <p class="project-description">
-                	Includes resources like up to date news, pdf textbooks, and a place to post homework for a class to help connect students and relieve the stress of having to look far and wide for resources.
+                <p class="project-description things-description">The website includes resources like up to date news, pdf textbooks, and a place to post homework for classes to help connect students and relieve the stress of having to look far and wide for resources.
                 </p>
-       		</a>
-       	</div>
-       	<div class="project-base">
-			<a href="https://www.rafaelcenzano.me/marvinvirtualassistant" class="project-url">
+            </a>
+        </div>
+      <div class="project-base">
+			<a href="https://www.rafaelcenzano.me/marvinvirtualassistant">
         	    <h3 class="project-title">Marvin Virtual Assistant</h3>
-        	    <p class="project-description">
-        	    	A virtual assistant in python that currently has 3 versions. This is a project that has tons of room to grow and will always be updated with hopes to have it be a open source project people want to join in.
+        	    <p class="project-description things-description">
+        	    	A virtual assistant created in python that currently has 3 versions. This is a project that has tons of room to grow and will always be updated with hopes to have it be an open source project people want to contribute to.
         	    </p>
-       		</a>
+       		  </a>
        	</div>
     </div>
     <div class="title-wrapper">
@@ -79,23 +77,32 @@
     </div>
     <div class="experiences center things">
         <h4><a href="https://hackthefog.com/" class="experience">Hack The Fog</a></h4>
-        <p class="experience-description">Organized Hack The Fog which was the first high school hackathon in San Francisco</p>
-            <p class="current-experience-description experience-description"><a class="experience-link"href="https://hackthefog.com">~ Currently organizing Hack The Fog 2.0 (Organizer) ~</a></p>
-            <p class="current-experience-description experience-description"><a class="experience-link" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">~ Organized Hack The Fog (Operations) ~</a></p>
-        </div>
+        <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco</p>
+        <p class="current-experience-description experience-description">
+        	<a class="experience-link"href="https://hackthefog.com">~ Currently organizing Hack The Fog 2.0 (Organizer) ~</a>
+        </p>
+        <p class="current-experience-description experience-description">
+        	<a class="experience-link" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">~ Organized Hack The Fog (Operations) ~</a
+        </p>
     </div>
     <br>
     <div class="experiences center things">
         <h4><a href="https://jcyc.org/jyl.htm" class="experience">Japantown Youth Leader (JYL)</a></h4>
-        <p class="experience-description">Youth Leadership program in Japantown San Francisco. We go into the community and Voulnteer to help the community.</p>
-            <p class="current-experience-description experience-description"><a class="experience-link"href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader ~</a></p>
-        <p class="current-experience-description experience-description"><a class="experience-link"href="https://jcyc.org/jyl.htm">~ 1yr 7months | 107 volunteer hours total ~</a></p>
-        </div>
-        <br>
-        <div class="experiences center things">
+        <p class="experience-description">Youth Leadership program in Japantown San Francisco. We go into the community and voulnteer to help the community.</p>
+        <p class="current-experience-description experience-description">
+        	<a class="experience-link"href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader ~</a>
+        </p>
+        <p class="current-experience-description experience-description">
+        	<a class="experience-link"href="https://jcyc.org/jyl.htm">~ 1yr 7months | 107 volunteer hours total ~</a>
+        </p>
+    </div>
+    <br>
+    <div class="experiences center things">
         <h4><a href="https://jcyc.org/jyl.htm" class="experience">Dev Club</a></h4>
-        <p class="experience-description">Programming club at Lowell High School. Our mission is to make people interested in programming and have amazing experiences that stay for them for their whole life.</p>
-            <p class="current-experience-description experience-description"><a class="experience-link"href="https://www.lowelldev.club">~ Founder and Co-Leader ~</a></p>
+        <p class="experience-description">Programming club at Lowell High School. Our mission is to make people interested in programming and have amazing experiences that stay with them for their whole life.</p>
+        <p class="current-experience-description experience-description">
+        	<a class="experience-link"href="https://www.lowelldev.club">~ Founder and Co-Leader ~</a>
+        </p>
     </div>
     <footer>
         <p class="copyright">© 2019 Rafael Cenzano</p>
