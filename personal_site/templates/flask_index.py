@@ -50,10 +50,11 @@
 	<div class="button-wrapper center">
         <a href="/contact" class="contact">Contact me !</a>
     </div>
-	<div class="title-wrapper">
-  		<u><h2>Projects<h2></u>
-	</div>
-	<div class="projects things center">
+    <div class="title-wrapper">
+        <u><h2>Projects<h2></u>
+    </div>
+    <div class="projects things center">
+      
         <div class="project-base">
             <a href="https://www.rafaelcenzano.me/lowelldashboard">
                 <h3 class="project-title">Lowell Dashboard</h3>
@@ -107,9 +108,9 @@
     <footer>
         <p class="copyright">© 2019 Rafael Cenzano</p>
         <div class="source-wrapper">
-            <a href="https://github.com/RafaelCenzano/rafaelcenzano.com">
-                <p class="source">Source</p>
-            </a>
+             <p>
+                 <a href="https://github.com/RafaelCenzano/rafaelcenzano.com" class="source">Source</a>
+            </p>
         </div>
     </footer>
 

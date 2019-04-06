@@ -154,6 +154,7 @@ h1 {
 .project-base {
   background: #4286f4;
   border-radius: 25px;
+  margin: -15px 0px 0px 0px;
   transition: transform .4s;
 }
 @media (max-width: 1000px) {
@@ -190,7 +191,7 @@ h1 {
   }
 }
 .project-base:hover {
-  transform: translateY(-18px);
+  transform: translateY(-9px);
 }
 .experience {
   color: rgb(56, 56, 56);
