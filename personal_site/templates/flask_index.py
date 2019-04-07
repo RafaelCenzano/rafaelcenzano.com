@@ -27,7 +27,8 @@
 {% block content %}
 
 	<article class="color-changer">
-  		<h1>RAFAEL CENZANO</h1>
+  		<h1 class="top-title">RAFAEL</h1>
+        <h1 class="top-title">CENZANO</h1>
 		<img src={{ url_for('static', filename='img/profile.jpeg') }} alt="Rafael Cenzano's profile image" class="profile">
 	</article>
 	<div class="social-buttons">
@@ -54,9 +55,8 @@
         <u><h2>Projects<h2></u>
     </div>
     <div class="projects things center">
-      
         <div class="project-base">
-            <a href="https://www.rafaelcenzano.me/lowelldashboard">
+            <a href="/lowelldashboard">
                 <h3 class="project-title">Lowell Dashboard</h3>
                 <p class="project-description things-description">A website created using Flask App Builder. The website is a dashboard for students at Lowell High School in San Francisco.
                 </p>
@@ -65,7 +65,7 @@
             </a>
         </div>
       <div class="project-base">
-			<a href="https://www.rafaelcenzano.me/marvinvirtualassistant">
+			<a href="/marvinvirtualassistant">
         	    <h3 class="project-title">Marvin Virtual Assistant</h3>
         	    <p class="project-description things-description">
         	    	A virtual assistant created in python that currently has 3 versions. This is a project that has tons of room to grow and will always be updated with hopes to have it be an open source project people want to contribute to.
@@ -77,39 +77,53 @@
         <u><h2>Experiences<h2></u>
     </div>
     <div class="experiences center things">
-        <h4><a href="https://hackthefog.com/" class="experience">Hack The Fog</a></h4>
+        <h4><a href="https://hackthefog.com/" target="_blank" class="experience">Hack The Fog</a></h4>
         <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco</p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link"href="https://hackthefog.com">~ Currently organizing Hack The Fog 2.0 (Organizer) ~</a>
+        	<a class="experience-link" target="_blank" href="https://hackthefog.com">~ Currently organizing Hack The Fog 2.0 (Organizer) ~</a>
         </p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">~ Organized Hack The Fog (Operations) ~</a
+        	<a class="experience-link" target="_blank" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">~ Organized Hack The Fog (Operations) ~</a
+        </p>
+        <p class="current-experience-description experience-description">
+        	<a class="experience-link" target="_blank" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">~ 1 year 7 months ~</a
         </p>
     </div>
     <br>
     <div class="experiences center things">
-        <h4><a href="https://jcyc.org/jyl.htm" class="experience">Japantown Youth Leader (JYL)</a></h4>
+        <h4><a href="https://jcyc.org/jyl.htm" target="_blank" class="experience">Japantown Youth Leader (JYL)</a></h4>
         <p class="experience-description">Youth Leadership program in Japantown San Francisco. We go into the community and voulnteer to help the community.</p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link"href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader ~</a>
+        	<a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader ~</a>
         </p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link"href="https://jcyc.org/jyl.htm">~ 1yr 7months | 107 volunteer hours total ~</a>
+        	<a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ 1 year 7 months | 107 volunteer hours total ~</a>
         </p>
     </div>
     <br>
     <div class="experiences center things">
-        <h4><a href="https://jcyc.org/jyl.htm" class="experience">Dev Club</a></h4>
+        <h4><a href="https://www.lowelldev.club/" target="_blank" class="experience">Dev Club</a></h4>
         <p class="experience-description">Programming club at Lowell High School. Our mission is to make people interested in programming and have amazing experiences that stay with them for their whole life.</p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link"href="https://www.lowelldev.club">~ Founder and Co-Leader ~</a>
+        	<a class="experience-link" target="_blank" href="https://www.lowelldev.club">~ Founder and Co-Leader ~</a>
+        </p>
+    </div>
+    <br>
+    <div class="experiences center things">
+        <h4><a href="https://www.bytelab.club/" target="_blank" class="experience">Byte Lab</a></h4>
+        <p class="experience-description">Programming club at Lowell High School.</p>
+        <p class="current-experience-description experience-description">
+        	<a class="experience-link" target="_blank" href="https://www.bytelab.club/">~ Club Secretary ~</a>
+        </p>
+        <p class="current-experience-description experience-description">
+        	<a class="experience-link" target="_blank" href="https://www.bytelab.club/">~ 2 years ~</a>
         </p>
     </div>
     <footer>
         <p class="copyright">© 2019 Rafael Cenzano</p>
         <div class="source-wrapper">
-             <p>
-                 <a href="https://github.com/RafaelCenzano/rafaelcenzano.com" class="source">Source</a>
+            <p>
+                <a href="https://github.com/RafaelCenzano/rafaelcenzano.com" class="source">Source</a>
             </p>
         </div>
     </footer>
