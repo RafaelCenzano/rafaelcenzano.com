@@ -27,7 +27,8 @@
 {% block content %}
 
 	<article class="color-changer">
-  		<h1>RAFAEL CENZANO</h1>
+  		<h1 class="top-title">RAFAEL</h1>
+        <h1 class="top-title">CENZANO</h1>
 		<img src={{ url_for('static', filename='img/profile.jpeg') }} alt="Rafael Cenzano's profile image" class="profile">
 	</article>
 	<div class="social-buttons">
@@ -64,7 +65,7 @@
                 </p>
             </a>
         </div>
-      <div class="project-base">
+        <div class="project-base">
 			<a href="https://www.rafaelcenzano.me/marvinvirtualassistant">
         	    <h3 class="project-title">Marvin Virtual Assistant</h3>
         	    <p class="project-description things-description">
@@ -108,8 +109,8 @@
     <footer>
         <p class="copyright">© 2019 Rafael Cenzano</p>
         <div class="source-wrapper">
-             <p>
-                 <a href="https://github.com/RafaelCenzano/rafaelcenzano.com" class="source">Source</a>
+            <p>
+                <a href="https://github.com/RafaelCenzano/rafaelcenzano.com" class="source">Source</a>
             </p>
         </div>
     </footer>
