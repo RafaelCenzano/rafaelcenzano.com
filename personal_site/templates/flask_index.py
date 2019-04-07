@@ -106,6 +106,16 @@
         	<a class="experience-link"href="https://www.lowelldev.club">~ Founder and Co-Leader ~</a>
         </p>
     </div>
+    <div class="experiences center things">
+        <h4><a href="https://www.bytelab.club/" class="experience">Byte Lab</a></h4>
+        <p class="experience-description">Programming club at Lowell High School.</p>
+        <p class="current-experience-description experience-description">
+        	<a class="experience-link"href="https://www.bytelab.club/">~ Club Secretary ~</a>
+        </p>
+        <p class="current-experience-description experience-description">
+        	<a class="experience-link"href="https://www.bytelab.club/">~ 2 years ~</a>
+        </p>
+    </div>
     <footer>
         <p class="copyright">© 2019 Rafael Cenzano</p>
         <div class="source-wrapper">
