@@ -22,6 +22,8 @@ pip install -r requirements.txt
 or
 
 ```
+pip install atomicwrites==1.3.0
+pip install attrs==19.1.0
 pip install blinker==1.4
 pip install Click==7.0
 pip install Flask==1.0.2
@@ -31,7 +33,12 @@ pip install gunicorn==19.9.0
 pip install itsdangerous==1.1.0
 pip install Jinja2==2.10
 pip install MarkupSafe==1.1.1
+pip install more-itertools==7.0.0
+pip install pluggy==0.9.0
+pip install py==1.8.0
 pip install pycodestyle==2.5.0
+pip install pytest==4.4.0
+pip install six==1.12.0
 pip install Werkzeug==0.14.1
 pip install WTForms==2.2.1
 ```
