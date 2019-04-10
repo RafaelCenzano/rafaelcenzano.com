@@ -18,9 +18,9 @@ def contact():
             flash('All fields are required.')
             return render_template('contact.py', form=form)
         else:
-            name = form.name.data
-            email = form.email.data
-            message = form.message.data
+            name = request.form['name']
+            email = request.form['email']
+            message = request.form['message']
 
             msg = Message('Hello', sender = 'RafaelCenzanoNoReply <contact@lowelldev.club>', recipients = [email])
             msg.body = "Hello Flask message sent from Flask-Mail"
