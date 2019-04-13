@@ -5,10 +5,10 @@
 {% block meta %}
 
 	<!-- Facebook -->
-	<meta property="og:url" content="https://www.rafaelcenzano.me/contact">
+	<meta property="og:url" content="https://www.rafaelcenzano.me/contact/">
 
 	<!-- Twitter -->
-	<meta name="twitter:url" content="https://www.rafaelcenzano.me/contact">
+	<meta name="twitter:url" content="https://www.rafaelcenzano.me/contact/">
 
 {% endblock %}
 
@@ -21,35 +21,35 @@
 {% block content %}
 
     <h1>Contact Me</h1>
-    <h2 style = "text-align: center;">Contact Form</h2>
+    <h2>Contact Form</h2>
 
-    {% for message in form.name.errors %}
-        <div>{{ message }}</div>
-    {% endfor %}
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <ul>
+            {% for message in messages %}
+            <li>{{ message[1] }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% endwith %}
 
-    {% for message in form.email.errors %}
-        <div>{{ message }}</div>
-    {% endfor %}
-
-    <form action = "https://www.rafaelcenzano.me/contact/" method = post>
-       <fieldset>
-          <legend>Contact Form</legend>
-              {{ form.hidden_tag() }}
-
-              <div style = font-size:20px; font-weight:bold; margin-left:150px;>
-                  {{ form.name.label }}<br>
-                  {{ form.name }}
-              	  <br>
-              	  {{ form.email.label }}<br>
-                  {{ form.email }}
-                  <br>
-				  {{ form.message.label }}<br>
-                  {{ form.message }}
-                  <br>
-                  {{ form.submit }}
-            </div>
-
-        </fieldset>
+    <form action="" method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.csrf }}
+        <div class="input text">
+            {{ form.name.label }}<br>
+            {{ form.name }}
+            <br>
+            {{ form.email.label }}<br>
+            {{ form.email }}
+            <br>
+            {{ form.message.label }}<br>
+            {{ form.message }}
+            <br>
+        </div>
+        <div class="input submit">
+            <input type="submit" value="Submit">
+        </div>
     </form>
 
 {% endblock %}
