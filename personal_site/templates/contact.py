@@ -23,33 +23,15 @@
     <h1>Contact Me</h1>
     <h2>Contact Form</h2>
 
-    {% with messages = get_flashed_messages(with_categories=true) %}
-    {% if messages %}
-        <ul>
-            {% for message in messages %}
-            <li>{{ message[1] }}</li>
-            {% endfor %}
-        </ul>
-    {% endif %}
-    {% endwith %}
-
-    <form action="" method="POST">
-    {{ form.hidden_tag() }}
-    {{ form.csrf }}
-        <div class="input text">
-            {{ form.name.label }}<br>
-            {{ form.name }}
-            <br>
-            {{ form.email.label }}<br>
-            {{ form.email }}
-            <br>
-            {{ form.message.label }}<br>
-            {{ form.message }}
-            <br>
-        </div>
-        <div class="input submit">
-            <input type="submit" value="Submit">
-        </div>
+    <form method="POST" action="/">
+        {{ form.hidden_tag() }}
+        {{ form.name.label }}{{ form.name(size=20) }}
+        <br/>
+        {{ form.email.label }}{{ form.email(size=50) }}
+        <br/>
+        {{ form.message.label }}{{ form.message(size=300) }}
+        <br/>
+        <input type="submit" value="Submit">
     </form>
 
 {% endblock %}
