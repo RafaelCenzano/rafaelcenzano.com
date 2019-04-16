@@ -1,6 +1,6 @@
 html, body {
   font-family: "Avenir Next", system-ui, "Helvetica Neue", sans-serif;
-  background-color: #ddd;
+  background-color: rgb(0, 216, 255);
 }
 a {
   text-decoration: none;
@@ -164,7 +164,7 @@ h1 {
 }
 @media (min-width: 1001px) {
   .things {
-    width: 40%;
+    width: 50%;
   }
 }
 .project-title {
