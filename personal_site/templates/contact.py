@@ -23,7 +23,7 @@
     <h1>Contact Me</h1>
     <h2>Contact Form</h2>
 
-    <form method="POST" action="/">
+    <form method="POST" action="/contact/">
         {{ form.hidden_tag() }}
         {{ form.name.label }}{{ form.name(size=20) }}
         <br/>
