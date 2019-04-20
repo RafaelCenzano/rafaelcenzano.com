@@ -24,7 +24,7 @@
     <h2>Contact Form</h2>
 
     <form method="POST" action="/contact/">
-        {{ form.hidden_tag() }}
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
         {{ form.name.label }}{{ form.name(size=20) }}
         <br/>
         {{ form.email.label }}{{ form.email(size=50) }}
