@@ -9,6 +9,10 @@ from flask_mail import Message
 def index():
     return render_template('flask_index.py')
 
+@app.route("/marvinvirtualassistant", methods=['GET'])
+def marvinvirtualassistant():
+    return render_template('marvin.py')
+
 @app.route("/contact/", methods=['GET','POST'])
 def contact():
     form = ContactForm()

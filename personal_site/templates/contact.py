@@ -23,8 +23,8 @@
     <h1>Contact Me</h1>
     <h2>Contact Form</h2>
 
-    <form method="POST" action="/">
-        {{ form.hidden_tag() }}
+    <form method="POST" action="/contact/">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
         {{ form.name.label }}{{ form.name(size=20) }}
         <br/>
         {{ form.email.label }}{{ form.email(size=50) }}
