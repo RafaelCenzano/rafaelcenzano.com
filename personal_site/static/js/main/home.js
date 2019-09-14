@@ -15,13 +15,13 @@ var x = setInterval(function() {
   var years = Math.floor(days / 365);
   var months = Math.floor((days / 29) - (years * 12))
   
-  var pluralOrNot = "year ";
+  var pluralOrNot = " year ";
   if (years > 0) {
-    pluralOrNot = "years ";
+    pluralOrNot = " years ";
   }
-  var pluralOrNotMonth = "month ";
+  var pluralOrNotMonth = " month ";
   if (months > 0) {
-    pluralOrNotMonth = "months ";
+    pluralOrNotMonth = " months ";
   }
 
   // Output the result in an element with id="demo"
