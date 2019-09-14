@@ -24,7 +24,7 @@
 
 {% endblock %}
 
-{% block head_css %}
+{% block head_js %}
 
     <script src={{ url_for('static', filename='js/main/home.js') }}></script>
 
