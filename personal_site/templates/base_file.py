@@ -10,7 +10,7 @@
 	<meta name="theme-color" content="#ffffff">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="keywords" content="Rafael Cenzano">
-	<meta name="description" content="Website for Lowell High School's Dev Club.">
+	<meta name="description" content="Website for Rafael Cenzano.">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<link rel="author" href="https://www.rafaelcenzano.me">
 	<link rel="canonical" href="https://www.rafaelcenzano.me">

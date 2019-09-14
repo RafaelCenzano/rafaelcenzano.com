@@ -1,6 +1,6 @@
 html, body {
   font-family: "Avenir Next", system-ui, "Helvetica Neue", sans-serif;
-  background-color: rgb(0, 216, 255);
+  background: #00b4ff;
 }
 a {
   text-decoration: none;
@@ -135,7 +135,7 @@ h1 {
 .contact {
   background-color: #00d16f;
   font-size: 1.6em;
-  color: #ddd;
+  color: #fff;
   padding: 5px 12px 5px 12px;
   border-radius: 10px;
   transition-duration: 1s;
