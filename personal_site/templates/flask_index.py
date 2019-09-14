@@ -24,6 +24,12 @@
 
 {% endblock %}
 
+{% block head_css %}
+
+    <script src={{ url_for('static', filename='js/main/home.js') }}></script>
+
+{% endblock %}
+
 {% block content %}
 
 	<article class="color-changer">
@@ -97,7 +103,10 @@
         	<a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader ~</a>
         </p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ 1 year 7 months | 107 volunteer hours total ~</a>
+        	<a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm" id="jyl"></a>
+        </p>
+        <p class="current-experience-description experience-description">
+            <a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ 224.5 volunteer hours total ~</a>
         </p>
     </div>
     <br>
