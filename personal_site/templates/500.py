@@ -19,8 +19,5 @@
 {% endblock %}
 
 {% block content %}
-	<div class="title">
-		<h1 id="spinner">SERVER</h1>
-    	<h1 id="spinner">ERROR</h1>
-	</div>
+	<h1>500</h1>
 {% endblock %}

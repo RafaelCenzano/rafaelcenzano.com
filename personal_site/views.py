@@ -1,38 +1,10 @@
-from personal_site import app, mail
-from json import load, dump
+from personal_site import app
 from flask import render_template, request, make_response, redirect, session, url_for, send_file
-from personal_site.forms import ContactForm
-from flask_mail import Message
 
 # Views
 @app.route("/", methods=['GET'])
 def index():
     return render_template('flask_index.py')
-
-@app.route("/marvinvirtualassistant", methods=['GET'])
-def marvinvirtualassistant():
-    return render_template('marvin.py')
-
-@app.route("/contact/", methods=['GET','POST'])
-def contact():
-    form = ContactForm()
-
-    if request.method == 'POST':
-        if form.validate() == False:
-            flash('All fields are required.')
-            return render_template('contact.py', form=form)
-        else:
-            name = request.form['name']
-            email = request.form['email']
-            message = request.form['message']
-
-            msg = Message('Hello', sender = 'RafaelCenzanoNoReply <contact@lowelldev.club>', recipients = [email])
-            msg.body = "Hello Flask message sent from Flask-Mail"
-            mail.send(msg)
-
-            return render_template('success.py')
-    elif request.method == 'GET':
-        return render_template('contact.py', form=form)
 
 @app.route("/404", methods=['GET'])
 def error_404():
