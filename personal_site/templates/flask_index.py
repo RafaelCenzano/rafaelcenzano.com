@@ -1,16 +1,6 @@
 {% extends 'base_file.py' %}
 
-{% block title %}Rafael Cenzano - Raf{% endblock %}
-
-{% block meta %}
-
-	<!-- Facebook -->
-	<meta property="og:url" content="https://rafaelcenzano.com/">
-
-	<!-- Twitter -->
-	<meta name="twitter:url" content="https://rafaelcenzano.com/">
-
-{% endblock %}
+{% block title %}Rafael Cenzano{% endblock %}
 
 {% block head_css %}
 
@@ -21,12 +11,6 @@
 	<link href='https://use.fontawesome.com/releases/v5.7.1/css/all.css' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
-
-{% endblock %}
-
-{% block head_js %}
-
-    <script src={{ url_for('static', filename='js/main/home.js') }}></script>
 
 {% endblock %}
 
