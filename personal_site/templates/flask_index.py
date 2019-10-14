@@ -55,7 +55,7 @@
   		</a>
 	</div>
 	<div class="button-wrapper center">
-        <a href="/contact/" class="contact">Contact me !</a>
+        <a href="mailto:contact@rafaelcenzano.com" class="contact">Contact me !</a>
     </div>
     <div class="title-wrapper">
         <u><h2>Projects<h2></u>
