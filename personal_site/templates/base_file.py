@@ -43,13 +43,14 @@
 	<meta property="og:description" content="Personal website to display Rafael Cenzano's work">
 	<meta property="og:title" content="Rafael Cenzano">
 	<meta property="og:site_name" content="Rafael Cenzano's Personal website">
-	<meta property="og:see_also" content="https://rafaelcenzano.com">
+	<meta property="og:url" content="https://rafaelcenzano.com/">
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="Rafael Cenzano's Personal website">
 	<meta name="twitter:title" content="Rafael Cenzano">
 	<meta name="twitter:description" content="Personal website to display Rafael Cenzano's work">
 	<meta name="twitter:image" content={{ url_for('static', filename='img/favicon.png') }}>
+	<meta name="twitter:url" content="https://rafaelcenzano.com/">
 
 	<!-- Google+ -->
 	<meta itemprop="name" content="Rafael Cenzano">
