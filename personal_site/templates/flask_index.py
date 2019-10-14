@@ -5,10 +5,10 @@
 {% block meta %}
 
 	<!-- Facebook -->
-	<meta property="og:url" content="https://www.rafaelcenzano.me/">
+	<meta property="og:url" content="https://rafaelcenzano.com/">
 
 	<!-- Twitter -->
-	<meta name="twitter:url" content="https://www.rafaelcenzano.me/">
+	<meta name="twitter:url" content="https://rafaelcenzano.com/">
 
 {% endblock %}
 
