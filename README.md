@@ -1,6 +1,6 @@
-# Personal Site
+# [RafaelCenzano.com](https://rafaelcenzano.com)
 
-Personal website hosted on heroku and can be found at https://www.rafaelcenzano.com
+Flask website hosted on heroku and can be found at [https://rafaelcenzano.com](https://rafaelcenzano.com)
 
 ## Setup
 
@@ -18,18 +18,6 @@ Use pip to install needed libraries
 ```
 pip install -r requirements.txt
 ```
-
-## Running the tests
-
-No tests yet
-
-### What are the tests checking
-
-No tests yet
-
-### What happens when a test fails
-
-No tests yet
 
 ## Authors
 
