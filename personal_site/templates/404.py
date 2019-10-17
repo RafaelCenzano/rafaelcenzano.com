@@ -2,16 +2,6 @@
 
 {% block title %}404 not found{% endblock %}
 
-{% block meta %}
-
-	<!-- Facebook -->
-	<meta property="og:url" content="https://www.rafaelcenzano.me/404">
-
-	<!-- Twitter -->
-	<meta name="twitter:url" content="https://www.rafaelcenzano.me/404">
-
-{% endblock %}
-
 {% block head_css %}
 
     <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/main/404.css') }}>
