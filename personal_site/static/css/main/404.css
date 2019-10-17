@@ -99,6 +99,37 @@ body {
 	transform: scale(0.55);
 }
 
+.x6 {
+	-webkit-animation: animateCloud 25s linear infinite;
+	-moz-animation: animateCloud 25s linear infinite;
+	animation: animateCloud 25s linear infinite;
+	
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	transform: scale(0.7);
+}
+
+.x7 {
+	-webkit-animation: animateCloud 15s linear infinite;
+	-moz-animation: animateCloud 15s linear infinite;
+	animation: animateCloud 15s linear infinite;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+.x8 {
+	-webkit-animation: animateCloud 23s linear infinite;
+	-moz-animation: animateCloud 23s linear infinite;
+	animation: animateCloud 23s linear infinite;
+	
+	-webkit-transform: scale(0.45);
+	-moz-transform: scale(0.45);
+	transform: scale(0.45);
+}
+
+
 /* OBJECTS */
 
 .cloud {
