@@ -25,6 +25,15 @@
     	<div class="x5">
         	<div class="cloud"></div>
     	</div>
+        <div class="x6">
+            <div class="cloud"></div>
+        </div>
+        <div class="x7">
+            <div class="cloud"></div>
+        </div>
+        <div class="x8">
+            <div class="cloud"></div>
+        </div>
 	</div>
 	<h1>404</h1>
 {% endblock %}
