@@ -19,8 +19,9 @@
 	<article class="color-changer">
   		<h1 class="top-title">RAFAEL</h1>
         <h1 class="top-title">CENZANO</h1>
-		<img src={{ url_for('static', filename='img/profile.jpeg') }} alt="Rafael Cenzano's profile image" class="profile">
+		<img src={{ url_for('static', filename='img/rafael_profile_square.jpeg') }} alt="Rafael Cenzano's profile image" class="profile">
 	</article>
+
 	<div class="social-buttons">
   		<a href="https://www.facebook.com/profile.php?id=100008046498255" class="social-buttons__button social-button social-button--facebook" target="_blank" aria-label="Facebook">
     		<span class="social-button__inner">
@@ -38,12 +39,15 @@
     		</span>
   		</a>
 	</div>
+
 	<div class="button-wrapper center">
         <a href="mailto:contact@rafaelcenzano.com" class="contact">Contact me !</a>
     </div>
+
     <div class="title-wrapper">
         <u><h2>Projects<h2></u>
     </div>
+
     <div class="projects things center">
         <div class="project-base">
             <a href="/lowelldashboard">
@@ -63,9 +67,11 @@
        		  </a>
        	</div>
     </div>
+
     <div class="title-wrapper">
         <u><h2>Experiences<h2></u>
     </div>
+
     <div class="experiences center things">
         <h4><a href="https://hackthefog.com/" target="_blank" class="experience">Hack The Fog</a></h4>
         <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco</p>
@@ -87,7 +93,7 @@
         	<a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader ~</a>
         </p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm" id="jyl"></a>
+        	<a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ 2 years + Currently in program~</a>
         </p>
         <p class="current-experience-description experience-description">
             <a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ 224.5 volunteer hours total ~</a>
@@ -98,18 +104,18 @@
         <h4><a href="https://www.lowelldev.club/" target="_blank" class="experience">Dev Club</a></h4>
         <p class="experience-description">Programming club at Lowell High School. Our mission is to make people interested in programming and have amazing experiences that stay with them for their whole life.</p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link" target="_blank" href="https://www.lowelldev.club">~ Founder and Co-Leader ~</a>
+        	<a class="experience-link" target="_blank" href="https://www.lowelldev.club">~ Co-Founder and Current Co-Leader ~</a>
         </p>
     </div>
     <br>
     <div class="experiences center things">
-        <h4><a href="https://www.bytelab.club/" target="_blank" class="experience">Byte Lab</a></h4>
+        <h4><a href="#byte_lab_website_is_nonexsistant" class="experience">Byte Lab</a></h4>
         <p class="experience-description">Programming club at Lowell High School.</p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link" target="_blank" href="https://www.bytelab.club/">~ Club Secretary ~</a>
+        	<a class="experience-link" href="#byte_lab_website_is_nonexsistant">~ Club Secretary ~</a>
         </p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link" target="_blank" href="https://www.bytelab.club/">~ 2 years ~</a>
+        	<a class="experience-link" href="#byte_lab_website_is_nonexsistant">~ 2 years ~</a>
         </p>
     </div>
     <footer>
