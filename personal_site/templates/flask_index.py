@@ -73,16 +73,19 @@
     </div>
 
     <div class="experiences center things">
-        <h4><a href="https://hackthefog.com/" target="_blank" class="experience">Hack The Fog</a></h4>
+        <h4><a href="https://www.hackthefog.com" target="_blank" class="experience">Hack The Fog</a></h4>
         <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco</p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link" target="_blank" href="https://hackthefog.com">~ Currently organizing Hack The Fog 2.0 (Organizer) ~</a>
+        	<a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Currently organizing Hack The Fog 2.0 (Organizer) ~</a>
         </p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link" target="_blank" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">~ Organized Hack The Fog (Operations) ~</a
+        	<a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Organized Hack The Fog (Operations) ~</a>
         </p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link" target="_blank" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">~ 1 year 7 months ~</a
+        	<a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ 1 year 7 months ~</a>
+        </p>
+        <p class="current-experience-description experience-description">
+            <a class="experience-link" target="_blank" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">~ In a chronicle article!~</a>
         </p>
     </div>
     <br>
@@ -90,10 +93,7 @@
         <h4><a href="https://jcyc.org/jyl.htm" target="_blank" class="experience">Japantown Youth Leader (JYL)</a></h4>
         <p class="experience-description">Youth Leadership program in Japantown San Francisco. We go into the community and voulnteer to help the community as well as learn valuable leadership skills.</p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader ~</a>
-        </p>
-        <p class="current-experience-description experience-description">
-        	<a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ 2 years + Currently in program~</a>
+        	<a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader 2 years + Currently in program ~</a>
         </p>
         <p class="current-experience-description experience-description">
             <a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ 224.5 volunteer hours total ~</a>
@@ -112,10 +112,10 @@
         <h4><a href="#byte_lab_website_is_nonexsistant" class="experience">Byte Lab</a></h4>
         <p class="experience-description">Programming club at Lowell High School.</p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link" href="#byte_lab_website_is_nonexsistant">~ Club Secretary ~</a>
+        	<a class="experience-link" href="#byte_lab_website_is_nonexsistant">~ Club Secretary 1 year~</a>
         </p>
         <p class="current-experience-description experience-description">
-        	<a class="experience-link" href="#byte_lab_website_is_nonexsistant">~ 2 years ~</a>
+        	<a class="experience-link" href="#byte_lab_website_is_nonexsistant">~ Club Member 1 year ~</a>
         </p>
     </div>
     <footer>
