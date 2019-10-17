@@ -1,9 +1,14 @@
 from personal_site import app
 from flask import render_template, request, make_response, redirect, session, url_for, send_file
+from datetime import datetime
 
 # Views
 @app.route("/", methods=['GET'])
 def index():
+    a = datetime(2017,12,30,23,59,59)
+    b = datetime.now()
+
+    (b-a).total_seconds()
     return render_template('flask_index.py')
 
 @app.route("/404", methods=['GET'])
