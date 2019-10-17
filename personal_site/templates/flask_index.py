@@ -88,7 +88,7 @@
     <br>
     <div class="experiences center things">
         <h4><a href="https://jcyc.org/jyl.htm" target="_blank" class="experience">Japantown Youth Leader (JYL)</a></h4>
-        <p class="experience-description">Youth Leadership program in Japantown San Francisco. We go into the community and voulnteer to help the community.</p>
+        <p class="experience-description">Youth Leadership program in Japantown San Francisco. We go into the community and voulnteer to help the community as well as learn valuable leadership skills.</p>
         <p class="current-experience-description experience-description">
         	<a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader ~</a>
         </p>
