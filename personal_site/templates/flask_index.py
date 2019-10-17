@@ -41,7 +41,7 @@
 	</div>
 
 	<div class="button-wrapper center">
-        <a href="mailto:contact@rafaelcenzano.com" class="contact">Contact me !</a>
+        <a href="mailto:contact@rafaelcenzano.com" class="contact">Contact me!</a>
     </div>
 
     <div class="title-wrapper">
@@ -66,8 +66,8 @@
     </div>
 
     <div class="experiences center things">
-        <h4><a href="https://www.hackthefog.com" target="_blank" class="experience">Hack The Fog</a></h4>
-        <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco</p>
+        <h4><a href="https://www.hackthefog.com" target="_blank" class="experience">Hack The Fog (HTF)</a></h4>
+        <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco and Organizing Hack the Fog 2.0.</p>
         <p class="current-experience-description experience-description">
         	<a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Currently Co-Lead Organizer ~</a>
         </p>
@@ -94,7 +94,7 @@
     </div>
     <br>
     <div class="experiences center things">
-        <h4><a href="https://www.lowelldev.club/" target="_blank" class="experience">Dev Club</a></h4>
+        <h4><a href="https://www.lowelldev.club/" target="_blank" class="experience">Lowell Dev Club</a></h4>
         <p class="experience-description">Programming club at Lowell High School. Our mission is to make people interested in programming and have amazing experiences that stay with them for their whole life.</p>
         <p class="current-experience-description experience-description">
         	<a class="experience-link" target="_blank" href="https://www.lowelldev.club">~ Co-Founder and Current Co-Leader ~</a>
