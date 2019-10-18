@@ -16,6 +16,7 @@
 
 {% block content %}
 
+    <div class="body-wrapper">
 	<article class="color-changer">
         <h1 class="top-title">RAFAEL</h1>
         <h1 class="top-title">CENZANO</h1>
@@ -119,5 +120,6 @@
             </p>
         </div>
     </footer>
+    </div>
 
 {% endblock %}
