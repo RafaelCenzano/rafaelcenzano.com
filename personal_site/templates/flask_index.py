@@ -19,7 +19,7 @@
 	<article class="color-changer">
         <h1 class="top-title">RAFAEL</h1>
         <h1 class="top-title">CENZANO</h1>
-        <img src="https://github.com/RafaelCenzano/rafaelcenzano.com/blob/master/personal_site/static/img/rafael_profile_square.jpeg?raw=true" alt="Rafael Cenzano's profile image" class="profile">
+        <img src={{ url_for('static', filename='img/rafael_profile_square.jpeg') }} class="profile">
     </article>
 
     <div class="social-buttons">
