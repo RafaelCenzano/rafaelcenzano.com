@@ -1,6 +1,6 @@
 html, body {
   font-family: "Avenir Next", system-ui, "Helvetica Neue", sans-serif;
-  background: #00b4ff;
+  background-color: rgb(0, 216, 255);
 }
 a {
   text-decoration: none;
@@ -14,15 +14,16 @@ h1 {
   line-height: 1.25;
   letter-spacing: 0.2em;
   margin: 2rem auto 1rem;
+  text-align: center;
 }
 @media (max-width: 800px) {
   h1 {
-    font-size: 2em;
+    font-size: 4em;
   }
 }
 @media (min-width: 801px) {
   h1 {
-    font-size: 3.5em;
+    font-size: 5em;
   }
 }
 .top-title {
@@ -30,7 +31,7 @@ h1 {
 }
 .color-changer {
   text-align: center;
-  animation: color-change 10s infinite;
+  animation: color-change 30s infinite;
 }
 .profile {
   display: block;
@@ -41,14 +42,8 @@ h1 {
   border: 10px solid currentColor;
 }
 @keyframes color-change {
-  0% { color: #19b70e; }
-  12.5% { color: #0db79a; }
-  25% { color: #0c34b7; }
-  37.5% { color: #6c0bb7; }
-  50% { color: #b70a0a; }
-  62.5% { color: #b76609; }
-  75% { color: #b7b409; }
-  100% { color: #19b70e; }
+  0%,100% { color:#21c900;}
+  50% {color:#178f00;}
 }
 .social-buttons {
   display: flex;
@@ -124,10 +119,10 @@ h1 {
   background: #0077b5;
 }
 .social-button--github {
-  color: #6e5494;
+  color: #575e56;
 }
 .social-button--github::after {
-  background: #6e5494;
+  background: #575e56;
 }
 .button-wrapper {
   padding-top: 20px;
@@ -135,7 +130,7 @@ h1 {
 .contact {
   background-color: #00d16f;
   font-size: 1.6em;
-  color: #fff;
+  color: #ddd;
   padding: 5px 12px 5px 12px;
   border-radius: 10px;
   transition-duration: 1s;
