@@ -27,6 +27,7 @@ html, body {
   width: 900px;   
   height: 2000px;
   background-color: #fcfcfc;
+  border-radius: 10px;
 }
 a {
   text-decoration: none;
