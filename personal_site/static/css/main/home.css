@@ -99,7 +99,7 @@ h1 {
   width: calc(100% - 2px);
   height: calc(100% - 2px);
   border-radius: 100%;
-  background: #fff;
+  background: #ddd;
   text-align: center;
 }
 .social-button i, .social-button svg {
@@ -126,7 +126,7 @@ h1 {
   transition: 0.3s;
 }
 .social-button:focus, .social-button:hover {
-  color: #fff;
+  color: #ddd;
 }
 .social-button:focus::after, .social-button:hover::after {
   width: 100%;
@@ -157,13 +157,13 @@ h1 {
 .contact {
   background-color: #00d16f;
   font-size: 1.6em;
-  color: #ddd;
+  color: #fff;
   padding: 5px 12px 5px 12px;
   border-radius: 10px;
   transition-duration: 1s;
 }
 .contact:hover {
-  background-color: #fff;
+  background-color: #ddd;
   color: #00d16f;
 }
 .title-wrapper {
