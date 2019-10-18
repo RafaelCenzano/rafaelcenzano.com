@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 A computer vision image classifier api using an advanced machine learning algorithm to classify an item in an image, but it really just say your paper is cardboard
 
-- Raf 2019
+\- Raf 2019
 
 ## License
 
