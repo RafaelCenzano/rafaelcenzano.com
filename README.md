@@ -23,6 +23,8 @@ pip install -r requirements.txt
 
 * [**Rafael Cenzano**](https://github.com/RafaelCenzano)
 
+## Quote
+
 A computer vision image classifier api using an advanced machine learning algorithm to classify an item in an image, but it really just say your paper is cardboard
 
 \- Raf 2019
