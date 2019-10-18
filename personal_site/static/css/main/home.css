@@ -188,14 +188,14 @@ h1 {
 .project-base:hover {
   transform: translateY(-9px);
 }
-.experience {
-  color: rgb(56, 56, 56);
-  font-size: 1.5em;
-}
 .experiences {
   background-color: rgb(211, 211, 211);
   border-radius: 25px;
   padding: 5px 0px 5px 0px;
+}
+.experience {
+  color: rgb(56, 56, 56);
+  font-size: 1.5em;
 }
 .experience-description {
   color: rgb(40, 40, 40);
