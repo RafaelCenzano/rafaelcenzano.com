@@ -22,7 +22,7 @@ html, body {
   background-size: cover;
 }
 .body-wrapper{
-  padding: 2em;
+  padding: 1em;
   margin: 0 auto;
   width: 900px;   
   height: 2000px;
@@ -163,7 +163,9 @@ h1 {
   transition-duration: 1s;
 }
 .contact:hover {
-  background-color: #ddd;
+  font-weight: bold;
+  background-color: rgb(50,50,50);
+  padding: 4px 35px 4px 35px;
   color: #00d16f;
 }
 .title-wrapper {
@@ -191,7 +193,7 @@ h1 {
 }
 .project-title {
   padding-top: 15px;
-  color: #ddd;
+  color: #fff;
   padding-bottom: 2px;
   font-size: 2em;
 }
