@@ -6,11 +6,11 @@ html, body {
   background-attachment: fixed;
  
   /* Create a gradient background */
-  background-image: -webkit-linear-gradient( top, #93a397, #9bbaa2);
-  background-image: -moz-linear-gradient( top, #93a397, #9bbaa2);
-  background-image: -ms-linear-gradient( top, #93a397, #9bbaa2);
-  background-image: -o-linear-gradient( top, #93a397, #9bbaa2);
-  background-image: linear-gradient( top, #93a397, #9bbaa2);
+  background-image: -webkit-linear-gradient(#93a397, #9bbaa2);
+  background-image: -moz-linear-gradient(#93a397, #9bbaa2);
+  background-image: -ms-linear-gradient(#93a397, #9bbaa2);
+  background-image: -o-linear-gradient(#93a397, #9bbaa2);
+  background-image: linear-gradient(#93a397, #9bbaa2);
  
   /* Use scalable background image */
   background-image: url("bkgrd.png");
@@ -58,7 +58,11 @@ h1 {
 }
 .color-changer {
   text-align: center;
-  animation: color-change 30s infinite;
+  -webkit-animation: colorchanger 30s infinite;
+  -moz-animation: colorchanger 30s infinite;
+  -ms-animation: colorchanger 30s infinite;
+  -o-animation: colorchanger 30s infinite;
+  animation: colorchanger 30s infinite;
 }
 .profile {
   display: block;
@@ -68,7 +72,23 @@ h1 {
   margin: 1rem auto;
   border: 10px solid currentColor;
 }
-@keyframes color-change {
+@-webkit-keyframes colorchanger {
+  0%,100% { color:#21c900;}
+  50% {color:#178f00;}
+}
+@-ms-keyframes colorchanger {
+  0%,100% { color:#21c900;}
+  50% {color:#178f00;}
+}
+@-moz-keyframes colorchanger {
+  0%,100% { color:#21c900;}
+  50% {color:#178f00;}
+}
+@-o-keyframes colorchanger {
+  0%,100% { color:#21c900;}
+  50% {color:#178f00;}
+}
+@keyframes colorchanger {
   0%,100% { color:#21c900;}
   50% {color:#178f00;}
 }
