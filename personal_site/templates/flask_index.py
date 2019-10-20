@@ -14,20 +14,6 @@
         /* Fix background during scrolling */
         background-attachment: fixed;
         /* Use scalable background image */
-        background-image: url("{{ url_for('static', filename='img/bkgrd-smaller.jpeg') }}");
-        background-position: center center;
-        background-attachment: fixed;
-        -ms-background-size: cover;
-        background-size: cover;
-      }
-    }
-    </style>
-    <style type="text/css">
-    @media (min-width:801px) {
-      body {
-        /* Fix background during scrolling */
-        background-attachment: fixed;
-        /* Use scalable background image */
         background-image: url("{{ url_for('static', filename='img/bkgrd.jpeg') }}");
         background-position: center center;
         background-attachment: fixed;
