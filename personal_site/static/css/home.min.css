@@ -9,7 +9,7 @@ a{text-decoration:none;}
 .center{text-align:center;margin:auto;}
 h1{font-size:3.5rem;line-height:1.25;letter-spacing:0.2em;margin:2rem auto 1rem;text-align:center;}
 @media (max-width:800px){
-  h1{font-size:4em;}
+  h1{font-size:2.5em;}
 }
 @media (min-width:801px){
   h1{font-size:5em;}
