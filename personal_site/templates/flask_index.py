@@ -70,8 +70,6 @@
                 <h3 class="project-title">Marvin Virtual Assistant</h3>
                 <p class="project-description things-description">
                     A virtual assistant created in python that currently has 4 versions. This is a project that has tons of room to grow and will always be updated with hopes to have it be an open source project people want to contribute to.
-                    <br><br>
-                    Currently attempting to use Java for GUI and Python for ML and general computation.
                 </p>
             </a>
         </div>
@@ -83,9 +81,9 @@
 
     <div class="experiences center things">
         <h4><a href="https://www.hackthefog.com" target="_blank" class="experience">Hack The Fog (HTF)</a></h4>
-        <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco and Organizing Hack the Fog 2.0.</p>
+        <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco and currently organizing Hack the Fog 2.0.</p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Currently Co-Lead Organizer ~</a>
+            <a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Currently Co-Lead Organizer and Director of Internal affairs ~</a>
         </p>
         <p class="current-experience-description experience-description">
             <a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Organizer 1 year 4 months ~</a>
@@ -94,7 +92,15 @@
             <a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Operations 6 months ~</a>
         </p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link" target="_blank" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">~ In a chronicle article!~</a>
+            <a class="experience-link chronicle" target="_blank" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">In a chronicle article!</a>
+        </p>
+    </div>
+    <br>
+    <div class="experiences center things">
+        <h4><a href="https://www.lowelldev.club/" target="_blank" class="experience">Lowell Dev Club</a></h4>
+        <p class="experience-description">Programming club at Lowell High School. Our mission is to make people interested in programming and have amazing experiences that stay with them for their whole life.</p>
+        <p class="current-experience-description experience-description">
+            <a class="experience-link" target="_blank" href="https://www.lowelldev.club">~ Co-Founder and Current Co-Leader ~</a>
         </p>
     </div>
     <br>
@@ -106,14 +112,6 @@
         </p>
         <p class="current-experience-description experience-description">
             <a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ 224.5 volunteer hours total ~</a>
-        </p>
-    </div>
-    <br>
-    <div class="experiences center things">
-        <h4><a href="https://www.lowelldev.club/" target="_blank" class="experience">Lowell Dev Club</a></h4>
-        <p class="experience-description">Programming club at Lowell High School. Our mission is to make people interested in programming and have amazing experiences that stay with them for their whole life.</p>
-        <p class="current-experience-description experience-description">
-            <a class="experience-link" target="_blank" href="https://www.lowelldev.club">~ Co-Founder and Current Co-Leader ~</a>
         </p>
     </div>
     <br>
