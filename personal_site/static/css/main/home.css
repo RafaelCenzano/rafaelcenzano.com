@@ -40,9 +40,6 @@ h1 {
 .color-changer {
   text-align: center;
   -webkit-animation: colorchanger 30s infinite;
-  -moz-animation: colorchanger 30s infinite;
-  -ms-animation: colorchanger 30s infinite;
-  -o-animation: colorchanger 30s infinite;
   animation: colorchanger 30s infinite;
 }
 .profile {
@@ -54,18 +51,6 @@ h1 {
   border: 10px solid currentColor;
 }
 @-webkit-keyframes colorchanger {
-  0%,100% { color:#21c900;}
-  50% {color:#178f00;}
-}
-@-ms-keyframes colorchanger {
-  0%,100% { color:#21c900;}
-  50% {color:#178f00;}
-}
-@-moz-keyframes colorchanger {
-  0%,100% { color:#21c900;}
-  50% {color:#178f00;}
-}
-@-o-keyframes colorchanger {
   0%,100% { color:#21c900;}
   50% {color:#178f00;}
 }
@@ -124,9 +109,6 @@ h1 {
   width: 0;
   height: 0;
   border-radius: 100%;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
 .social-button:focus, .social-button:hover {
@@ -164,9 +146,6 @@ h1 {
   color: #fff;
   padding: 5px 12px 5px 12px;
   border-radius: 10px;
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -o-transition-duration: 1s;
   transition-duration: 1s;
   letter-spacing: normal;
 }
@@ -189,10 +168,9 @@ h1 {
   background: #4286f4;
   border-radius: 25px;
   margin: -15px 0px 0px 0px;
-  -webkit-transition: transform .4s;
-  -moz-transition: transform .4s;
-  -o-transition: transform .4s;
+  transition: -webkit-transform .4s;
   transition: transform .4s;
+  transition: transform .4s, -webkit-transform .4s;
 }
 @media (max-width: 1000px) {
   .things {
@@ -215,9 +193,6 @@ h1 {
   padding-bottom: 20px;
   color: #fff;
   font-size: 1em;
-  -webkit-transition-duration: 2.5s;
-  -moz-transition-duration: 2.5s;
-  -o-transition-duration: 2.5s;
   transition-duration: 2.5s;
 }
 @media (max-width: 1000px) {
@@ -232,8 +207,6 @@ h1 {
 }
 .project-base:hover {
   -webkit-transform: translateY(-9px);
-  -moz-transform: translateY(-9px);
-  -o-transform: translateY(-9px);
   transform: translateY(-9px);
 }
 .experiences {
