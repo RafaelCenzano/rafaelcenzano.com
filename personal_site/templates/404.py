@@ -4,7 +4,7 @@
 
 {% block head_css %}
 
-    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/main/404.css') }}>
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/404.min.css') }}>
 
 {% endblock %}
 

@@ -4,7 +4,7 @@
 
 {% block head_css %}
 
-    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/main/home.css') }}>
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/home.min.css') }}>
 
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
 
     <style type="text/css">
+    @media (min-width:801px) {
       body {
         /* Fix background during scrolling */
         background-attachment: fixed;
@@ -23,6 +24,7 @@
         -ms-background-size: cover;
         background-size: cover;
       }
+    }
     </style>
 
 {% endblock %}
