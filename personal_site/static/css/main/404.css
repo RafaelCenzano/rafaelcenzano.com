@@ -9,7 +9,7 @@ body {
 }
 
 #background-wrap {
-    bottom: 0;
+	bottom: 0;
 	left: 0;
 	padding-top: 50px;
 	position: fixed;
@@ -19,31 +19,32 @@ body {
 }
 
 /* KEYFRAMES */
-
 @-webkit-keyframes animateCloud {
-    0% {
-        margin-left: -1000px;
-    }
-    100% {
-        margin-left: 100%;
-    }
+	0% {
+		margin-left: -1000px;
+	}
+
+	100% {
+		margin-left: 100%;
+	}
+
 }
 
 @keyframes animateCloud {
-    0% {
-        margin-left: -1000px;
-    }
-    100% {
-        margin-left: 100%;
-    }
+	0% {
+		margin-left: -1000px;
+	}
+
+	100% {
+		margin-left: 100%;
+	}
+
 }
 
 /* ANIMATIONS */
-
 .x1 {
 	-webkit-animation: animateCloud 25s linear infinite;
 	animation: animateCloud 25s linear infinite;
-	
 	-webkit-transform: scale(0.65);
 	transform: scale(0.65);
 }
@@ -51,7 +52,6 @@ body {
 .x2 {
 	-webkit-animation: animateCloud 15s linear infinite;
 	animation: animateCloud 15s linear infinite;
-	
 	-webkit-transform: scale(0.3);
 	transform: scale(0.3);
 }
@@ -59,7 +59,6 @@ body {
 .x3 {
 	-webkit-animation: animateCloud 20s linear infinite;
 	animation: animateCloud 20s linear infinite;
-	
 	-webkit-transform: scale(0.5);
 	transform: scale(0.5);
 }
@@ -67,7 +66,6 @@ body {
 .x4 {
 	-webkit-animation: animateCloud 13s linear infinite;
 	animation: animateCloud 13s linear infinite;
-	
 	-webkit-transform: scale(0.4);
 	transform: scale(0.4);
 }
@@ -75,7 +73,6 @@ body {
 .x5 {
 	-webkit-animation: animateCloud 20s linear infinite;
 	animation: animateCloud 20s linear infinite;
-	
 	-webkit-transform: scale(0.55);
 	transform: scale(0.55);
 }
@@ -83,7 +80,6 @@ body {
 .x6 {
 	-webkit-animation: animateCloud 25s linear infinite;
 	animation: animateCloud 25s linear infinite;
-	
 	-webkit-transform: scale(0.7);
 	transform: scale(0.7);
 }
@@ -91,7 +87,6 @@ body {
 .x7 {
 	-webkit-animation: animateCloud 15s linear infinite;
 	animation: animateCloud 15s linear infinite;
-	
 	-webkit-transform: scale(0.3);
 	transform: scale(0.3);
 }
@@ -99,18 +94,15 @@ body {
 .x8 {
 	-webkit-animation: animateCloud 23s linear infinite;
 	animation: animateCloud 23s linear infinite;
-	
 	-webkit-transform: scale(0.45);
 	transform: scale(0.45);
 }
 
-
 /* OBJECTS */
-
 .cloud {
 	background: #fff;
-	background: linear-gradient(top,  #fff 5%,#f1f1f1 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
+	background: linear-gradient(top, #fff 5%, #f1f1f1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#f1f1f1', GradientType=0);
 	border-radius: 100px;
 	box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
 	height: 120px;
@@ -118,8 +110,9 @@ body {
 	width: 350px;
 }
 
-.cloud:after, .cloud:before {
-    background: #fff;
+.cloud:after,
+.cloud:before {
+	background: #fff;
 	content: '';
 	position: absolute;
 	z-indeX: -1;
@@ -142,8 +135,8 @@ body {
 }
 
 h1 {
-  color: #ddd;
-  text-align: center;
-  font-size: 8em;
-  margin: 10% 0px 0px 0px;
+	color: #ddd;
+	text-align: center;
+	font-size: 8em;
+	margin: 10% 0px 0px 0px;
 }
