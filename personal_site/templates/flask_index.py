@@ -4,7 +4,7 @@
 
 {% block head_css %}
 
-    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/main/home.css') }}>
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/home.min.css') }}>
 
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
