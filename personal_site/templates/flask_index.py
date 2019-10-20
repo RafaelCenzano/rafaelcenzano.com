@@ -12,6 +12,21 @@
 
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
 
+    <style type="text/css">
+      body {
+        /* Fix background during scrolling */
+        background-attachment: fixed;
+        /* Use scalable background image */
+        background-image: url("{{ url_for('static', filename='img/bkgrd.jpeg') }}");
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    </style>
+
 {% endblock %}
 
 {% block content %}
