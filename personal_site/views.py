@@ -5,6 +5,8 @@ from flask import render_template, request, make_response, redirect, session, ur
 '''
 Views
 '''
+
+
 @app.route("/", methods=['GET'])
 def index():
     return render_template('flask_index.py')
@@ -19,9 +21,12 @@ def notFoundError():
 def serverError():
     return render_template('500.py'), 500
 
+
 '''
 SEO
 '''
+
+
 @app.route('/robots.txt', methods=['GET'])
 def robots():
     return send_file('templates/seo/robots.txt')
@@ -34,9 +39,12 @@ def sitemap():
     response.headers["Content-Type"] = "application/xml"
     return response
 
+
 '''
 Error Handelers
 '''
+
+
 @app.errorhandler(404)
 def page_not_found(e):
     return redirect(url_for('notFoundError'))
