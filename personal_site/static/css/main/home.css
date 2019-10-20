@@ -6,7 +6,7 @@ html, body {
   padding: 1em;
   margin: 0 auto;
   width: 900px;   
-  height: 85%;
+  height: 80%;
   background-color: #fcfcfc;
   border-radius: 10px;
 }
@@ -164,11 +164,13 @@ h1 {
   transition-duration: 1s;
   letter-spacing: normal;
 }
-.contact:hover {
-  background-color: rgb(50,50,50);
-  padding: 5px 35px 5px 35px;
-  color: #00d16f;
-  letter-spacing: 5px;
+@media (min-width: 850px) {
+  .contact:hover {
+    background-color: rgb(100,107,100);
+    padding: 5px 30px 5px 30px;
+    color: #00d16f;
+    letter-spacing: 6px;
+  }
 }
 .title-wrapper {
   text-align: center;
@@ -190,7 +192,7 @@ h1 {
 }
 @media (min-width: 1001px) {
   .things {
-    width: 50%;
+    width: 75%;
   }
 }
 .project-title {
@@ -237,6 +239,9 @@ h1 {
 }
 .experience-link {
   color: rgb(40, 40, 40);
+}
+.chronicle {
+  text-decoration: underline;
 }
 footer {
   text-align: center;
