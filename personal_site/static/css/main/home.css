@@ -1,6 +1,14 @@
 html, body {
   font-family: "Avenir Next", system-ui, "Helvetica Neue", sans-serif;
-  background: #00b4ff;
+  /*background-color: rgb(0, 216, 255);*/
+}
+.body-wrapper{
+  padding: 1em;
+  margin: 0 auto;
+  width: 900px;   
+  height: 80%;
+  background-color: #fcfcfc;
+  border-radius: 10px;
 }
 a {
   text-decoration: none;
@@ -14,15 +22,16 @@ h1 {
   line-height: 1.25;
   letter-spacing: 0.2em;
   margin: 2rem auto 1rem;
+  text-align: center;
 }
 @media (max-width: 800px) {
   h1 {
-    font-size: 2em;
+    font-size: 4em;
   }
 }
 @media (min-width: 801px) {
   h1 {
-    font-size: 3.5em;
+    font-size: 5em;
   }
 }
 .top-title {
@@ -30,7 +39,8 @@ h1 {
 }
 .color-changer {
   text-align: center;
-  animation: color-change 10s infinite;
+  -webkit-animation: colorchanger 30s infinite;
+  animation: colorchanger 30s infinite;
 }
 .profile {
   display: block;
@@ -40,15 +50,13 @@ h1 {
   margin: 1rem auto;
   border: 10px solid currentColor;
 }
-@keyframes color-change {
-  0% { color: #19b70e; }
-  12.5% { color: #0db79a; }
-  25% { color: #0c34b7; }
-  37.5% { color: #6c0bb7; }
-  50% { color: #b70a0a; }
-  62.5% { color: #b76609; }
-  75% { color: #b7b409; }
-  100% { color: #19b70e; }
+@-webkit-keyframes colorchanger {
+  0%,100% { color:#21c900;}
+  50% {color:#178f00;}
+}
+@keyframes colorchanger {
+  0%,100% { color:#21c900;}
+  50% {color:#178f00;}
 }
 .social-buttons {
   display: flex;
@@ -77,7 +85,7 @@ h1 {
   width: calc(100% - 2px);
   height: calc(100% - 2px);
   border-radius: 100%;
-  background: #fff;
+  background: #ddd;
   text-align: center;
 }
 .social-button i, .social-button svg {
@@ -101,10 +109,10 @@ h1 {
   width: 0;
   height: 0;
   border-radius: 100%;
-  transition: 0.3s;
+  transition-duration: 0.3s;
 }
 .social-button:focus, .social-button:hover {
-  color: #fff;
+  color: #ddd;
 }
 .social-button:focus::after, .social-button:hover::after {
   width: 100%;
@@ -124,10 +132,10 @@ h1 {
   background: #0077b5;
 }
 .social-button--github {
-  color: #6e5494;
+  color: #575e56;
 }
 .social-button--github::after {
-  background: #6e5494;
+  background: #575e56;
 }
 .button-wrapper {
   padding-top: 20px;
@@ -139,10 +147,15 @@ h1 {
   padding: 5px 12px 5px 12px;
   border-radius: 10px;
   transition-duration: 1s;
+  letter-spacing: normal;
 }
-.contact:hover {
-  background-color: #fff;
-  color: #00d16f;
+@media (min-width: 850px) {
+  .contact:hover {
+    background-color: rgb(100,107,100);
+    padding: 5px 30px 5px 30px;
+    color: #00d16f;
+    letter-spacing: 6px;
+  }
 }
 .title-wrapper {
   text-align: center;
@@ -155,7 +168,9 @@ h1 {
   background: #4286f4;
   border-radius: 25px;
   margin: -15px 0px 0px 0px;
+  transition: -webkit-transform .4s;
   transition: transform .4s;
+  transition: transform .4s, -webkit-transform .4s;
 }
 @media (max-width: 1000px) {
   .things {
@@ -164,12 +179,12 @@ h1 {
 }
 @media (min-width: 1001px) {
   .things {
-    width: 50%;
+    width: 75%;
   }
 }
 .project-title {
   padding-top: 15px;
-  color: #ddd;
+  color: #fff;
   padding-bottom: 2px;
   font-size: 2em;
 }
@@ -177,7 +192,7 @@ h1 {
   margin: auto;
   padding-bottom: 20px;
   color: #fff;
-  font-size: 1em;
+  font-size: 1.3em;
   transition-duration: 2.5s;
 }
 @media (max-width: 1000px) {
@@ -191,19 +206,21 @@ h1 {
   }
 }
 .project-base:hover {
+  -webkit-transform: translateY(-9px);
   transform: translateY(-9px);
-}
-.experience {
-  color: rgb(56, 56, 56);
-  font-size: 1.5em;
 }
 .experiences {
   background-color: rgb(211, 211, 211);
   border-radius: 25px;
   padding: 5px 0px 5px 0px;
 }
+.experience {
+  color: rgb(56, 56, 56);
+  font-size: 1.5em;
+}
 .experience-description {
   color: rgb(40, 40, 40);
+  font-size: 1.3em;
   padding: 0px 20px 0px 20px;
 }
 .current-experience-description {
@@ -211,6 +228,9 @@ h1 {
 }
 .experience-link {
   color: rgb(40, 40, 40);
+}
+.chronicle {
+  text-decoration: underline;
 }
 footer {
   text-align: center;
