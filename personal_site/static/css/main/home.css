@@ -281,9 +281,12 @@ h1 {
 
 }
 
-.project-base:hover {
-  -webkit-transform: translateY(-9px);
-  transform: translateY(-9px);
+@media (min-width:801px) {
+  .project-base:hover {
+    -webkit-transform: translateY(-9px);
+    transform: translateY(-9px);
+  }
+
 }
 
 .experiences {
