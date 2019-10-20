@@ -16,6 +16,46 @@
 
    <url>
 
+      <loc>https://rafaelcenzano.com/static/img/rafael_profile_square.jpeg</loc>
+
+      <lastmod>2019-10-20</lastmod>
+
+      <priority>0.5</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/static/img/bkgrd.jpeg</loc>
+
+      <lastmod>2019-10-20</lastmod>
+
+      <priority>0.1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/static/img/favicon.png</loc>
+
+      <lastmod>2019-10-20</lastmod>
+
+      <priority>0.7</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/static/img/favicon.ico</loc>
+
+      <lastmod>2019-10-20</lastmod>
+
+      <priority>0.7</priority>
+
+   </url>
+
+   <url>
+
       <loc>https://www.rafaelcenzano.com/500</loc>
 
       <lastmod>2019-10-14</lastmod>
@@ -28,9 +68,9 @@
 
       <loc>https://www.rafaelcenzano.com/404</loc>
 
-      <lastmod>2019-3-13</lastmod>
+      <lastmod>2019-10-18</lastmod>
 
-      <priority>0.1</priority>
+      <priority>0.3</priority>
 
    </url>
 
