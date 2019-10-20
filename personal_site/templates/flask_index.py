@@ -20,10 +20,7 @@
         background-image: url("{{ url_for('static', filename='img/bkgrd.jpeg') }}");
         background-position: center center;
         background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
         -ms-background-size: cover;
-        -o-background-size: cover;
         background-size: cover;
       }
     </style>
