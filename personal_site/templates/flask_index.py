@@ -6,11 +6,7 @@
 
     <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/home.min.css') }}>
 
-	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-
 	<link href='https://use.fontawesome.com/releases/v5.7.1/css/all.css' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
 
     <style type="text/css">
     @media (min-width:801px) {
