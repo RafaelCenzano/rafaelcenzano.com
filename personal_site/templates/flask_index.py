@@ -14,7 +14,7 @@
         /* Fix background during scrolling */
         background-attachment: fixed;
         /* Use scalable background image */
-        background-image: url("{{ url_for('static', filename='img/bkgrd.jpeg') }}");
+        background-image: url("{{ url_for('static', filename='img/bkgrdhalf.jpeg') }}");
         background-position: center center;
         background-attachment: fixed;
         -ms-background-size: cover;
