@@ -1,25 +1,6 @@
 html, body {
   font-family: "Avenir Next", system-ui, "Helvetica Neue", sans-serif;
   /*background-color: rgb(0, 216, 255);*/
-
-  /* Fix background during scrolling */
-  background-attachment: fixed;
- 
-  /* Create a gradient background */
-  background-image: -webkit-linear-gradient(#93a397, #9bbaa2);
-  background-image: -moz-linear-gradient(#93a397, #9bbaa2);
-  background-image: -ms-linear-gradient(#93a397, #9bbaa2);
-  background-image: -o-linear-gradient(#93a397, #9bbaa2);
-  background-image: linear-gradient(#93a397, #9bbaa2);
- 
-  /* Use scalable background image */
-  background-image: url("bkgrd.png");
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 .body-wrapper{
   padding: 1em;
