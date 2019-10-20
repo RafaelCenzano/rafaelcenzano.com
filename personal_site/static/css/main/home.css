@@ -192,7 +192,7 @@ h1 {
   margin: auto;
   padding-bottom: 20px;
   color: #fff;
-  font-size: 1em;
+  font-size: 1.3em;
   transition-duration: 2.5s;
 }
 @media (max-width: 1000px) {
@@ -220,6 +220,7 @@ h1 {
 }
 .experience-description {
   color: rgb(40, 40, 40);
+  font-size: 1.3em;
   padding: 0px 20px 0px 20px;
 }
 .current-experience-description {
