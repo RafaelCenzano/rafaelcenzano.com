@@ -90,7 +90,7 @@
             <a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Operations 6 months ~</a>
         </p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link chronicle" target="_blank" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">In a chronicle article!</a>
+            <a class="experience-link chronicle" target="_blank" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">HTF in a chronicle article!</a>
         </p>
     </div>
     <br>
