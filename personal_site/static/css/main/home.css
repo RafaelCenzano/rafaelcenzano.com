@@ -6,7 +6,7 @@ html, body {
   padding: 1em;
   margin: 0 auto;
   width: 900px;   
-  height: 2000px;
+  height: 85%;
   background-color: #fcfcfc;
   border-radius: 10px;
 }
@@ -162,12 +162,13 @@ h1 {
   padding: 5px 12px 5px 12px;
   border-radius: 10px;
   transition-duration: 1s;
+  letter-spacing: normal;
 }
 .contact:hover {
-  font-weight: bold;
   background-color: rgb(50,50,50);
-  padding: 4px 35px 4px 35px;
+  padding: 5px 35px 5px 35px;
   color: #00d16f;
+  letter-spacing: 5px;
 }
 .title-wrapper {
   text-align: center;
