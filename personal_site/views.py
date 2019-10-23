@@ -14,12 +14,12 @@ def index():
 
 @app.route("/404", methods=['GET'])
 def notFoundError():
-    return render_template('404.py'), 404
+    return render_template('404.py')
 
 
 @app.route("/500", methods=['GET'])
 def serverError():
-    return render_template('500.py'), 500
+    return render_template('500.py')
 
 
 '''
