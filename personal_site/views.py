@@ -12,16 +12,6 @@ def index():
     return render_template('flask_index.py')
 
 
-@app.route("/404", methods=['GET'])
-def notFoundError():
-    return render_template('404.py'), 404
-
-
-@app.route("/500", methods=['GET'])
-def serverError():
-    return render_template('500.py'), 500
-
-
 '''
 SEO
 '''
@@ -47,9 +37,9 @@ Error Handelers
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return redirect(url_for('notFoundError'))
+    return render_template('404.py'), 404
 
 
 @app.errorhandler(500)
 def server_error(e):
-    return redirect(url_for('serverError'))
+    return render_template('500.py'), 500
