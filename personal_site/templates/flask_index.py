@@ -4,7 +4,7 @@
 
 {% block head_css %}
 
-    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/home.min.css') }}>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.min.css') }}">
 
 	<link href='https://use.fontawesome.com/releases/v5.7.1/css/all.css' rel='stylesheet' type='text/css'>
 
@@ -31,7 +31,7 @@
 	<article class="color-changer">
         <h1 class="top-title">RAFAEL</h1>
         <h1 class="top-title">CENZANO</h1>
-        <img src={{ url_for('static', filename='img/rafael_profile_square_half.jpeg') }} class="profile">
+        <img src="{{ url_for('static', filename='img/rafael_profile_square_half.jpeg') }}" class="profile">
     </article>
 
     <div class="social-buttons">
@@ -63,9 +63,17 @@
     <div class="projects things center">
         <div class="project-base">
             <a href="https://github.com/Marvin-Virtual-Assistant/Marvin-V4" target="_blank">
-                <h3 class="project-title">Marvin Virtual Assistant</h3>
+                <h3 class="project-title">Marvin Virtual Assistant V4</h3>
                 <p class="project-description things-description">
-                    A virtual assistant created in python that currently has 4 versions. This is a project that has tons of room to grow and will always be updated with hopes to have it be an open source project people want to contribute to.
+                    A virtual assistant created in python that currently has 4 versions. This project currently utilizes Flask as a frontend and uses webscraping and APIs to provide information and services for users.
+                </p>
+            </a>
+        </div>
+        <div class="project-base">
+            <a href="https://github.com/RafaelCenzano/PyStarter" target="_blank">
+                <h3 class="project-title">Pystarter</h3>
+                <p class="project-description things-description">
+                    CLI tool to aid in starting a project for python and git devlopers. Availible on PyPi and can be installed with: pip install pystarter
                 </p>
             </a>
         </div>
