@@ -32,6 +32,10 @@
             <h1 class="top-title">AP JAVA</h1>
         </article>
         <br>
+        <div class="button-wrapper center">
+            <a href="{{ url_for('index') }}" class="contact">Home</a>
+        </div>
+        <br>
         <div class="experiences center things">
             <h4><a href="/apjava/asteroids" class="experience">Asteroids Game</a></h4>
             <p class="current-experience-description experience-description">
