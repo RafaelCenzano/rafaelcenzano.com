@@ -83,7 +83,7 @@
             </a>
         </div>
         <div class="project-base">
-            <a href="{{ url_for('apjava') }}" target="_blank">
+            <a href="{{ url_for('apjava') }}">
                 <h3 class="project-title">AP Java</h3>
                 <p class="project-description things-description">
                     Projects created in Processing for APCS A (Java)
