@@ -9,7 +9,7 @@ public void setup(){
 }
 
 public void draw(){
-    if(count <= 6){
+    if(count <= 7){
         background(0);
         sierpinski(0, 600, 600, 1, count);
     }
