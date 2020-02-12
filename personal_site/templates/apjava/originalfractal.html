@@ -2,6 +2,11 @@
 
 {% block title %}Tron Circles{% endblock %}
 
+{% block head_css %}
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/apjava.min.css') }}">
+{% endblock %}
+
 {% block head_js %}
 <script type="text/javascript" src="{{ url_for('static', filename='js/p5.min.js') }}"></script>
 {% endblock %}
