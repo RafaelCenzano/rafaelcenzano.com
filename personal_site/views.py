@@ -17,7 +17,7 @@ def apjava():
 
 @app.route('/apjava/<project>', methods=['GET'])
 def projects(project):
-    return render_template(f'apjava/{project.lower()}.html')
+    return render_template(f'apjava/{project.lower()}.py')
 
 '''
 SEO
