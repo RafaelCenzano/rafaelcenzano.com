@@ -1,0 +1,22 @@
+{% extends 'base_file.py' %}
+
+{% block title %}Triangles!{% endblock %}
+
+{% block head_js %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/p5.min.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+		<header>
+			<h1>Headline</h1>
+		</header>
+			<section id="content">
+				<canvas id="SierpinskiTriangle" data-processing-sources="{{ url_for('static', filename='sierpinskitriangle/SierpinskiTriangle.pde') }}">
+				</canvas>
+		    </section>
+	    <footer>
+	    	Click to add more triangles!
+	    	<br>
+		    Created by Rafael for APCS A (Java) with Processing
+	    </footer>
+{% endblock %}
