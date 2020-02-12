@@ -6,11 +6,131 @@
 
       <loc>https://rafaelcenzano.com/</loc>
 
-      <lastmod>2019-10-20</lastmod>
+      <lastmod>2020-2-12</lastmod>
 
       <changefreq>monthly</changefreq>
 
       <priority>0.9</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/apjava</loc>
+
+      <lastmod>2020-2-12</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.7</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/apjava/asteroids</loc>
+
+      <lastmod>2020-2-12</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.4</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/apjava/chemotaxis</loc>
+
+      <lastmod>2020-2-12</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.4</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/apjava/dice</loc>
+
+      <lastmod>2020-2-12</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.4</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/apjava/fractaltree</loc>
+
+      <lastmod>2020-2-12</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.4</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/apjava/lightning</loc>
+
+      <lastmod>2020-2-12</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.4</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/apjava/originalfractal</loc>
+
+      <lastmod>2020-2-12</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.4</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/apjava/sierpinskitriangle</loc>
+
+      <lastmod>2020-2-12</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.4</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/apjava/starfield</loc>
+
+      <lastmod>2020-2-12</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.4</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://rafaelcenzano.com/apjava/tendron</loc>
+
+      <lastmod>2020-2-12</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.4</priority>
 
    </url>
 
