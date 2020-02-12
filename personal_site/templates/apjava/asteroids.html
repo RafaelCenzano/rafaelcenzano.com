@@ -19,6 +19,7 @@
 			<div class="button-wrapper center">
 	        	<a href="{{ url_for('apjava') }}" class="contact">Back</a>
 	    	</div>
+	    	<br>
 			<section id="content">
 				<canvas id="AsteroidsGame" data-processing-sources="{{ url_for('static', filename='asteroids/AsteroidsGame.pde') }} {{ url_for('static', filename='asteroids/Floater.pde') }}  {{ url_for('static', filename='asteroids/Spaceship.pde') }} {{ url_for('static', filename='asteroids/Star.pde') }} {{ url_for('static', filename='asteroids/Asteroid.pde') }} {{ url_for('static', filename='asteroids/Bullet.pde') }}">
 				</canvas>
