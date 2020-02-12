@@ -5,6 +5,7 @@
 {% block head_css %}
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/apjava.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.min.css') }}">
 {% endblock %}
 
 {% block head_js %}
@@ -17,6 +18,9 @@
 			<p>Not quite a mess though...</p>
 			<p>Seems to have a recursive/fractal pattern...</p>
 		</header>
+			<div class="button-wrapper center">
+	        	<a href="{{ url_for('apjava') }}" class="contact">Back</a>
+	    	</div>
 			<section id="content">
 				<canvas id="Tendron" data-processing-sources="{{ url_for('static', filename='tendron/Tendron.pde') }} {{ url_for('static', filename='tendron/Cluster.pde') }} {{ url_for('static', filename='tendron/Tendril.pde') }}">
 				</canvas>
