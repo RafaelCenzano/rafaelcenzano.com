@@ -51,6 +51,11 @@
             </span>
         </a>
     </div>
+    <br>
+     <div class="experiences center things">
+        <h4><a href="#" target="_blank" class="experience">About me</a></h4>
+        <p class="experience-description">I'm a Junior at Lowell Highschool and I love to code on my free time. I Co-lead a coding club and I am a Co-lead Organizer of a highschool hackathon. I have created many projects in python and processing.</p>
+    </div>
 
     <div class="button-wrapper center">
         <a href="mailto:contact@rafaelcenzano.com" class="contact">Contact me!</a>
@@ -74,6 +79,14 @@
                 <h3 class="project-title">Pystarter</h3>
                 <p class="project-description things-description">
                     CLI tool to aid in starting a project for python and git devlopers. Availible on PyPi and can be installed with: pip install pystarter
+                </p>
+            </a>
+        </div>
+        <div class="project-base">
+            <a href="{{ url_for('apjava') }}">
+                <h3 class="project-title">AP Java</h3>
+                <p class="project-description things-description">
+                    Projects created in Processing for APCS A (Java)
                 </p>
             </a>
         </div>

@@ -1,16 +1,23 @@
 # Imports
 from personal_site import app
-from flask import render_template, request, make_response, redirect, session, url_for, send_file
+from flask import render_template, make_response, url_for, send_file
 
 '''
 Views
 '''
 
 
-@app.route("/", methods=['GET'])
+@app.route('/', methods=['GET'])
 def index():
     return render_template('flask_index.py')
 
+@app.route('/apjava', methods=['GET'])
+def apjava():
+    return render_template('apjava.py')
+
+@app.route('/apjava/<project>', methods=['GET'])
+def projects(project):
+    return render_template(f'apjava/{project.lower()}.html')
 
 '''
 SEO
