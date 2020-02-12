@@ -9,8 +9,10 @@ public void setup(){
 }
 
 public void draw(){
-    background(0);
-    sierpinski(0, 600, 600, 1, count);
+    if(count <= 6){
+        background(0);
+        sierpinski(0, 600, 600, 1, count);
+    }
     count += 1;
 }
 
