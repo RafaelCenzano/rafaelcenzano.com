@@ -1,0 +1,29 @@
+{% extends 'base_file.py' %}
+
+{% block title %}Tendron{% endblock %}
+
+{% block head_css %}
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/apjava.min.css') }}">
+{% endblock %}
+
+{% block head_js %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/p5.min.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+		<header>
+			<h1>Fractal tree? no a weird mess of tendrils</h1>
+			<p>Not quite a mess though...</p>
+			<p>Seems to have a recursive/fractal pattern...</p>
+		</header>
+			<section id="content">
+				<canvas id="Tendron" data-processing-sources="{{ url_for('static', filename='tendron/Tendron.pde') }} {{ url_for('static', filename='tendron/Cluster.pde') }} {{ url_for('static', filename='tendron/Tendril.pde') }}">
+				</canvas>
+		    </section>
+	    <footer>
+	    	Click to redraw and place the center of the Tendron in another location.
+	    	<br>
+		    Created by Rafael for APCS A (Java) with Processing
+	    </footer>
+{% endblock %}
