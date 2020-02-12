@@ -1,0 +1,20 @@
+{% extends 'base_file.py' %}
+
+{% block title %}Nice Tree{% endblock %}
+
+{% block head_js %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/p5.min.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+		<header>
+			<h1>Nice Tree</h1>
+		</header>
+			<section id="content">
+				<canvas id="FractalTree" data-processing-sources="{{ url_for('static', filename='fractaltree/FractalTree.pde') }}">
+				</canvas>
+		    </section>
+	    <footer>
+		    Created by Rafael for APCS A (Java) with Processing
+	    </footer>
+{% endblock %}
