@@ -11,13 +11,21 @@ Views
 def index():
     return render_template('flask_index.py')
 
+
 @app.route('/apjava', methods=['GET'])
 def apjava():
     return render_template('apjava.py')
 
+
 @app.route('/apjava/<project>', methods=['GET'])
 def projects(project):
     return render_template(f'apjava/{project.lower()}.py')
+
+
+@app.route('/marvin', methods=['GET'])
+def marvin():
+    return render_template('marvin.py')
+
 
 '''
 SEO

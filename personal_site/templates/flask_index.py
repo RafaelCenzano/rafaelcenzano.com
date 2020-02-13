@@ -67,10 +67,10 @@
 
     <div class="projects things center">
         <div class="project-base">
-            <a href="https://github.com/Marvin-Virtual-Assistant/Marvin-V4" target="_blank">
-                <h3 class="project-title">Marvin Virtual Assistant V4</h3>
+            <a href="{{ url_for('marvin') }}">
+                <h3 class="project-title">Marvin Virtual Assistant</h3>
                 <p class="project-description things-description">
-                    A virtual assistant created in python that currently has 4 versions. This project currently utilizes Flask as a frontend and uses webscraping and APIs to provide information and services for users.
+                    A virtual assistant created in python that currently has 4 versions. It webscrapes and utilizes API's to give users data and useful functions.
                 </p>
             </a>
         </div>
@@ -78,7 +78,7 @@
             <a href="https://github.com/RafaelCenzano/PyStarter" target="_blank">
                 <h3 class="project-title">Pystarter</h3>
                 <p class="project-description things-description">
-                    CLI tool to aid in starting a project for python and git devlopers. Availible on PyPi and can be installed with: pip install pystarter
+                    CLI tool to aid in starting a project for python and git devlopers. Available on PyPi and can be installed with: pip install pystarter
                 </p>
             </a>
         </div>
