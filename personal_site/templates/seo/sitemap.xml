@@ -16,6 +16,18 @@
 
    <url>
 
+      <loc>https://rafaelcenzano.com/marvin</loc>
+
+      <lastmod>2020-2-14</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.7</priority>
+
+   </url>
+
+   <url>
+
       <loc>https://rafaelcenzano.com/apjava</loc>
 
       <lastmod>2020-2-12</lastmod>
@@ -32,8 +44,6 @@
 
       <lastmod>2020-2-12</lastmod>
 
-      <changefreq>monthly</changefreq>
-
       <priority>0.4</priority>
 
    </url>
@@ -43,8 +53,6 @@
       <loc>https://rafaelcenzano.com/apjava/chemotaxis</loc>
 
       <lastmod>2020-2-12</lastmod>
-
-      <changefreq>monthly</changefreq>
 
       <priority>0.4</priority>
 
@@ -56,8 +64,6 @@
 
       <lastmod>2020-2-12</lastmod>
 
-      <changefreq>monthly</changefreq>
-
       <priority>0.4</priority>
 
    </url>
@@ -67,8 +73,6 @@
       <loc>https://rafaelcenzano.com/apjava/fractaltree</loc>
 
       <lastmod>2020-2-12</lastmod>
-
-      <changefreq>monthly</changefreq>
 
       <priority>0.4</priority>
 
@@ -80,8 +84,6 @@
 
       <lastmod>2020-2-12</lastmod>
 
-      <changefreq>monthly</changefreq>
-
       <priority>0.4</priority>
 
    </url>
@@ -91,8 +93,6 @@
       <loc>https://rafaelcenzano.com/apjava/originalfractal</loc>
 
       <lastmod>2020-2-12</lastmod>
-
-      <changefreq>monthly</changefreq>
 
       <priority>0.4</priority>
 
@@ -104,8 +104,6 @@
 
       <lastmod>2020-2-12</lastmod>
 
-      <changefreq>monthly</changefreq>
-
       <priority>0.4</priority>
 
    </url>
@@ -116,8 +114,6 @@
 
       <lastmod>2020-2-12</lastmod>
 
-      <changefreq>monthly</changefreq>
-
       <priority>0.4</priority>
 
    </url>
@@ -127,8 +123,6 @@
       <loc>https://rafaelcenzano.com/apjava/tendron</loc>
 
       <lastmod>2020-2-12</lastmod>
-
-      <changefreq>monthly</changefreq>
 
       <priority>0.4</priority>
 
