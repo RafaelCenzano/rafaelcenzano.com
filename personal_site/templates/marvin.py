@@ -29,7 +29,7 @@
 
     <div class="body-wrapper">
         <article class="color-changer">
-            <h1 class="top-title">AP JAVA</h1>
+            <h1 class="top-title">Marvin</h1>
         </article>
         <br>
         <div class="button-wrapper center">
