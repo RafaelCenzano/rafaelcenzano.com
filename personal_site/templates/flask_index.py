@@ -67,7 +67,7 @@
 
     <div class="projects things center">
         <div class="project-base">
-            <a href={{ url_for('marvin') }}">
+            <a href="{{ url_for('marvin') }}">
                 <h3 class="project-title">Marvin Virtual Assistant</h3>
                 <p class="project-description things-description">
                     A virtual assistant created in python that currently has 4 versions. It webscrapes and utilizes API's to give users data and useful functions.
