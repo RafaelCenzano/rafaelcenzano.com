@@ -78,7 +78,7 @@
             <a href="https://github.com/RafaelCenzano/PyStarter" target="_blank">
                 <h3 class="project-title">Pystarter</h3>
                 <p class="project-description things-description">
-                    CLI tool to aid in starting a project for python and git devlopers. Availible on PyPi and can be installed with: pip install pystarter
+                    CLI tool to aid in starting a project for python and git devlopers. Available on PyPi and can be installed with: pip install pystarter
                 </p>
             </a>
         </div>
