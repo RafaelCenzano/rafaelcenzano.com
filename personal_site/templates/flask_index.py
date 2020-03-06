@@ -54,7 +54,7 @@
     <br>
      <div class="experiences center things">
         <h4><a href="#" target="_blank" class="experience">About me</a></h4>
-        <p class="experience-description">I'm a Junior at Lowell Highschool and I love to code on my free time. I Co-lead a coding club and I am a Co-lead Organizer of a highschool hackathon. I have created many projects in python and processing.</p>
+        <p class="experience-description">I'm a Junior at Lowell Highschool and I love to code on my free time. I Co-lead a coding club and I am a Co-Director of a highschool hackathon. I have created many projects in python and processing.</p>
     </div>
 
     <div class="button-wrapper center">
@@ -100,7 +100,7 @@
         <h4><a href="https://www.hackthefog.com" target="_blank" class="experience">Hack The Fog (HTF)</a></h4>
         <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco and currently organizing Hack the Fog 2.0.</p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Currently Co-Lead Organizer and Director of Internal affairs ~</a>
+            <a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Currently Co-Lead Director and Director of Internal affairs ~</a>
         </p>
         <p class="current-experience-description experience-description">
             <a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Organizer 1 year 4 months ~</a>
