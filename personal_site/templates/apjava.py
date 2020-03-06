@@ -51,6 +51,13 @@
         </div>
         <br>
         <div class="experiences center things">
+            <h4><a href="/apjava/originalfractal" class="experience">Custom Fractal</a></h4>
+            <p class="current-experience-description experience-description">
+                <a class="experience-link" href="/apjava/originalfractal">Random circles made recursively.</a>
+            </p>
+        </div>
+        <br>
+        <div class="experiences center things">
             <h4><a href="/apjava/dice" class="experience">Dice</a></h4>
             <p class="current-experience-description experience-description">
                 <a class="experience-link" href="/apjava/dice">Object Oriented Dice utilizing 2D arrays and displaying many dice and the totals of your rolls.</a>
@@ -72,9 +79,9 @@
         </div>
         <br>
         <div class="experiences center things">
-            <h4><a href="/apjava/originalfractal" class="experience">Custom Fractal</a></h4>
+            <h4><a href="/apjava/minesweeper" class="experience">Minesweeper</a></h4>
             <p class="current-experience-description experience-description">
-                <a class="experience-link" href="/apjava/originalfractal">Random circles made recursively.</a>
+                <a class="experience-link" href="/apjava/tendron">Minesweeper game made with guido library. Contains Object Oriented code, recursion, and 2 dimensional arrays</a>
             </p>
         </div>
         <br>
