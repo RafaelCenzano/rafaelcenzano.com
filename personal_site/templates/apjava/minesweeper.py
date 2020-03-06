@@ -10,7 +10,7 @@
 
 {% block head_js %}
 <script type="text/javascript" src="{{ url_for('static', filename='js/p5.min.js') }}"></script>
-<script type="text/javascript" src="{{ url_for('static', filename='js/guido.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/Guido.js') }}"></script>
 {% endblock %}
 
 {% block content %}
