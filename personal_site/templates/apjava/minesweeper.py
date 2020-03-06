@@ -22,7 +22,7 @@
             </div>
             <br>
             <section id="content">
-                <canvas id="Tendron" data-processing-sources="{{ url_for('static', filename='minesweeper/Minesweeper.pde') }}">
+                <canvas id="Minesweeper" data-processing-sources="{{ url_for('static', filename='minesweeper/Minesweeper.pde') }}">
                 </canvas>
             </section>
         <footer>
