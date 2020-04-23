@@ -54,7 +54,7 @@
     <br>
      <div class="experiences center things">
         <h4><a href="#" target="_blank" class="experience">About me</a></h4>
-        <p class="experience-description">I'm a Junior at Lowell Highschool and I love to code on my free time. I Co-lead a coding club and I am a Co-Director of a highschool hackathon. I have created many projects in python and processing.</p>
+        <p class="experience-description">I'm a Junior at Lowell Highschool and I love to code on my free time. I Co-lead a coding club and I am a Co-Director of a highschool hackathon. I have created many projects in python and processing (Java).</p>
     </div>
 
     <div class="button-wrapper center">
