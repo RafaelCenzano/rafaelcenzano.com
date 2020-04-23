@@ -128,7 +128,7 @@
             <a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader 2 years + Currently in program ~</a>
         </p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ 224.5 volunteer hours total ~</a>
+            <a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ 208.5 volunteer hours total ~</a>
         </p>
     </div>
     <br>
