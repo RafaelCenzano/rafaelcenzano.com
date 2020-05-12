@@ -39,23 +39,23 @@
 	<meta name="theme-color" content="#dddddd">
 
 	<!-- Facebook -->
-	<meta property="og:image" content={{ url_for('static', filename='img/rafael_profile_square.jpeg') }}>
-	<meta property="og:description" content="Personal website to display Rafael Cenzano's work">
 	<meta property="og:title" content="Rafael Cenzano">
 	<meta property="og:site_name" content="Rafael Cenzano's Personal website">
+	<meta property="og:description" content="Personal website to display Rafael Cenzano's work">
 	<meta property="og:url" content="https://rafaelcenzano.com/">
+	<meta property="og:image" content="{{ url_for('static', filename='img/rafael_profile_square.jpeg') }}">
 
 	<!-- Twitter -->
-	<meta name="twitter:card" content="Rafael Cenzano's Personal website">
 	<meta name="twitter:title" content="Rafael Cenzano">
-	<meta name="twitter:description" content="Personal website to display Rafael Cenzano's work">
-	<meta name="twitter:image" content={{ url_for('static', filename='img/rafael_profile_square.jpeg') }}>
+	<meta name="twitter:card" content="Rafael Cenzano's Personal website">
+	<meta name="twitter:description" content="Personal website to display Rafael Cenzano's work">	
 	<meta name="twitter:url" content="https://rafaelcenzano.com/">
+	<meta name="twitter:image" content="{{ url_for('static', filename='img/rafael_profile_square.jpeg') }}">
 
 	<!-- Google+ -->
 	<meta itemprop="name" content="Rafael Cenzano">
 	<meta itemprop="description" content="Personal website to display Rafael Cenzano's work">
-	<meta itemprop="image" content={{ url_for('static', filename='img/rafael_profile_square.jpeg') }}>
+	<meta itemprop="image" content="{{ url_for('static', filename='img/rafael_profile_square.jpeg') }}">
 
 	{% block meta %}
 	{% endblock %}
