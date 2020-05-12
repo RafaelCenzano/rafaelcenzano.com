@@ -20,7 +20,7 @@
 		</header>
 			<div class="button-wrapper center">
 	        	<a href="{{ url_for('apjava') }}" class="contact">Back</a>
-	    	</div>
+	        </div>
             <br>
 			<section id="content">
 				<canvas id="Tendron" data-processing-sources="{{ url_for('static', filename='tendron/Tendron.pde') }} {{ url_for('static', filename='tendron/Cluster.pde') }} {{ url_for('static', filename='tendron/Tendril.pde') }}">
@@ -30,11 +30,6 @@
 	    	Click to redraw and place the center of the Tendron in another location.
 	    	<br>
 		    Created by Rafael for APCS A (Java) with Processing
-		    <p class="copyright">© 2020 Rafael Cenzano</p>
-            <div class="source-wrapper">
-                <p>
-                    <a href="https://github.com/RafaelCenzano/rafaelcenzano.com" class="source">Source</a>
-                </p>
-            </div>
+		    {% include 'footer.py' %}
 	    </footer>
 {% endblock %}

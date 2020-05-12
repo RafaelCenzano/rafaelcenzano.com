@@ -142,14 +142,7 @@
             <a class="experience-link" href="#byte_lab_website_is_nonexsistant">~ Club Member 1 year ~</a>
         </p>
     </div>
-    <footer>
-        <p class="copyright">© 2020 Rafael Cenzano</p>
-        <div class="source-wrapper">
-            <p>
-                <a href="https://github.com/RafaelCenzano/rafaelcenzano.com" class="source">Source</a>
-            </p>
-        </div>
-    </footer>
+    {% include 'footer.py' %}
     </div>
 
 {% endblock %}
