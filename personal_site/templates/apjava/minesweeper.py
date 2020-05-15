@@ -17,14 +17,14 @@
         <header>
             <h1>Mining but avoid the mines</h1>
         </header>
-            <div class="button-wrapper center">
-                <a href="{{ url_for('apjava') }}" class="back-other">Back</a>
-            </div>
-            <br>
-            <section id="content">
-                <canvas id="Minesweeper" data-processing-sources="{{ url_for('static', filename='minesweeper/Minesweeper.pde') }}">
-                </canvas>
-            </section>
+        <div class="button-wrapper center">
+            <a href="{{ url_for('apjava') }}" class="back-other">Back</a>
+        </div>
+        <br>
+        <section id="content">
+            <canvas id="Minesweeper" data-processing-sources="{{ url_for('static', filename='minesweeper/Minesweeper.pde') }}">
+            </canvas>
+        </section>
         <div class="footer">
             Created by Rafael for APCS A (Java) with Processing
         </div>

@@ -16,14 +16,14 @@
 		<header>
 			<h1>Tron Circles</h1>
 		</header>
-			<div class="button-wrapper center">
-	        	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
-	    	</div>
-            <br>
-			<section id="content">
-				<canvas id="OriginalFractal" data-processing-sources="{{ url_for('static', filename='originalfractal/OriginalFractal.pde') }}">
-				</canvas>
-		    </section>
+		<div class="button-wrapper center">
+        	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
+    	</div>
+        <br>
+		<section id="content">
+			<canvas id="OriginalFractal" data-processing-sources="{{ url_for('static', filename='originalfractal/OriginalFractal.pde') }}">
+			</canvas>
+	    </section>
 	    <div class="footer">
 	    	Move the mouse around!
 	    	<br>

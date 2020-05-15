@@ -16,14 +16,14 @@
 		<header>
 			<h1>Triangles!</h1>
 		</header>
-			<div class="button-wrapper center">
-	        	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
-	    	</div>
-            <br>
-			<section id="content">
-				<canvas id="SierpinskiTriangle" data-processing-sources="{{ url_for('static', filename='sierpinskitriangle/SierpinskiTriangle.pde') }}">
-				</canvas>
-		    </section>
+		<div class="button-wrapper center">
+        	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
+    	</div>
+        <br>
+		<section id="content">
+			<canvas id="SierpinskiTriangle" data-processing-sources="{{ url_for('static', filename='sierpinskitriangle/SierpinskiTriangle.pde') }}">
+			</canvas>
+	    </section>
 	    <div class="footer">
 	    	Click to add more triangles!
 	    	<br>

@@ -16,14 +16,14 @@
 		<header>
 			<h1>Starship Discovery</h1>
 		</header>
-			<div class="button-wrapper center">
-	        	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
-	    	</div>
-	    	<br>
-			<section id="content">
-				<canvas id="AsteroidsGame" data-processing-sources="{{ url_for('static', filename='asteroids/AsteroidsGame.pde') }} {{ url_for('static', filename='asteroids/Floater.pde') }}  {{ url_for('static', filename='asteroids/Spaceship.pde') }} {{ url_for('static', filename='asteroids/Star.pde') }} {{ url_for('static', filename='asteroids/Asteroid.pde') }} {{ url_for('static', filename='asteroids/Bullet.pde') }}">
-				</canvas>
-		    </section>
+		<div class="button-wrapper center">
+        	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
+    	</div>
+    	<br>
+		<section id="content">
+			<canvas id="AsteroidsGame" data-processing-sources="{{ url_for('static', filename='asteroids/AsteroidsGame.pde') }} {{ url_for('static', filename='asteroids/Floater.pde') }}  {{ url_for('static', filename='asteroids/Spaceship.pde') }} {{ url_for('static', filename='asteroids/Star.pde') }} {{ url_for('static', filename='asteroids/Asteroid.pde') }} {{ url_for('static', filename='asteroids/Bullet.pde') }}">
+			</canvas>
+	    </section>
 	    <div class="footer">
 	    	1 - shooting projectiles<br>
 	    	2 - hyperspace (there is a cooldown delay)<br>

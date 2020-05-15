@@ -16,13 +16,13 @@
 		<header>
 			<h1>WARP 9.9999!</h1>
 		</header>
-			<div class="button-wrapper center">
-	        	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
-	    	</div>
-            <br>
-			<section id="content">
-				<canvas id="Starfield" data-processing-sources="{{ url_for('static', filename='starfield/Starfield.pde') }}">
-		    </section>
+		<div class="button-wrapper center">
+        	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
+    	</div>
+        <br>
+		<section id="content">
+			<canvas id="Starfield" data-processing-sources="{{ url_for('static', filename='starfield/Starfield.pde') }}">
+	    </section>
 	    <div class="footer">
 	    	Click to add more triangles!
 	    	<br>

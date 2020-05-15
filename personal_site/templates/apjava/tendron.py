@@ -18,14 +18,14 @@
 			<p>Not quite a mess though...</p>
 			<p>Seems to have a recursive/fractal pattern...</p>
 		</header>
-			<div class="button-wrapper center">
-	        	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
-	        </div>
-            <br>
-			<section id="content">
-				<canvas id="Tendron" data-processing-sources="{{ url_for('static', filename='tendron/Tendron.pde') }} {{ url_for('static', filename='tendron/Cluster.pde') }} {{ url_for('static', filename='tendron/Tendril.pde') }}">
-				</canvas>
-		    </section>
+		<div class="button-wrapper center">
+        	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
+        </div>
+        <br>
+		<section id="content">
+			<canvas id="Tendron" data-processing-sources="{{ url_for('static', filename='tendron/Tendron.pde') }} {{ url_for('static', filename='tendron/Cluster.pde') }} {{ url_for('static', filename='tendron/Tendril.pde') }}">
+			</canvas>
+	    </section>
 	    <div class="footer">
 	    	Click to redraw and place the center of the Tendron in another location.
 	    	<br>
