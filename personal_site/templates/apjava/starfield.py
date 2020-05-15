@@ -17,7 +17,7 @@
 			<h1>WARP 9.9999!</h1>
 		</header>
 			<div class="button-wrapper center">
-	        	<a href="{{ url_for('apjava') }}" class="contact">Back</a>
+	        	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
 	    	</div>
             <br>
 			<section id="content">
