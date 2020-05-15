@@ -33,7 +33,7 @@
         </article>
         <br>
         <div class="button-wrapper center">
-            <a href="{{ url_for('index') }}" class="contact">Home</a>
+            <a href="{{ url_for('index') }}" class="back">Home</a>
         </div>
         <br>
         <div class="experiences center things">
