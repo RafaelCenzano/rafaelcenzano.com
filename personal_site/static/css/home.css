@@ -368,7 +368,7 @@ h1 {
 
 @media (prefers-color-scheme:dark) {
   .experiences {
-    background-color: #8a8a8a;
+    background-color: #454545;
   }
 
 }
@@ -378,10 +378,24 @@ h1 {
   font-size: 1.5em;
 }
 
+@media (prefers-color-scheme:dark) {
+  .experience {
+    color: rgb(205, 205, 205);
+  }
+
+}
+
 .experience-description {
   color: rgb(40, 40, 40);
   font-size: 1.3em;
   padding: 0px 20px 0px 20px;
+}
+
+@media (prefers-color-scheme:dark) {
+  .experience-description {
+    color: rgb(185, 185, 185);
+  }
+
 }
 
 .current-experience-description {
@@ -390,6 +404,13 @@ h1 {
 
 .experience-link {
   color: rgb(40, 40, 40);
+}
+
+@media (prefers-color-scheme:dark) {
+  .experience-link {
+    color: rgb(185, 185, 185);
+  }
+
 }
 
 .chronicle {
