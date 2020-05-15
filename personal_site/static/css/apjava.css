@@ -4,6 +4,12 @@ body {
     font-family: "Open Sans", sans-serif;
     text-align: center;
 }
+@media (prefers-color-scheme: dark){
+  body {
+    background-color: #212121;
+    color: #ddd;
+  }
+}
 
 #content {
     display: block;
@@ -11,10 +17,7 @@ body {
     margin-right: auto
 }
 
-header {
-}
-
-footer {
+.footer {
     font-style: italic;
     font-size: 90%;
 }
