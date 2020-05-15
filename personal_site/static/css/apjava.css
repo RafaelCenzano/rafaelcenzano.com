@@ -1,23 +1,38 @@
 body {
-    background-color: rgb(200, 200, 200);
-    color: rgb(0, 0, 0);
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
+  background-color: rgb(200, 200, 200);
+  color: rgb(0, 0, 0);
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
-@media (prefers-color-scheme: dark){
+
+@media (prefers-color-scheme:dark) {
   body {
     background-color: #212121;
-    color: #ddd;
   }
+
+}
+
+@media (prefers-color-scheme:dark) {
+  h1 {
+    color: #b0b0b0;
+  }
+
 }
 
 #content {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 .footer {
-    font-style: italic;
-    font-size: 90%;
+  font-style: italic;
+  font-size: 90%;
+}
+
+@media (prefers-color-scheme:dark) {
+  .footer {
+    color: #ddd;
+  }
+
 }
