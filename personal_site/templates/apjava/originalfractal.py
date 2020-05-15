@@ -24,10 +24,10 @@
 				<canvas id="OriginalFractal" data-processing-sources="{{ url_for('static', filename='originalfractal/OriginalFractal.pde') }}">
 				</canvas>
 		    </section>
-	    <footer>
+	    <div class="footer">
 	    	Move the mouse around!
 	    	<br>
 		    Created by Rafael for APCS A (Java) with Processing
-            {% include 'footer.py' %}
-	    </footer>
+		</div>
+        {% include 'footer.py' %}
 {% endblock %}

@@ -26,10 +26,10 @@
 				<canvas id="Tendron" data-processing-sources="{{ url_for('static', filename='tendron/Tendron.pde') }} {{ url_for('static', filename='tendron/Cluster.pde') }} {{ url_for('static', filename='tendron/Tendril.pde') }}">
 				</canvas>
 		    </section>
-	    <footer>
+	    <div class="footer">
 	    	Click to redraw and place the center of the Tendron in another location.
 	    	<br>
 		    Created by Rafael for APCS A (Java) with Processing
-		    {% include 'footer.py' %}
-	    </footer>
+		</div>
+	    {% include 'footer.py' %}
 {% endblock %}

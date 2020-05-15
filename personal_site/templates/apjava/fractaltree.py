@@ -24,9 +24,8 @@
 				<canvas id="FractalTree" data-processing-sources="{{ url_for('static', filename='fractaltree/FractalTree.pde') }}">
 				</canvas>
 		    </section>
-	    <footer>
+	    <div class="footer">
 		    Created by Rafael for APCS A (Java) with Processing
-		    <p class="copyright">© 2020 Rafael Cenzano</p>
-            {% include 'footer.py' %}
-	    </footer>
+		</div>
+        {% include 'footer.py' %}
 {% endblock %}

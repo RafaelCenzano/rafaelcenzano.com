@@ -23,10 +23,10 @@
 			<section id="content">
 				<canvas id="Starfield" data-processing-sources="{{ url_for('static', filename='starfield/Starfield.pde') }}">
 		    </section>
-	    <footer>
+	    <div class="footer">
 	    	Click to add more triangles!
 	    	<br>
 		    Created by Rafael for APCS A (Java) with Processing
-		    {% include 'footer.py' %}
-	    </footer>
+		</div>
+	    {% include 'footer.py' %}
 {% endblock %}

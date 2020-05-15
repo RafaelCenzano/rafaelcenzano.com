@@ -24,8 +24,8 @@
 				<canvas id="Lightning" data-processing-sources="{{ url_for('static', filename='lightning/Lightning.pde') }}">
 				</canvas>
 		    </section>
-	    <footer>
+	    <div class="footer">
 		    Created by Rafael for APCS A (Java) with Processing
-            {% include 'footer.py' %}
-	    </footer>
+		</div>
+        {% include 'footer.py' %}
 {% endblock %}
