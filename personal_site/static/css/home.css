@@ -280,6 +280,42 @@ h1 {
 
 }
 
+.back {
+  background-color: #001ede;
+  font-size: 1.6em;
+  color: #fff;
+  padding: 5px 12px 5px 12px;
+  border-radius: 10px;
+  transition-duration: 1s;
+  text-decoration: none;
+}
+
+@media (min-width:850px) {
+  .back:hover {
+    background-color: #00d3de;
+    text-decoration: underline;
+  }
+
+}
+
+.back-other {
+  background-color: #0bb026;
+  font-size: 1.6em;
+  color: #fff;
+  padding: 5px 12px 5px 12px;
+  border-radius: 10px;
+  transition-duration: 1s;
+  text-decoration: none;
+}
+
+@media (min-width:850px) {
+  .back-other:hover {
+    background-color: #07e807;
+    text-decoration: underline;
+  }
+
+}
+
 .title-wrapper {
   text-align: center;
   font-size: 2em;

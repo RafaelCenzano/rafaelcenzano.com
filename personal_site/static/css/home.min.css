@@ -79,6 +79,14 @@ h1{font-size:3.5rem;line-height:1.25;letter-spacing:0.2em;margin:2rem auto 1rem;
 @media (min-width:850px){
   .contact:hover{background-color:rgb(100,107,100);padding:5px 30px 5px 30px;color:#00d16f;letter-spacing:6px;}
 }
+.back{background-color:#001ede;font-size:1.6em;color:#fff;padding:5px 12px 5px 12px;border-radius:10px;transition-duration:1s;text-decoration:none;}
+@media (min-width:850px){
+  .back:hover{background-color:#00d3de;text-decoration:underline;}
+}
+.back-other{background-color:#0bb026;font-size:1.6em;color:#fff;padding:5px 12px 5px 12px;border-radius:10px;transition-duration:1s;text-decoration:none;}
+@media (min-width:850px){
+  .back-other:hover{background-color:#07e807;text-decoration:underline;}
+}
 .title-wrapper{text-align:center;font-size:2em;color:#212121;margin:-25px 0px -10px 0px;letter-spacing:0.1em;}
 @media (prefers-color-scheme:dark){
   .title-wrapper{color:#c4c4c4;}
