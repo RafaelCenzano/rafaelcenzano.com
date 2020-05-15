@@ -3,7 +3,8 @@ body{background-color:rgb(200,200,200);color:rgb(0,0,0);font-family:"Open Sans",
     body{background-color:#212121;}
 }
 @media (prefers-color-scheme:dark){
-    h1{color:#b0b0b0;}
+    h1,
+    p{color:#b0b0b0;}
 }
 #content{display:block;margin-left:auto;margin-right:auto}
 .footer{font-style:italic;font-size:90%;}
