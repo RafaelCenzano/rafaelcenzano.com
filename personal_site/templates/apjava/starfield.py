@@ -21,11 +21,9 @@
     	</div>
         <br>
 		<section id="content">
-			<canvas id="Starfield" data-processing-sources="{{ url_for('static', filename='starfield/Starfield.pde') }}">
+			<canvas id="Starfield" data-processing-sources="https://raw.githubusercontent.com/RafaelCenzano/Starfield/master/Starfield.pde">
 	    </section>
 	    <div class="footer">
-	    	Click to add more triangles!
-	    	<br>
 		    Created by Rafael for APCS A (Java) with Processing
 		</div>
 	    {% include 'footer.py' %}
