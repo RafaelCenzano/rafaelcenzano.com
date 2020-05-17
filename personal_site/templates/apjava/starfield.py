@@ -21,7 +21,7 @@
     	</div>
         <br>
 		<section id="content">
-			<canvas id="Starfield" data-processing-sources="https://raw.githubusercontent.com/RafaelCenzano/Starfield/master/Starfield.pde">
+			<canvas id="Starfield" data-processing-sources="{{ url_for('static', filename='starfield/Starfield.pde') }}">
 	    </section>
 	    <div class="footer">
 		    Created by Rafael for APCS A (Java) with Processing
