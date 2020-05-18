@@ -26,6 +26,8 @@
 	    </section>
 	    <div class="footer">
 		    Created by Rafael for APCS A (Java) with Processing
+            <br>
+            <a href="https://github.com/RafaelCenzano/Lightning" class="pdesource">Check out the code!</a>
 		</div>
         {% include 'footer.py' %}
 {% endblock %}
