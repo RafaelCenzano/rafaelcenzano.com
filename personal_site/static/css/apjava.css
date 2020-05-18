@@ -13,7 +13,8 @@ body {
 }
 
 @media (prefers-color-scheme:dark) {
-  h1, p {
+  h1,
+  p {
     color: #b0b0b0;
   }
 
@@ -35,4 +36,15 @@ body {
     color: #ddd;
   }
 
+}
+
+.pdesource,
+.pdesource:visited {
+  color: #0e8218;
+  text-decoration: none;
+}
+
+.pdesource:hover,
+.pdesource:visited:hover {
+  color: #16c926;
 }

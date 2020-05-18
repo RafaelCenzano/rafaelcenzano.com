@@ -11,3 +11,7 @@ body{background-color:rgb(200,200,200);color:rgb(0,0,0);font-family:"Open Sans",
 @media (prefers-color-scheme:dark){
     .footer{color:#ddd;}
 }
+.pdesource,
+.pdesource:visited{color:#0e8218;text-decoration:none;}
+.pdesource:hover,
+.pdesource:visited:hover{color:#16c926;}
