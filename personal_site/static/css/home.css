@@ -324,6 +324,13 @@ h1 {
   letter-spacing: 0.1em;
 }
 
+@media (max-width:850px) {
+  .title-wrapper {
+    font-size: 1.3em;
+  }
+
+}
+
 @media (prefers-color-scheme:dark) {
   .title-wrapper {
     color: #c4c4c4;
