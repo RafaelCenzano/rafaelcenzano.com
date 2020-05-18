@@ -30,6 +30,8 @@
 	    	Click to redraw and place the center of the Tendron in another location.
 	    	<br>
 		    Created by Rafael for APCS A (Java) with Processing
+		    <br>
+		    <a href="https://github.com/RafaelCenzano/Tendron" class="pdesource">Check out the code!</a>
 		</div>
 	    {% include 'footer.py' %}
 {% endblock %}
