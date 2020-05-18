@@ -28,6 +28,8 @@
 	    	Click to add more triangles!
 	    	<br>
 		    Created by Rafael for APCS A (Java) with Processing
+            <br>
+            <a href="https://github.com/RafaelCenzano/SierpinskiTriangle" class="pdesource">Check out the code!</a>
 		</div>
         {% include 'footer.py' %}
 {% endblock %}
