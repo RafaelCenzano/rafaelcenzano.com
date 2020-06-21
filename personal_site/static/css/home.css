@@ -1,27 +1,27 @@
 html,
 body {
   font-family: "Avenir Next", system-ui, "Helvetica Neue", sans-serif;
-  background-color: #fcfcfc;
+  background-color: #212121;
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:light) {
   html,
-  body {
-    background-color: #212121;
-  }
-
-}
-
-@media (max-width:800px) {
   body {
     background-color: #fcfcfc;
   }
 
 }
 
-@media (max-width:800px) and (prefers-color-scheme:dark) {
+@media (max-width:800px) {
   body {
     background-color: #212121;
+  }
+
+}
+
+@media (max-width:800px) and (prefers-color-scheme:light) {
+  body {
+    background-color: #fcfcfc;
   }
 
 }
@@ -33,14 +33,14 @@ body {
     width: 900px;
     height: 80%;
     border-radius: 10px;
-    background-color: #fcfcfc;
+    background-color: #212121;
   }
 
 }
 
-@media (min-width:801px) and (prefers-color-scheme:dark) {
+@media (min-width:801px) and (prefers-color-scheme:light) {
   .body-wrapper {
-    background-color: #212121;
+    background-color: #fcfcfc;
   }
 
 }
@@ -149,8 +149,15 @@ h1 {
   width: calc(100% - 2px);
   height: calc(100% - 2px);
   border-radius: 100%;
-  background: #ddd;
+  background-color: #4a4a4a;
   text-align: center;
+}
+
+@media (prefers-color-scheme:light) {
+  .social-button__inner {
+    background-color: #ddd;
+  }
+
 }
 
 .social-button i,
@@ -196,20 +203,13 @@ h1 {
 
 }
 
-@media (prefers-color-scheme:dark) {
-  .social-button__inner {
-    background-color: #4a4a4a;
-  }
-
-}
-
 .social-button--facebook {
-  color: #3b5999;
+  color: #3e79fa;
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:light) {
   .social-button--facebook {
-    color: #3e79fa;
+    color: #3b5999;
   }
 
 }
@@ -219,12 +219,12 @@ h1 {
 }
 
 .social-button--linkedin {
-  color: #0077b5;
+  color: #0086cc;
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:light) {
   .social-button--linkedin {
-    color: #0086cc;
+    color: #0077b5;
   }
 
 }
@@ -234,12 +234,12 @@ h1 {
 }
 
 .social-button--github {
-  color: #575e56;
+  color: #a1a1a1;
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:light) {
   .social-button--github {
-    color: #a1a1a1;
+    color: #575e56;
   }
 
 }
@@ -253,19 +253,19 @@ h1 {
 }
 
 .contact {
-  background-color: #00d16f;
+  background-color: #009951;
   font-size: 1.6em;
-  color: #fff;
+  color: #ddd;
   padding: 5px 12px 5px 12px;
   border-radius: 10px;
   transition-duration: 1s;
   letter-spacing: normal;
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:light) {
   .contact {
-    color: #ddd;
-    background-color: #009951;
+    color: #fff;
+    background-color: #00d16f;
   }
 
 }
@@ -318,7 +318,7 @@ h1 {
 .title-wrapper {
   text-align: center;
   font-size: 2em;
-  color: #212121;
+  color: #c4c4c4;
   margin: -25px 0px -10px 0px;
   letter-spacing: 0.1em;
 }
@@ -330,24 +330,23 @@ h1 {
 
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:light) {
   .title-wrapper {
-    color: #c4c4c4;
+    color: #212121;
   }
 
 }
 
 .project-base {
-  background: #4286f4;
+  background: #2f5da8;
   border-radius: 25px;
   margin: -15px 0px 0px 0px;
   transition: transform .4s;
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:light) {
   .project-base {
-    background: #2f5da8;
-    color: #c4c4c4;
+    background: #4286f4;
   }
 
 }
@@ -403,39 +402,39 @@ h1 {
 }
 
 .experiences {
-  background-color: rgb(211, 211, 211);
+  background-color: #454545;
   border-radius: 25px;
   padding: 5px 0px 5px 0px;
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:light) {
   .experiences {
-    background-color: #454545;
+    background-color: rgb(211, 211, 211);
   }
 
 }
 
 .experience {
-  color: rgb(56, 56, 56);
+  color: rgb(205, 205, 205);
   font-size: 1.5em;
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:light) {
   .experience {
-    color: rgb(205, 205, 205);
+    color: rgb(56, 56, 56);
   }
 
 }
 
 .experience-description {
-  color: rgb(40, 40, 40);
+  color: rgb(185, 185, 185);
   font-size: 1.3em;
   padding: 0px 20px 0px 20px;
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:light) {
   .experience-description {
-    color: rgb(185, 185, 185);
+    color: rgb(40, 40, 40);
   }
 
 }
@@ -445,12 +444,12 @@ h1 {
 }
 
 .experience-link {
-  color: rgb(40, 40, 40);
+  color: rgb(185, 185, 185);
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:light) {
   .experience-link {
-    color: rgb(185, 185, 185);
+    color: rgb(40, 40, 40);
   }
 
 }
@@ -466,12 +465,12 @@ footer {
 
 .copyright {
   margin: 20px 0px -15px 0px;
-  color: #515151;
+  color: #8c8c8c;
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme:light) {
   .copyright {
-    color: #8c8c8c;
+    color: #515151;
   }
 
 }
@@ -486,14 +485,14 @@ footer {
 
 @media (min-width:850px) {
   .source:hover {
-    color: rgb(10, 10, 10);
+    color: #ddd;
   }
 
 }
 
-@media (min-width:850px) and (prefers-color-scheme:dark) {
+@media (min-width:850px) and (prefers-color-scheme:light) {
   .source:hover {
-    color: #ddd;
+    color: rgb(10, 10, 10);
   }
 
 }
