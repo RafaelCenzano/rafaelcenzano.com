@@ -9,7 +9,7 @@
 	<link href='https://use.fontawesome.com/releases/v5.7.1/css/all.css' rel='stylesheet' type='text/css'>
 
     <style type="text/css">
-    @media (min-width:801px) {
+    @media (min-width:950px) {
       body {
         /* Fix background during scrolling */
         background-attachment: fixed;
