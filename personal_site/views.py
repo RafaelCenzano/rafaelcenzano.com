@@ -1,6 +1,6 @@
 # Imports
 from personal_site import app
-from flask import render_template, make_response, url_for, send_file
+from flask import render_template, make_response, url_for, send_file, abort
 
 '''
 Views
@@ -19,7 +19,10 @@ def apjava():
 
 @app.route('/apjava/<project>', methods=['GET'])
 def projects(project):
-    return render_template(f'apjava/{project.lower()}.py')
+    try:
+        return render_template(f'apjava/{project.lower()}.py')
+    except:
+        abort(404)
 
 
 @app.route('/marvin', methods=['GET'])
