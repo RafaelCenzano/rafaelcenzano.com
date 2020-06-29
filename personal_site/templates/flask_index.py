@@ -35,17 +35,17 @@
     </article>
 
     <div class="social-buttons">
-        <a href="https://www.facebook.com/profile.php?id=100008046498255" class="social-buttons__button social-button social-button--facebook" target="_blank" aria-label="Facebook">
+        <a rel="noopener" href="https://www.facebook.com/profile.php?id=100008046498255" class="social-buttons__button social-button social-button--facebook" target="_blank" aria-label="Facebook">
             <span class="social-button__inner">
                 <i class="fab fa-facebook-f"></i>
             </span>
         </a>
-        <a href="https://www.linkedin.com/in/rafael-cenzano/" class="social-buttons__button social-button social-button--linkedin" target="_blank" aria-label="LinkedIn">
+        <a rel="noopener" href="https://www.linkedin.com/in/rafael-cenzano/" class="social-buttons__button social-button social-button--linkedin" target="_blank" aria-label="LinkedIn">
             <span class="social-button__inner">
                 <i class="fab fa-linkedin-in"></i>
             </span>
         </a>
-        <a href="https://github.com/RafaelCenzano" class="social-buttons__button social-button social-button--github" target="_blank" aria-label="GitHub">
+        <a rel="noopener" href="https://github.com/RafaelCenzano" class="social-buttons__button social-button social-button--github" target="_blank" aria-label="GitHub">
             <span class="social-button__inner">
                 <i class="fab fa-github"></i>
             </span>
@@ -75,7 +75,7 @@
             </a>
         </div>
         <div class="project-base">
-            <a href="https://github.com/RafaelCenzano/PyStarter" target="_blank">
+            <a rel="noopener" href="https://github.com/RafaelCenzano/PyStarter" target="_blank">
                 <h3 class="project-title">Pystarter</h3>
                 <p class="project-description things-description">
                     CLI tool to aid in starting a project for python and git devlopers. Available on PyPi and can be installed with: pip install pystarter
@@ -97,38 +97,38 @@
     </div>
 
     <div class="experiences center things">
-        <h4><a href="https://www.hackthefog.com" target="_blank" class="experience">Hack The Fog (HTF)</a></h4>
+        <h4><a rel="noopener" href="https://www.hackthefog.com" target="_blank" class="experience">Hack The Fog (HTF)</a></h4>
         <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco and currently organizing Hack the Fog 2.0.</p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Currently Co-Lead Director and Director of Internal affairs ~</a>
+            <a rel="noopener" class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Currently Co-Lead Director and Director of Internal affairs ~</a>
         </p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Organizer 1 year 4 months ~</a>
+            <a rel="noopener" class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Organizer 1 year 4 months ~</a>
         </p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Operations 6 months ~</a>
+            <a rel="noopener" class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Operations 6 months ~</a>
         </p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link chronicle" target="_blank" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">HTF in a chronicle article!</a>
+            <a rel="noopener" class="experience-link chronicle" target="_blank" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">HTF in a chronicle article!</a>
         </p>
     </div>
     <br>
     <div class="experiences center things">
-        <h4><a href="https://www.lowelldev.club/" target="_blank" class="experience">Lowell Dev Club</a></h4>
+        <h4><a rel="noopener" href="https://www.lowelldev.club/" target="_blank" class="experience">Lowell Dev Club</a></h4>
         <p class="experience-description">Programming club at Lowell High School. Our mission is to make people interested in programming and have amazing experiences that stay with them for their whole life.</p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link" target="_blank" href="https://www.lowelldev.club">~ Co-Founder and Current Co-Leader ~</a>
+            <a rel="noopener" class="experience-link" target="_blank" href="https://www.lowelldev.club">~ Co-Founder and Current Co-Leader ~</a>
         </p>
     </div>
     <br>
     <div class="experiences center things">
-        <h4><a href="https://jcyc.org/jyl.htm" target="_blank" class="experience">Japantown Youth Leader (JYL)</a></h4>
+        <h4><a rel="noopener" href="https://jcyc.org/jyl.htm" target="_blank" class="experience">Japantown Youth Leader (JYL)</a></h4>
         <p class="experience-description">Youth Leadership program in Japantown San Francisco. We go into the community and voulnteer to help the community as well as learn valuable leadership skills.</p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader 2 years + Currently in program ~</a>
+            <a rel="noopener" class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ Japantown Youth Leader 2 years + Currently in program ~</a>
         </p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ 208.5 volunteer hours total ~</a>
+            <a rel="noopener" class="experience-link" target="_blank" href="https://jcyc.org/jyl.htm">~ 208.5 volunteer hours total ~</a>
         </p>
     </div>
     <br>
