@@ -6,8 +6,6 @@
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.min.css') }}">
 
-    <link href='https://use.fontawesome.com/releases/v5.7.1/css/all.css' rel='stylesheet' type='text/css'>
-
     <style type="text/css">
     @media (min-width:950px) {
       body {
