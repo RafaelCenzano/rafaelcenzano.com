@@ -31,7 +31,7 @@
 	<article class="color-changer">
         <h1 class="top-title">RAFAEL</h1>
         <h1 class="top-title">CENZANO</h1>
-        <img src="{{ url_for('static', filename='img/rafael_profile_square_half.jpeg') }}" class="profile">
+        <img alt="Rafael Profile Image" src="{{ url_for('static', filename='img/rafael_profile_square_half.jpeg') }}" class="profile">
     </article>
 
     <div class="social-buttons">
