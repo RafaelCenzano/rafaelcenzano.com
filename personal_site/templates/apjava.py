@@ -35,72 +35,72 @@
         </div>
         <br>
         <div class="experiences center things">
-            <h4><a rel="noopener" href="/apjava/asteroids" class="experience">☄️ Asteroids Game 🚀</a></h4>
+            <h4><a href="/apjava/asteroids" class="experience">☄️ Asteroids Game 🚀</a></h4>
             <p class="current-experience-description experience-description">
-                <a rel="noopener" class="experience-link" href="/apjava/asteroids">Semi-functional asteroids game. Includes movements, projectiles, and hyperspace.</a>
+                <a class="experience-link" href="/apjava/asteroids">Semi-functional asteroids game. Includes movements, projectiles, and hyperspace.</a>
             </p>
         </div>
         <br>
         <div class="experiences center things">
-            <h4><a rel="noopener" href="/apjava/chemotaxis" class="experience">🦠 Chemotaxis 🦠</a></h4>
+            <h4><a href="/apjava/chemotaxis" class="experience">🦠 Chemotaxis 🦠</a></h4>
             <p class="current-experience-description experience-description">
-                <a rel="noopener" class="experience-link" href="/apjava/chemotaxis">Random walking particles that eventually overtake each other.</a>
+                <a class="experience-link" href="/apjava/chemotaxis">Random walking particles that eventually overtake each other.</a>
             </p>
         </div>
         <br>
         <div class="experiences center things">
-            <h4><a rel="noopener" href="/apjava/originalfractal" class="experience">⭕ Custom Fractal ⭕</a></h4>
+            <h4><a href="/apjava/originalfractal" class="experience">⭕ Custom Fractal ⭕</a></h4>
             <p class="current-experience-description experience-description">
-                <a vclass="experience-link" href="/apjava/originalfractal">Random circles made recursively.</a>
+                <a class="experience-link" href="/apjava/originalfractal">Random circles made recursively.</a>
             </p>
         </div>
         <br>
         <div class="experiences center things">
-            <h4><a rel="noopener" href="/apjava/dice" class="experience">🎲 Dice 🎲</a></h4>
+            <h4><a href="/apjava/dice" class="experience">🎲 Dice 🎲</a></h4>
             <p class="current-experience-description experience-description">
-                <a rel="noopener" class="experience-link" href="/apjava/dice">Object Oriented Dice utilizing 2D arrays and displaying many dice and the totals of your rolls.</a>
+                <a class="experience-link" href="/apjava/dice">Object Oriented Dice utilizing 2D arrays and displaying many dice and the totals of your rolls.</a>
             </p>
         </div>
         <br>
         <div class="experiences center things">
-            <h4><a rel="noopener" href="/apjava/fractaltree" class="experience">🌴 Fractal Tree 🌴</a></h4>
+            <h4><a href="/apjava/fractaltree" class="experience">🌴 Fractal Tree 🌴</a></h4>
             <p class="current-experience-description experience-description">
-                <a rel="noopener" class="experience-link" href="/apjava/fractaltree">Recursive fractal tree that uses random values to make the tree sway in the "wind".</a>
+                <a class="experience-link" href="/apjava/fractaltree">Recursive fractal tree that uses random values to make the tree sway in the "wind".</a>
             </p>
         </div>
         <br>
         <div class="experiences center things">
-            <h4><a rel="noopener" href="/apjava/lightning" class="experience">⚡ Lightning ⚡</a></h4>
+            <h4><a href="/apjava/lightning" class="experience">⚡ Lightning ⚡</a></h4>
             <p class="current-experience-description experience-description">
-                <a rel="noopener" class="experience-link" href="/apjava/lightning">Random walking lines that create lightning to look like a plasma ball.</a>
+                <a class="experience-link" href="/apjava/lightning">Random walking lines that create lightning to look like a plasma ball.</a>
             </p>
         </div>
         <br>
         <div class="experiences center things">
-            <h4><a rel="noopener" href="/apjava/minesweeper" class="experience">💣 Minesweeper 💣</a></h4>
+            <h4><a href="/apjava/minesweeper" class="experience">💣 Minesweeper 💣</a></h4>
             <p class="current-experience-description experience-description">
-                <a rel="noopener" class="experience-link" href="/apjava/tendron">Minesweeper game made with guido library. Contains Object Oriented code, recursion, and 2 dimensional arrays</a>
+                <a class="experience-link" href="/apjava/tendron">Minesweeper game made with guido library. Contains Object Oriented code, recursion, and 2 dimensional arrays</a>
             </p>
         </div>
         <br>
         <div class="experiences center things">
-            <h4><a rel="noopener" href="/apjava/sierpinskitriangle" class="experience">🔺 Sierpinski Triangle 🔻</a></h4>
+            <h4><a href="/apjava/sierpinskitriangle" class="experience">🔺 Sierpinski Triangle 🔻</a></h4>
             <p class="current-experience-description experience-description">
-                <a rel="noopener" class="experience-link" href="/apjava/sierpinskitriangle">A simple recursive sierpinski triangle.</a>
+                <a class="experience-link" href="/apjava/sierpinskitriangle">A simple recursive sierpinski triangle.</a>
             </p>
         </div>
         <br>
         <div class="experiences center things">
-            <h4><a rel="noopener" href="/apjava/starfield" class="experience">🌌 Star Field 🖖</a></h4>
+            <h4><a href="/apjava/starfield" class="experience">🌌 Star Field 🖖</a></h4>
             <p class="current-experience-description experience-description">
-                <a rel="noopener" class="experience-link" href="/apjava/starfield">Object Oriented program that utilizes Arraylists to create particles to make a warp effect.</a>
+                <a class="experience-link" href="/apjava/starfield">Object Oriented program that utilizes Arraylists to create particles to make a warp effect.</a>
             </p>
         </div>
         <br>
         <div class="experiences center things">
-            <h4><a rel="noopener" href="/apjava/tendron" class="experience">🦑 Tendron 🦑</a></h4>
+            <h4><a href="/apjava/tendron" class="experience">🦑 Tendron 🦑</a></h4>
             <p class="current-experience-description experience-description">
-                <a rel="noopener" class="experience-link" href="/apjava/tendron">Recursive fractal tendril program.</a>
+                <a class="experience-link" href="/apjava/tendron">Recursive fractal tendril program.</a>
             </p>
         </div>
         <br>
