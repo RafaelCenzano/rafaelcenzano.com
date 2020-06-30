@@ -17,6 +17,7 @@
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='img/favicon-32x32.png') }}">
 	<link rel="icon" type="image/png" sizes="96x96" href="{{ url_for('static', filename='img/favicon-96x96.png') }}">
+	<link rel="alternate icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
 
 	<!-- Apple Icon -->
 	<link rel="apple-touch-icon" sizes="57x57"   href="{{ url_for('static', filename='img/apple-icon-57x57.png') }}">
