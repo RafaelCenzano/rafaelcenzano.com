@@ -31,6 +31,7 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='img/apple-icon-180x180.png') }}">
 
 	<!-- Andriod Icon -->
+	<link rel="icon" type="image/png" sizes="36x36"    href="{{ url_for('static', filename='img/android-icon-36x36.png') }}">
 	<link rel="icon" type="image/png" sizes="48x48"    href="{{ url_for('static', filename='img/android-icon-48x48.png') }}">
 	<link rel="icon" type="image/png" sizes="72x72"    href="{{ url_for('static', filename='img/android-icon-72x72.png') }}">
 	<link rel="icon" type="image/png" sizes="96x96"    href="{{ url_for('static', filename='img/android-icon-96x96.png') }}">
