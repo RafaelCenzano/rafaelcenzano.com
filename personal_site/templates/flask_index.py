@@ -52,7 +52,7 @@
     <br>
      <div class="experiences center things">
         <h4 class="experience">About me</h4>
-        <p class="experience-description">I'm a Junior at Lowell Highschool and I love to code on my free time. I Co-lead a coding club and I am a Co-Director of a highschool hackathon. I have created many projects in python and processing (Java).</p>
+        <p class="experience-description">I'm a Senior at Lowell Highschool and I love to code on my free time. I Co-Founded Co-Lead a coding club and I am a Co-Founder and Co-Director of a highschool hackathon. I have created many projects in python and processing (Java).</p>
     </div>
 
     <div class="button-wrapper center">
@@ -64,6 +64,22 @@
     </div>
 
     <div class="projects things center">
+        <div class="project-base">
+            <a rel="noopener" href="https://github.com/RafaelCenzano/jyl-site" target="_blank">
+                <h3 class="project-title">JYL Toolbox</h3>
+                <p class="project-description things-description">
+                    A Flask app created to connect student leaders together and to provide a space for all members of JYL and adult leaders to share content and work together.
+                </p>
+            </a>
+        </div>
+        <div class="project-base">
+            <a rel="noopener" href="https://github.com/RafaelCenzano/Corona-Virus-Email-Updater" target="_blank">
+                <h3 class="project-title">Covid 19 Reporter</h3>
+                <p class="project-description things-description">
+                    A webscraper that scrapes from the CDC and The SF Chronicle to provide a daily email report containing data on case counts and death counts including changes in both. It displays the current day and the previous day's data on a table in the email.
+                </p>
+            </a>
+        </div>
         <div class="project-base">
             <a href="{{ url_for('marvin') }}">
                 <h3 class="project-title">Marvin Virtual Assistant</h3>
@@ -96,9 +112,12 @@
 
     <div class="experiences center things">
         <h4><a rel="noopener" href="https://www.hackthefog.com" target="_blank" class="experience">Hack The Fog (HTF)</a></h4>
-        <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco and currently organizing Hack the Fog 2.0.</p>
+        <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco and currently organizing Hack the Fog 2.0. Hosted Hack the Cloud an online hackathon in response to the pandemic.</p>
         <p class="current-experience-description experience-description">
-            <a rel="noopener" class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Currently Co-Lead Director and Director of Internal affairs ~</a>
+            <a rel="noopener" class="experience-link" target="_blank" href="https://cloud.hackthefog.com">~ Currently Co-Director of Hack the Cloud (Online Hackathon) ~</a>
+        </p>
+        <p class="current-experience-description experience-description">
+            <a rel="noopener" class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Co-Lead Director and Director of Internal affairs for Hack the Fog 2.0 *Postponed* ~</a>
         </p>
         <p class="current-experience-description experience-description">
             <a rel="noopener" class="experience-link" target="_blank" href="https://www.hackthefog.com">~ Organizer 1 year 4 months ~</a>
@@ -115,7 +134,15 @@
         <h4><a rel="noopener" href="https://www.lowelldev.club/" target="_blank" class="experience">Lowell Dev Club</a></h4>
         <p class="experience-description">Programming club at Lowell High School. Our mission is to make people interested in programming and have amazing experiences that stay with them for their whole life.</p>
         <p class="current-experience-description experience-description">
-            <a rel="noopener" class="experience-link" target="_blank" href="https://www.lowelldev.club">~ Co-Founder and Current Co-Leader ~</a>
+            <a rel="noopener" class="experience-link" target="_blank" href="https://www.lowelldev.club">~ Co-Founder and Current Co-President ~</a>
+        </p>
+    </div>
+    <br>
+    <div class="experiences center things">
+        <h4><a rel="noopener" href="#" target="_blank" class="experience">Empower.py</a></h4>
+        <p class="experience-description">Online organization created to bring cs education to students with Python.</p>
+        <p class="current-experience-description experience-description">
+            <a rel="noopener" class="experience-link" target="_blank" href="#">~ Currently Director of Instruction ~</a>
         </p>
     </div>
     <br>
