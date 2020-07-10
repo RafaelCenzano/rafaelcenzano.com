@@ -131,13 +131,13 @@
     </div>
     <br>
     <div class="experiences center things">
-        <h4><a rel="noopener" href="https://bytelab.rafaelcenzano.com" class="experience">Byte Lab</a></h4>
+        <h4><a rel="noopener" target="_blank" href="https://bytelab.rafaelcenzano.com" class="experience">Byte Lab</a></h4>
         <p class="experience-description">Programming club at Lowell High School.</p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link" rel="noopener" href="https://bytelab.rafaelcenzano.com">~ Club Secretary 1 year ~</a>
+            <a target="_blank" class="experience-link" rel="noopener" href="https://bytelab.rafaelcenzano.com">~ Club Secretary 1 year ~</a>
         </p>
         <p class="current-experience-description experience-description">
-            <a class="experience-link" rel="noopener" href="https://bytelab.rafaelcenzano.com">~ Club Member 1 year ~</a>
+            <a target="_blank" class="experience-link" rel="noopener" href="https://bytelab.rafaelcenzano.com">~ Club Member 1 year ~</a>
         </p>
     </div>
     {% include 'footer.py' %}
