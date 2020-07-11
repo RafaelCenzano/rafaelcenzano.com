@@ -37,8 +37,6 @@
 	<link rel="icon" type="image/png" sizes="96x96"    href="{{ url_for('static', filename='img/android-icon-96x96.png') }}">
 	<link rel="icon" type="image/png" sizes="144x144"  href="{{ url_for('static', filename='img/android-icon-144x144.png') }}">
 	<link rel="icon" type="image/png" sizes="192x192"  href="{{ url_for('static', filename='img/android-icon-192x192.png') }}">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#dddddd">
 
 	<!-- Facebook -->
 	<meta property="og:title" content="Rafael Cenzano">
