@@ -12,7 +12,7 @@
         /* Fix background during scrolling */
         background-attachment: fixed;
         /* Use scalable background image */
-        background-image: url("{{ url_for('static', filename='img/bkgrdhalf3.jpeg') }}");
+        background-image: url("https://keetious.sirv.com/Images/bkgrdhalf3.jpeg?format=webp&q=85");
         background-position: center center;
         background-attachment: fixed;
         -ms-background-size: cover;
