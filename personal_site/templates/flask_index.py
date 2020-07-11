@@ -12,7 +12,7 @@
         /* Fix background during scrolling */
         background-attachment: fixed;
         /* Use scalable background image */
-        background-image: url("{{ url_for('static', filename='img/bkgrdhalf.jpeg') }}");
+        background-image: url("https://keetious.sirv.com/Images/bkgrdhalf.jpeg?format=webp&q=85");
         background-position: center center;
         background-attachment: fixed;
         -ms-background-size: cover;
@@ -29,7 +29,7 @@
 	<article class="color-changer">
         <h1 class="top-title">RAFAEL</h1>
         <h1 class="top-title">CENZANO</h1>
-        <img alt="Rafael Profile Image" src="{{ url_for('static', filename='img/rafael_profile_square_half.jpeg') }}" class="profile">
+        <img class="profile" src="https://keetious.sirv.com/Images/rafael.jpeg?w=200&q=100" width="200" height="200" srcset="https://keetious.sirv.com/Images/rafael.jpeg?w=200&q=100 1x, https://keetious.sirv.com/Images/rafael.jpeg?w=400&q=100 2x" alt="Rafael Cenzano Profile Image" />
     </article>
 
     <div class="social-buttons">
@@ -113,6 +113,9 @@
     <div class="experiences center things">
         <h4><a rel="noopener" href="https://www.hackthefog.com" target="_blank" class="experience">Hack The Fog (HTF)</a></h4>
         <p class="experience-description">Organized Hack The Fog the first high school hackathon in San Francisco and currently organizing Hack the Fog 2.0. Hosted Hack the Cloud an online hackathon in response to the pandemic.</p>
+        <p class="current-experience-description experience-description">
+            <a rel="noopener" class="experience-link" target="_blank" href="https://cloud.hackthefog.com">~ Co-Founder and Director of the Hack the Fog Organization ~</a>
+        </p>
         <p class="current-experience-description experience-description">
             <a rel="noopener" class="experience-link" target="_blank" href="https://cloud.hackthefog.com">~ Currently Co-Director of Hack the Cloud (Online Hackathon) ~</a>
         </p>
