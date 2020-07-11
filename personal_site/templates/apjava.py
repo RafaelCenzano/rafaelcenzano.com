@@ -12,7 +12,7 @@
         /* Fix background during scrolling */
         background-attachment: fixed;
         /* Use scalable background image */
-        background-image: url("https://keetious.sirv.com/Images/bkgrdhalf2.jpeg?format=webp&q=85");
+        background-image: url("https://rafael.sirv.com/Images/bkgrdhalf2.jpeg?format=webp&q=85");
         background-position: center center;
         background-attachment: fixed;
         -ms-background-size: cover;

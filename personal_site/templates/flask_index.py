@@ -12,7 +12,7 @@
         /* Fix background during scrolling */
         background-attachment: fixed;
         /* Use scalable background image */
-        background-image: url("https://keetious.sirv.com/Images/bkgrdhalf.jpeg?format=webp&q=85");
+        background-image: url("https://rafael.sirv.com/Images/bkgrdhalf.jpeg?format=webp&q=85");
         background-position: center center;
         background-attachment: fixed;
         -ms-background-size: cover;
@@ -29,7 +29,7 @@
 	<article class="color-changer">
         <h1 class="top-title">RAFAEL</h1>
         <h1 class="top-title">CENZANO</h1>
-        <img class="profile" src="https://keetious.sirv.com/Images/rafael.jpeg?w=200&q=100" width="200" height="200" srcset="https://keetious.sirv.com/Images/rafael.jpeg?w=200&q=100 1x, https://keetious.sirv.com/Images/rafael.jpeg?w=400&q=100 2x" alt="Rafael Cenzano Profile Image" />
+        <img class="profile" src="https://rafael.sirv.com/Images/rafael.jpeg?w=200&q=100" width="200" height="200" srcset="https://rafael.sirv.com/Images/rafael.jpeg?w=200&q=100 1x, https://rafael.sirv.com/Images/rafael.jpeg?w=400&q=100 2x" alt="Rafael Cenzano Profile Image" />
     </article>
 
     <div class="social-buttons">
