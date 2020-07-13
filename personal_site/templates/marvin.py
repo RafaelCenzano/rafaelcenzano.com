@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.min.css') }}">
 
     <style type="text/css">
-    @media (min-width:950px) {
+    @media (min-width:1000px) {
       body {
         /* Fix background during scrolling */
         background-attachment: fixed;

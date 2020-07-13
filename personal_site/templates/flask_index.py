@@ -3,11 +3,10 @@
 {% block title %}Rafael Cenzano{% endblock %}
 
 {% block head_css %}
-
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.min.css') }}">
-    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.min.css') }}">  
     <style type="text/css">
-    @media (min-width:950px) {
+    @media (min-width:1000px) {
       body {
         /* Fix background during scrolling */
         background-attachment: fixed;
