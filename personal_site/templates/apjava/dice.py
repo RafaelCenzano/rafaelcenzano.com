@@ -24,7 +24,7 @@
 			<canvas id="Dice" data-processing-sources="{{ url_for('static', filename='dice/Dice.pde') }}">
 			</canvas>
 	    </section>
-	    <div class="footer">
+	    <div class="desc">
 		    Created by Rafael for APCS A (Java) with Processing
 		</div>
 		{% include 'footer.py' %}

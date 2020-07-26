@@ -24,7 +24,7 @@
 			<canvas id="AsteroidsGame" data-processing-sources="{{ url_for('static', filename='asteroids/AsteroidsGame.pde') }} {{ url_for('static', filename='asteroids/Floater.pde') }}  {{ url_for('static', filename='asteroids/Spaceship.pde') }} {{ url_for('static', filename='asteroids/Star.pde') }} {{ url_for('static', filename='asteroids/Asteroid.pde') }} {{ url_for('static', filename='asteroids/Bullet.pde') }}">
 			</canvas>
 	    </section>
-	    <div class="footer">
+	    <div class="desc">
 	    	1 - shooting projectiles<br>
 	    	2 - hyperspace (there is a cooldown delay)<br>
 	    	3 - turn left<br>

@@ -23,7 +23,7 @@
 		<section id="content">
 			<canvas id="Starfield" data-processing-sources="{{ url_for('static', filename='starfield/Starfield.pde') }}">
 	    </section>
-	    <div class="footer">
+	    <div class="desc">
 		    Created by Rafael for APCS A (Java) with Processing
 		    <br>
 		    <a href="https://github.com/RafaelCenzano/Starfield" class="pdesource">Check out the code!</a>

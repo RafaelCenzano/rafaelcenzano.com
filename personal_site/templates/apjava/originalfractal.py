@@ -24,7 +24,7 @@
 			<canvas id="OriginalFractal" data-processing-sources="{{ url_for('static', filename='originalfractal/OriginalFractal.pde') }}">
 			</canvas>
 	    </section>
-	    <div class="footer">
+	    <div class="desc">
 	    	Move the mouse around!
 	    	<br>
 		    Created by Rafael for APCS A (Java) with Processing

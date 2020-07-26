@@ -19,9 +19,8 @@ Use pip to install needed libraries
 pip install -r requirements.txt
 ```
 
-## Authors
-
-* [**Rafael Cenzano**](https://github.com/RafaelCenzano)
+<!-- DO NOT REMOVE - contributor_list:start -->
+<!-- DO NOT REMOVE - contributor_list:end -->
 
 ## Quote
 
