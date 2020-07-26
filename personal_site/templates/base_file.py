@@ -65,6 +65,7 @@
 
 	{% block meta %}
 	{% endblock %}
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     {% block head_css %}
     {% endblock %}
     {% block head_js %}
