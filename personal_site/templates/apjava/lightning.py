@@ -24,7 +24,7 @@
 			<canvas id="Lightning" data-processing-sources="{{ url_for('static', filename='lightning/Lightning.pde') }}">
 			</canvas>
 	    </section>
-	    <div class="footer">
+	    <div class="desc">
 		    Created by Rafael for APCS A (Java) with Processing
             <br>
             <a href="https://github.com/RafaelCenzano/Lightning" class="pdesource">Check out the code!</a>

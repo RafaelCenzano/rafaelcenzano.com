@@ -25,7 +25,7 @@
             <canvas id="Minesweeper" data-processing-sources="{{ url_for('static', filename='minesweeper/Minesweeper.pde') }}">
             </canvas>
         </section>
-        <div class="footer">
+        <div class="desc">
             Created by Rafael for APCS A (Java) with Processing
             <br>
             <a href="https://github.com/RafaelCenzano/Minesweeper" class="pdesource">Check out the code!</a>

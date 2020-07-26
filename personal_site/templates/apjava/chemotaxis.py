@@ -24,7 +24,7 @@
 			<canvas id="Chemotaxis" data-processing-sources="{{ url_for('static', filename='chemotaxis/Chemotaxis.pde') }}">
 			</canvas>
 	    </section>
-	    <div class="footer">
+	    <div class="desc">
 	    	The Plague always takes everything over...
 	    	But a cure can restart its process until further mutations (Click)
 	    	<br>
