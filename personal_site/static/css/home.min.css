@@ -315,16 +315,21 @@ a{text-decoration:none;}
 .project-container{border-radius:15px;background-color:#6b6b6b;transition:box-shadow 0.5s;}
 .project-container:hover{box-shadow:0px 0px 4px 3px #a2a2a2;}
 @media (prefers-color-scheme:light){
-  .project-container{background-color:#ddd;}
-  .project-container:hover{box-shadow:0px 0px 4px 3px #000;}
+  .project-container{background-color:#757575;}
+  .project-container:hover{box-shadow: 0px 0px 7px 2px #737373;}
 }
 .project-container .img{margin:0 auto;width:100%;}
 .project-container .img img{width:100%;border-radius:15px 15px 0 0;}
 .project-container .project-title{position:relative;width:100%;}
-.project-container h3{width:100%;margin-bottom:-45px;position:absolute;color:#fff;font-size:30px;border-radius:15px 15px 0 0;font-weight:450;background:#777777cf;}
-@media(max-width:500px){
-  .project-container h3{max-width:90%;margin:0 auto;background-color:#6b6b6b;width:100%;margin-bottom:0;position:relative;}
+@media(max-width:499px){
+  .project-container h3{max-width:90%;margin:0 auto;background-color:#6b6b6b;width:100%;margin-bottom:0;position:relative;color:#fff;font-size:30px;border-radius:15px 15px 0 0;font-weight:450;}
   .project-container .img img{border-radius:0;}
+}
+@media (prefers-color-scheme:light){
+  .project-container h3{background-color:#757575;}
+}
+@media(min-width:500px){
+  .project-container h3{width:100%;margin-bottom:-45px;position:absolute;color:#fff;font-size:30px;border-radius:15px 15px 0 0;font-weight:450;background:#777777cf;}
 }
 .project-container .project-description{margin:0 auto;color:#fff;padding:10px 0;max-width:90%;font-size:20px;font-weight:500;text-align:left;}
 .push{margin-top:12px;}
@@ -347,7 +352,7 @@ a{text-decoration:none;}
 .positions p{padding:7px 0;font-weight:500;font-size:15px;}
 .ap{text-align:center;margin:0 auto 20px auto;}
 .java{text-align:center;background-color:#ccc;border-radius:7px;padding:10px;}
-.java h4{padding:5px 0; font-size: 30px;}
+.java h4{padding:5px 0;font-size:30px;}
 .java p{padding:2px 0 5px 0;line-height:30px;width:80%;margin:auto;}
 .java h4 a,
 .java p a{color:#000;}
