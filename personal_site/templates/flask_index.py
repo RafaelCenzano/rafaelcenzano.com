@@ -33,10 +33,10 @@
         </a>
     </div>
     <div id="webring-wrapper">
-        <a href="https://googol88.github.io/webring/" id="previousBtn" class="webring-anchor" title="Previous">‹</a>
-        <a href="https://googol88.github.io/webring/" class="webring-logo" title="Hack Club Webring" alt="Hack Club Webring"></a>
-        <a href="https://googol88.github.io/webring/" id="nextBtn" class="webring-anchor" title="Next">›</a>
-        <script src="https://googol88.github.io/webring/public/embed.js"></script>
+        <a rel="noopener" href="https://webring.hackclub.com" class="webring-anchor" title="Previous">‹</a>
+        <a rel="noopener" href="https://webring.hackclub.com" class="webring-logo" title="Hack Club Webring" alt="Hack Club Webring"></a>
+        <a rel="noopener" href="https://webring.hackclub.com" class="webring-anchor" title="Next">›</a>
+        <script src="https://webring.hackclub.com/public/embed.min.js"></script>
     </div>
     <div class="bio">
         <div class="columns"><div class="column is-narrow"><h2>About me</h2></div><div class="column"><div class="button-wrapper center"><a href="mailto:contact@rafaelcenzano.com" class="contact">Contact me!</a></div></div></div>
