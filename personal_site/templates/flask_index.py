@@ -251,29 +251,6 @@
             </div>
             <div class="column is-half">
                 <div class="experience-container">
-                    <h3>Empower.py</h3>
-                    <div class="columns is-centered is-vcentered is-mobile images">
-                        <div class="column">
-                            <div class="experience-img">
-                                <img src="https://rafael.sirv.com/Images/empowerpy.png?h=200&format=webp&webp.fallback=png&png.optimize=true"
-                                srcset="https://rafael.sirv.com/Images/empowerpy.png?h=200&format=webp&webp.fallback=png&png.optimize=true 1x,
-                                https://rafael.sirv.com/Images/empowerpy.png?h=800&format=webp&webp.fallback=png&png.optimize=true 2x"
-                                alt="Empowerpy Logo" loading="lazy" />
-                            </div>
-                        </div>
-                    </div>
-                    <h4>Director of Instruction</h4>
-                    <p class="experience-description">Empowerpy is an organization created to bring computer science education to students through Python.</p>
-                    <div class="links">
-                        <p><a target="_blank" rel="noopener" href="https://empowerpy.org">empowerpy.org</a></p>
-                    </div>
-                    <div class="positions">
-                        <p>- Director of Instruction Since June 2020</p>
-                    </div>
-                </div>
-            </div>
-            <div class="column is-half">
-                <div class="experience-container">
                     <h3>ByteLab</h3>
                     <div class="columns is-centered is-vcentered is-mobile images">
                         <div class="column">
