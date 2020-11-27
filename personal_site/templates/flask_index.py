@@ -49,7 +49,7 @@
     <div class="columns is-multiline">
         <div class="column is-full">
             <div class="project-column">
-                <a href="#">
+                <a href="https://hackathon.rafaelcenzano.com">
                     <div class="project-container">
                         <div class="project-title"><h3>Hackathon Projects</h3></div>
                         <div class="img">
