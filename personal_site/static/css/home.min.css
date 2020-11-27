@@ -280,10 +280,10 @@ a{text-decoration:none;}
 #webring-wrapper{margin:10px auto;text-align:center;}
 .bio{width:90%;margin:0 auto;}
 .bio h2,
-.title-wrapper h2{font-size:50px;font-weight:600;}
-@media(prefers-color-scheme:dark){
+.title-wrapper h2{color:#ccc;font-weight:600;}        
+@media(prefers-color-scheme:light){
   .bio h2,
-  .title-wrapper h2{color:#ccc;}
+  .title-wrapper h2{font-size:50px;}
 }
 .bio p{font-size:25px;font-weight:300;color:#ddd;}
 @media (prefers-color-scheme:light){
