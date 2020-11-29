@@ -163,9 +163,9 @@
                     <div class="columns is-centered is-vcentered is-mobile images">
                         <div class="column">
                             <div class="experience-img">
-                                <img src="https://rafael.sirv.com/Images/photon-commerce.jpeg?h=200format=webp&webp.fallback=jpg"
-                                srcset="https://rafael.sirv.com/Images/photon-commerce.jpeg?h=200format=webp&webp.fallback=jpg 1x,
-                                https://rafael.sirv.com/Images/photon-commerce.jpeg?h=800format=webp&webp.fallback=jpg 2x"
+                                <img src="https://rafael.sirv.com/Images/photon-commerce.jpeg?h=200&format=webp&webp.fallback=jpg"
+                                srcset="https://rafael.sirv.com/Images/photon-commerce.jpeg?h=200&format=webp&webp.fallback=jpg 1x,
+                                https://rafael.sirv.com/Images/photon-commerce.jpeg?h=800&format=webp&webp.fallback=jpg 2x"
                                 alt="Photon Commerce Logo" loading="lazy" />
                             </div>
                         </div>
