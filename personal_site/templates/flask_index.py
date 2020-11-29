@@ -157,6 +157,29 @@
     </div>
     <div class="experiences">
         <div class="columns is-multiline is-centered">
+            <div class="column is-full">
+                <div class="experience-container">
+                    <h3>Photon Commerce</h3>
+                    <div class="columns is-centered is-vcentered is-mobile images">
+                        <div class="column">
+                            <div class="experience-img">
+                                <img src="https://rafael.sirv.com/Images/photon-commerce.jpeg?h=200format=webp&webp.fallback=jpg"
+                                srcset="https://rafael.sirv.com/Images/photon-commerce.jpeg?h=200format=webp&webp.fallback=jpg 1x,
+                                https://rafael.sirv.com/Images/photon-commerce.jpeg?h=800format=webp&webp.fallback=jpg 2x"
+                                alt="Photon Commerce Logo" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+                    <h4>Software Engineer Intern</h4>
+                    <p class="experience-description">Photon Commerce is a fintech company with products using AI to digitize financial data.</p>
+                    <div class="links">
+                        <p><a target="_blank" rel="noopener" href="https://www.photoncommerce.com">photoncommerce.com</a></p>
+                    </div>
+                    <div class="positions">
+                        <p>- Software Engineer Intern</p>
+                    </div>
+                </div>
+            </div>
             <div class="column is-half">
                 <div class="experience-container">
                     <h3>Hack the Fog</h3>
