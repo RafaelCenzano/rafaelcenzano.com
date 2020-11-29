@@ -209,7 +209,7 @@
                             </div>
                         </div>
                     </div>
-                    <h4>Co-Founder and Director of Hack the Fog</h4>
+                    <h4>Co-Founder and Director</h4>
                     <p class="experience-description">Hack the Fog (HTF) is a Non-Profit organization that I <strong>co-founded</strong>. In March 2018 HTF made history by hosting the <strong>first high school hackathon in San Francisco</strong>, HTF got featured in the SF Chronicle for this achievment. Since July 2019 HTF started organizing HTF 2.0, but due to Covid-19 is has been indefinitely postponed. In 3 months part of the HTF organization hosted <strong>Hack the Cloud, HTF's reaction Covid-19</strong> to bring the hackathon experience to highschoolers during the shelter in place.</p>
                     <div class="links">
                         <p><a target="_blank" rel="noopener" href="https://htf.hackthefog.com">htf.hackthefog.com</a></p>
