@@ -5,7 +5,7 @@ from flask import Flask
 app = Flask(__name__)
 
 # Add Configurations to app
-app.config.from_pyfile('config.py', silent=True)
+app.config.from_pyfile("config.py", silent=True)
 
 # Import all views
 import personal_site.views
