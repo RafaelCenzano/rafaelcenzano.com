@@ -23,7 +23,7 @@ def apjava():
 def projects(project):
     try:
         return render_template(f"apjava/{project.lower()}.html")
-    except TemplateNotFound as e:
+    except TemplateNotFound:
         abort(404)
 
 
