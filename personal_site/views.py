@@ -21,7 +21,7 @@ def apjava():
 def projects(project):
     try:
         return render_template(f'apjava/{project.lower()}.html')
-    except:
+    except BaseException:
         abort(404)
 
 
