@@ -1,6 +1,6 @@
 # Imports
 from personal_site import app
-from flask import render_template, make_response, url_for, send_file, abort
+from flask import render_template, make_response, send_file, abort
 
 '''
 Views
