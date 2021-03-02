@@ -1,4 +1,4 @@
-from personal_site import app
+from personal_site import app # skipcq: PYL-W0611
 
 '''
 # run app
