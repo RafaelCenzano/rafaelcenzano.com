@@ -1,6 +1,6 @@
-{% extends 'base_file.py' %}
+{% extends 'base_file.html' %}
 
-{% block title %}Tendron{% endblock %}
+{% block title %}Plague{% endblock %}
 
 {% block head_css %}
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -14,24 +14,21 @@
 
 {% block content %}
 		<header>
-			<h1>Fractal tree? no a weird mess of tendrils</h1>
-			<p>Not quite a mess though...</p>
-			<p>Seems to have a recursive/fractal pattern...</p>
+			<h1>The Plague</h1>
 		</header>
 		<div class="button-wrapper center">
         	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
-        </div>
+    	</div>
         <br>
 		<section id="content">
-			<canvas id="Tendron" data-processing-sources="{{ url_for('static', filename='tendron/Tendron.pde') }} {{ url_for('static', filename='tendron/Cluster.pde') }} {{ url_for('static', filename='tendron/Tendril.pde') }}">
+			<canvas id="Chemotaxis" data-processing-sources="{{ url_for('static', filename='chemotaxis/Chemotaxis.pde') }}">
 			</canvas>
 	    </section>
 	    <div class="desc">
-	    	Click to redraw and place the center of the Tendron in another location.
+	    	The Plague always takes everything over...
+	    	But a cure can restart its process until further mutations (Click)
 	    	<br>
 		    Created by Rafael for APCS A (Java) with Processing
-		    <br>
-		    <a href="https://github.com/RafaelCenzano/Tendron" class="pdesource">Check out the code!</a>
 		</div>
-	    {% include 'footer.py' %}
+		{% include 'footer.html' %}
 {% endblock %}
