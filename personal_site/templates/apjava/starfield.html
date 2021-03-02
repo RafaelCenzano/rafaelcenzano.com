@@ -1,6 +1,6 @@
-{% extends 'base_file.py' %}
+{% extends 'base_file.html' %}
 
-{% block title %}Plague{% endblock %}
+{% block title %}Enterprise at Warp{% endblock %}
 
 {% block head_css %}
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -14,21 +14,19 @@
 
 {% block content %}
 		<header>
-			<h1>The Plague</h1>
+			<h1>WARP 9.9999!</h1>
 		</header>
 		<div class="button-wrapper center">
         	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
     	</div>
         <br>
 		<section id="content">
-			<canvas id="Chemotaxis" data-processing-sources="{{ url_for('static', filename='chemotaxis/Chemotaxis.pde') }}">
-			</canvas>
+			<canvas id="Starfield" data-processing-sources="{{ url_for('static', filename='starfield/Starfield.pde') }}">
 	    </section>
 	    <div class="desc">
-	    	The Plague always takes everything over...
-	    	But a cure can restart its process until further mutations (Click)
-	    	<br>
 		    Created by Rafael for APCS A (Java) with Processing
+		    <br>
+		    <a href="https://github.com/RafaelCenzano/Starfield" class="pdesource">Check out the code!</a>
 		</div>
-		{% include 'footer.py' %}
+	    {% include 'footer.html' %}
 {% endblock %}

@@ -1,6 +1,6 @@
-{% extends 'base_file.py' %}
+{% extends 'base_file.html' %}
 
-{% block title %}Plasma Cube{% endblock %}
+{% block title %}Tendron{% endblock %}
 
 {% block head_css %}
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -14,20 +14,24 @@
 
 {% block content %}
 		<header>
-			<h1>Plasma Cube</h1>
+			<h1>Fractal tree? no a weird mess of tendrils</h1>
+			<p>Not quite a mess though...</p>
+			<p>Seems to have a recursive/fractal pattern...</p>
 		</header>
 		<div class="button-wrapper center">
         	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
-    	</div>
+        </div>
         <br>
 		<section id="content">
-			<canvas id="Lightning" data-processing-sources="{{ url_for('static', filename='lightning/Lightning.pde') }}">
+			<canvas id="Tendron" data-processing-sources="{{ url_for('static', filename='tendron/Tendron.pde') }} {{ url_for('static', filename='tendron/Cluster.pde') }} {{ url_for('static', filename='tendron/Tendril.pde') }}">
 			</canvas>
 	    </section>
 	    <div class="desc">
+	    	Click to redraw and place the center of the Tendron in another location.
+	    	<br>
 		    Created by Rafael for APCS A (Java) with Processing
-            <br>
-            <a href="https://github.com/RafaelCenzano/Lightning" class="pdesource">Check out the code!</a>
+		    <br>
+		    <a href="https://github.com/RafaelCenzano/Tendron" class="pdesource">Check out the code!</a>
 		</div>
-        {% include 'footer.py' %}
+	    {% include 'footer.html' %}
 {% endblock %}
