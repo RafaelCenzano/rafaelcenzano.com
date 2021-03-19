@@ -285,7 +285,7 @@ a{text-decoration:none;}
   .bio h2,
   .title-wrapper h2{font-size:50px;}
 }
-.bio p{font-size:25px;font-weight:300;color:#ddd;}
+.bio p{font-size:25px;color:#ddd;}
 @media (prefers-color-scheme:light){
   .bio p{color:#444;}
 }
