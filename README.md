@@ -22,6 +22,13 @@ pip install -r requirements.txt
 <!-- DO NOT REMOVE - contributor_list:start -->
 <!-- DO NOT REMOVE - contributor_list:end -->
 
+## Run
+
+You can run the code with python just uncomment app.run in [run.py](run.py). To run it in development use gunicorn the command below is what I use in production
+```
+gunicorn run:app --preload --timeout 10 --max-requests 50
+```
+
 ## Quote
 
 A computer vision image classifier api using an advanced machine learning algorithm to classify an item in an image, but it really just say your paper is cardboard
