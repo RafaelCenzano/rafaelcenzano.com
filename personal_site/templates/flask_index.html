@@ -3,311 +3,120 @@
 {% block title %}Rafael Cenzano{% endblock %}
 
 {% block head_css %}
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.min.css') }}">  
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.css') }}">
 {% endblock %}
 
 {% block content %}
+    <nav>
+        <div>
+            <button aria-label="Toggle dark mode" class="muted pointer no-select tooltipped tooltipped--s moon-button" data-behavior="toggle_theme" id="color-mode-switch" onclick="switchTheme()" role="button" tabindex="0"><svg height="36" id="openMoon" style="display:none;" viewbox="0 0 32 32" width="36" xmlns="http://www.w3.org/2000/svg">
+            <path clip-rule="evenodd" d="M23.116 22.885h-.001c-7.732 0-14-6.268-14-14v-.001a9.952 9.952 0 0 0-2 6.001c0 5.523 4.477 10 10 10 2.251 0 4.329-.743 6.001-2zm2.422-2.245c.903-.185 1.721.724 1.166 1.46a11.982 11.982 0 0 1-9.59 4.785c-6.627 0-12-5.373-12-12 0-3.92 1.88-7.4 4.786-9.59.736-.554 1.645.264 1.46 1.167-.16.783-.245 1.593-.245 2.423 0 6.627 5.373 12 12 12 .83 0 1.64-.084 2.423-.245z" fill-rule="evenodd"></path></svg> <svg height="36" id="fullMoon" style="" viewbox="0 0 32 32" width="36" xmlns="http://www.w3.org/2000/svg">
+            <path d="M26.704 22.1c.555-.736-.263-1.645-1.166-1.46-.783.16-1.593.245-2.423.245-6.627 0-12-5.373-12-12 0-.83.084-1.64.245-2.423.185-.903-.724-1.721-1.46-1.166a11.982 11.982 0 0 0-4.785 9.59c0 6.627 5.373 12 12 12 3.92 0 7.4-1.88 9.59-4.786z"></path></svg></button>
+        </div>
+        <div class="options">
+            <p><a href="#experiences">Experiences</a></p>
+        </div>
+        <!--<div class="options">
+            <p><a href="#projects">Projects</a></p>
+        </div>-->
+    </nav>
+    <div class="columns">
+        <div class="column is-one-third is-gapless">
+            <div class="profile"><img alt="Rafael Cenzano's Profile Image" src="https://rafael.sirv.com/Images/rafael.jpeg?thumbnail=350&format=webp&q=90" srcset="https://rafael.sirv.com/Images/rafael.jpeg?thumbnail=350&format=webp&q=90 1x, https://rafael.sirv.com/Images/rafael.jpeg?thumbnail=175&format=webp&q=90 0.5x, https://rafael.sirv.com/Images/rafael.jpeg?thumbnail=700&format=webp&q=90 2x, https://rafael.sirv.com/Images/rafael.jpeg?thumbnail=1050&format=webp&q=90 3x"></div>
+        </div>
+        <div class="column">
+            <div class="top">
+                <h1>Rafael Cenzano</h1>
+            </div>
+            <div class="socials">
+                <div>
+                    <a aria-label="Github" href="https://github.com/RafaelCenzano" rel="noopener" target="_blank"><svg aria-hidden="true" class="svg-inline--fa fa-github-square fa-w-14 fa-3x" data-icon="github-square" data-prefix="fab" role="img" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                    <path class d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z" fill="currentColor"></path></svg></a>
+                </div>
+                <div>
+                    <a aria-label="Facebook" href="https://www.facebook.com/profile.php?id=100008046498255" rel="noopener" target="_blank"><svg aria-hidden="true" class="svg-inline--fa fa-facebook-square fa-w-14 fa-3x" data-icon="facebook-square" data-prefix="fab" role="img" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                    <path class d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" fill="currentColor"></path></svg></a>
+                </div>
+                <div>
+                    <a aria-label="Linkedin" href="https://www.linkedin.com/in/rafael-cenzano/" rel="noopener" target="_blank"><svg aria-hidden="true" class="svg-inline--fa fa-linkedin fa-w-14 fa-3x" data-icon="linkedin" data-prefix="fab" role="img" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                    <path class d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" fill="currentColor"></path></svg></a>
+                </div>
+                <div>
+                    <a href="mailto:contact@rafaelcenzano.com"><svg aria-hidden="true" class="svg-inline--fa fa-envelope-square fa-w-14 fa-5x" data-icon="envelope-square" data-prefix="fas" role="img" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                    <path class d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM178.117 262.104C87.429 196.287 88.353 196.121 64 177.167V152c0-13.255 10.745-24 24-24h272c13.255 0 24 10.745 24 24v25.167c-24.371 18.969-23.434 19.124-114.117 84.938-10.5 7.655-31.392 26.12-45.883 25.894-14.503.218-35.367-18.227-45.883-25.895zM384 217.775V360c0 13.255-10.745 24-24 24H88c-13.255 0-24-10.745-24-24V217.775c13.958 10.794 33.329 25.236 95.303 70.214 14.162 10.341 37.975 32.145 64.694 32.01 26.887.134 51.037-22.041 64.72-32.025 61.958-44.965 81.325-59.406 95.283-70.199z" fill="currentColor"></path></svg></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 id="experiences">Experiences</h2>
+    <div class="experience columns clear-padding">
+        <div class="column is-4"><img alt="PhotonCommerce Logo" class="exp-img" height="250" src="https://rafael.sirv.com/Images/photon-commerce.jpeg?w=250&format=webp" srcset="https://rafael.sirv.com/Images/photon-commerce.jpeg?w=250&format=webp 1x, https://rafael.sirv.com/Images/photon-commerce.jpeg?w=500&format=webp 2x" width="250"></div>
+        <div class="column">
+            <h3><a href="https://www.photoncommerce.com/" rel="noopener" target="_blank">Photon Commerce</a></h3>
+            <h4 class="position">Software Engineer Intern, Novemeber 2020 - July 2021</h4>
+            <h4 class="location">San Francisco, CA</h4>
+            <ul>
+                <li>Photon Commerce is a Fintech startup that digitizes documents and connects all your financial documents to allow for faster, more efficient, and less error prone financial transactions.</li>
+                <li>Reported directly with the CEO and lead engineers on various products and projects.</li>
+                <li>Utilized Python and Regular Expression to map data from large blocks of text to structured data.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="experience columns clear-padding">
+        <div class="column is-4"><img alt="Hack the Fog Logo" class="exp-img" height="162" src="https://rafael.sirv.com/Images/htf2.png?w=250&format=webp" srcset="https://rafael.sirv.com/Images/htf2.png?w=250&format=webp 1x, https://rafael.sirv.com/Images/htf2.png?w=500&format=webp 2x" width="250"></div>
+        <div class="column">
+            <h3><a href="https://www.hackthefog.com" rel="noopener" target="_blank">Hack the Fog</a></h3>
+            <h4 class="position">College Advisor, Since October 2017</h4>
+            <h4 class="location">San Francisco, CA</h4>
+            <ul>
+                <li>Currently I'm advising the team while they continue the organization and create future events.</li>
+                <li>I joined Hack the Fog's founding team as a freshman in highschool. Our team went on to host San Francisco’s first all-inclusive high school hackathon. During my time on this team...</li>
+                <li>Hosted the next events as Co-Director of 2020 events, Director of 2021 events, and Director of the non-profit.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="experience columns clear-padding">
+        <div class="column is-4"><img class="exp-img" src="https://rafael.sirv.com/Images/apo.png?w=250&format=jpg" width="250" height="193" srcset="https://rafael.sirv.com/Images/apo.png?w=250&format=jpg 1x, https://rafael.sirv.com/Images/apo.png?w=500&format=jpg 2x" alt="Alpha Phi Omega Logo" /></div>
+        <div class="column">
+            <h3><a href="https://apo.org" rel="noopener" target="_blank">Alpha Phi Omega</a></h3>
+            <h4 class="position">Pledge, Since September 2021</h4>
+            <h4 class="location">Rensselaer Polytechnic Institute</h4>
+            <ul>
+                <li>Alpha Phi Omega is a national gender inclusive service fraternity centered around the principles of leadership, friendship, and service.</li>
+                <li>I'm currently pledging by doing service, hosting events, and engaging in chapter management.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="experience columns clear-padding">
+        <div class="column is-4"><img alt="Japantown Youth Leaders Logo" class="exp-img" height="245" src="https://rafael.sirv.com/Images/jyl.png?w=250&format=webp" srcset="https://rafael.sirv.com/Images/jyl.png?w=250&format=webp 1x, https://rafael.sirv.com/Images/jyl.png?w=250&format=webp 2x" width="250"></div>
+        <div class="column">
+            <h3><a href="https://jcyc.org/jyl.htm" rel="noopener" target="_blank">Japantown Youth Leaders</a></h3>
+            <h4 class="position">Youth Leader, September 2017 - May 2021</h4>
+            <h4 class="location">San Francisco, CA</h4>
+            <ul>
+                <li>The Japantown Youth Leaders is a youth leaders program run by JCYC. Leaders volunteer throughout the year at various events in japantown and the city.</li>
+                <li>I learned skills like leadership, public speaking, and volunteerism through weekly meetings. I used these skills to host service projects and take leadership roles within the group</li>
+            </ul>
+        </div>
+    </div>
+    <div class="experience columns clear-padding">
+        <div class="column is-4"><img class="exp-img" src="https://rafael.sirv.com/Images/devclub.png?w=250&format=webp" width="250" height="250" srcset="https://rafael.sirv.com/Images/devclub.png?w=250&format=webp 1x, https://rafael.sirv.com/Images/devclub.png?w=500&format=webp 2x" alt="Lowell Dev Club Logo" /></div>
+        <div class="column">
+            <h3><a href="https://devclub.rafaelcenzano.com" rel="noopener" target="_blank">Lowell Dev Club</a></h3>
+            <h4 class="position">Co-Founder and Co-Leader, May 2019 - May 2021</h4>
+            <h4 class="location">San Francisco, CA</h4>
+            <ul>
+                <li>Lowell Dev Club is a Hack Club at Lowell high school. I co-founded Dev Club to bring meaningful CS experiences and lessons to fellow students. I also wanted to prepare and connect students to CS experiences like Hackathons.</li>
+                <li>I used leadership skills that I had learned in JYL to lead this club and put in time to manage everything that was required to make sure the club ran smoothly.</li>
+            </ul>
+        </div>
+    </div>
 
-    <div class="body-wrapper">
-	<article class="color-changer">
-        <div class="top-title"><h1>RAFAEL</h1></div>
-        <div class="top-title second"><h1>CENZANO</h1></div>
-        <img class="profile" src="https://rafael.sirv.com/Images/rafael.jpeg?w=300&q=100" 
-            width="300" height="300" 
-            srcset="https://rafael.sirv.com/Images/rafael.jpeg?w=300&q=100 1x,
-                    https://rafael.sirv.com/Images/rafael.jpeg?w=450&q=100 1.5x,
-                    https://rafael.sirv.com/Images/rafael.jpeg?w=600&q=100 2x,
-                    https://rafael.sirv.com/Images/rafael.jpeg?w=750&q=100 2.5x,
-                    https://rafael.sirv.com/Images/rafael.jpeg?w=900&q=100 3x,
-                    https://rafael.sirv.com/Images/rafael.jpeg?w=1050&q=100 3.5x,
-                    https://rafael.sirv.com/Images/rafael.jpeg?w=1200&q=100 4x"
-            alt="Rafael Cenzano's Profile Image" />
-    </article>
-    <div class="my-socials">
-        <a rel="noopener" href="https://www.facebook.com/profile.php?id=100008046498255" class="social-icon my-facebook" target="_blank" aria-label="Facebook">
-            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
-        </a>
-        <a rel="noopener" href="https://www.linkedin.com/in/rafael-cenzano/" class="social-icon my-linkedin" target="_blank" aria-label="LinkedIn">
-            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
-        </a>
-        <a rel="noopener" href="https://github.com/RafaelCenzano" class="social-icon my-github" target="_blank" aria-label="GitHub">
-            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
-        </a>
-    </div>
-    <div class="bio">
-        <div class="columns"><div class="column is-narrow"><h2>About me</h2></div><div class="column"><div class="button-wrapper center"><a href="mailto:contact@rafaelcenzano.com" class="contact">Contact me!</a></div></div></div>
-        <p>I'm a Hobby Programmer who plans to do Computer Science for my career. I'm currently a Software Engineer at a fintech startup in San Francisco. I Co-Founded Co-Lead a coding club and I am a Co-Founder and Co-Director of a highschool hackathon. I have created many projects in python, processing (Java), and HTML + CSS.</p>
-    </div>
-
-    <div class="title-wrapper">
-        <h2>Projects<h2>
-    </div>
-    <div class="columns is-multiline">
-        <div class="column is-full">
-            <div class="project-column">
-                <a href="https://hackathon.rafaelcenzano.com">
-                    <div class="project-container">
-                        <div class="project-title"><h3>Hackathon Projects</h3></div>
-                        <div class="img">
-                            <img src="https://rafael.sirv.com/Images/hackathon.png?w=800&format=webp&webp.fallback=png&png.optimize=true"
-                            srcset="https://rafael.sirv.com/Images/hackathon.png?w=800&format=webp&webp.fallback=png&png.optimize=true 1x,
-                            https://rafael.sirv.com/Images/hackathon.png?w=1600&format=webp&webp.fallback=png&png.optimize=true 2x"
-                            alt="Hackathon image" loading="lazy" />
-                        </div>
-                        <div class="project-description">
-                            <p>Projects that I've worked on during various hackathons.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="main-projects">
-        <div class="columns is-multiline is-centered">
-            <div class="column is-half">
-                <a target="_blank" rel="noopener" href="https://github.com/RafaelCenzano/jyl-site">
-                    <div class="project-container">
-                        <div class="project-title"><h3>JYL Toolbox</h3></div>
-                        <div class="img">
-                            <img src="https://rafael.sirv.com/Images/jyltoolbox.png?w=800&format=webp&webp.fallback=png&png.optimize=true"
-                            srcset="https://rafael.sirv.com/Images/jyltoolbox.png?w=800&format=webp&webp.fallback=png&png.optimize=true 1x,
-                            https://rafael.sirv.com/Images/jyltoolbox.png?w=1600&format=webp&webp.fallback=png&png.optimize=true 2x"
-                            alt="JYL Toolbox Image" loading="lazy" />
-                        </div>
-                        <div class="project-description">
-                            <p>JYL Toolbox is a Flask website created for the Japantown Youth Leaders group. It was created to help connect students to leaders and to provide an easy online experience that improves the JYL experience for students and leaders alike.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="column is-half">
-                <a target="_blank" rel="noopener" href="https://github.com/RafaelCenzano/Corona-Virus-Email-Updater">
-                    <div class="project-container">
-                        <div class="project-title"><h3>COVID-19 Reporter</h3></div>
-                        <div class="img">
-                            <img src="https://rafael.sirv.com/Images/covid19reporter2.png?w=800&format=webp&webp.fallback=png&png.optimize=true"
-                            srcset="https://rafael.sirv.com/Images/covid19reporter2.png?w=800&format=webp&webp.fallback=png&png.optimize=true 1x,
-                            https://rafael.sirv.com/Images/covid19reporter2.png?w=1600&format=webp&webp.fallback=png&png.optimize=true 2x"
-                            alt="JYL Toolbox Image" loading="lazy" />
-                        </div>
-                        <div class="project-description">
-                            <p>A web-scraper that scrapes from the CDC and The SF Chronicle to provide a daily email report containing data on case counts, death counts, and the difference in numbers from the previous day.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="column is-half">
-                <a target="_blank" rel="noopener" href="https://pypi.org/project/PyStarter/">
-                    <div class="project-container">
-                        <div class="project-title"><h3>PyStarter</h3></div>
-                        <div class="img">
-                            <img src="https://rafael.sirv.com/Images/pystarter.png?w=800&format=webp&webp.fallback=png&png.optimize=true"
-                            srcset="https://rafael.sirv.com/Images/pystarter.png?w=800&format=webp&webp.fallback=png&png.optimize=true 1x,
-                            https://rafael.sirv.com/Images/pystarter.png?w=1600&format=webp&webp.fallback=png&png.optimize=true 2x"
-                            alt="JYL Toolbox Image" loading="lazy" />
-                        </div>
-                        <div class="project-description">
-                            <p>Command Line tool to aid in starting a project for python and git developers. Available on PyPi and can be installed with: pip install pystarter</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="column is-half">
-                <a href="{{ url_for('marvin') }}">
-                    <div class="project-container">
-                        <div class="project-title"><h3>Marvin Virtual Assistant</h3></div>
-                        <div class="img">
-                            <img src="https://rafael.sirv.com/Images/marvin.png?w=800&format=webp&webp.fallback=png&png.optimize=true"
-                            srcset="https://rafael.sirv.com/Images/marvin.png?w=800&format=webp&webp.fallback=png&png.optimize=true 1x,
-                            https://rafael.sirv.com/Images/marvin.png?w=1600&format=webp&webp.fallback=png&png.optimize=true 2x"
-                            alt="Hackathon image" loading="lazy" />
-                        </div>
-                        <div class="project-description">
-                            <p>A virtual assistant created in python that currently has 4 versions. It contains a web-scraper and utilizes APIs to give users data and useful functions.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="columns is-multiline push">
-        <div class="column is-full">
-            <div class="project-column">
-                <a href="{{ url_for('apjava') }}">
-                    <div class="project-container">
-                        <div class="project-title"><h3>AP CS A</h3></div>
-                        <div class="img">
-                            <img src="https://rafael.sirv.com/Images/apcs.jpg?w=800&format=webp&webp.fallback=jpg" width="800" height="450"
-                            alt="AP Computer Science" loading="lazy" />
-                        </div>
-                        <div class="project-description">
-                            <p>Projects created in Processing for APCS A (Java). The projects can be viewed right in the browser.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="title-wrapper">
-        <h2>Experiences<h2>
-    </div>
-    <div class="experiences">
-        <div class="columns is-multiline is-centered">
-            <div class="column is-full">
-                <div class="experience-container">
-                    <h3>Photon Commerce</h3>
-                    <div class="columns is-centered is-vcentered is-mobile images">
-                        <div class="column">
-                            <div class="experience-img">
-                                <img src="https://rafael.sirv.com/Images/photon-commerce.jpeg?h=200&format=webp&webp.fallback=jpg"
-                                srcset="https://rafael.sirv.com/Images/photon-commerce.jpeg?h=200&format=webp&webp.fallback=jpg 1x,
-                                https://rafael.sirv.com/Images/photon-commerce.jpeg?h=400&format=webp&webp.fallback=jpg 2x,
-                                https://rafael.sirv.com/Images/photon-commerce.jpeg?h=600&format=webp&webp.fallback=jpg 3x
-                                https://rafael.sirv.com/Images/photon-commerce.jpeg?h=800&format=webp&webp.fallback=jpg 4x"
-                                alt="Photon Commerce Logo" loading="lazy" />
-                            </div>
-                        </div>
-                    </div>
-                    <h4>Software Engineer Intern</h4>
-                    <p class="experience-description">Photon Commerce is a fintech company with products using AI to digitize financial data.</p>
-                    <div class="links">
-                        <p><a target="_blank" rel="noopener" href="https://www.photoncommerce.com">photoncommerce.com</a></p>
-                    </div>
-                    <div class="positions">
-                        <p>- Software Engineer Intern</p>
-                    </div>
-                </div>
-            </div>
-            <div class="column is-half">
-                <div class="experience-container">
-                    <h3>Hack the Fog</h3>
-                    <div class="columns is-centered is-vcentered is-mobile images">
-                        <div class="column">
-                            <div class="experience-img">
-                                <img src="https://rafael.sirv.com/Images/htf1.png?h=200&format=webp&webp.fallback=png&png.optimize=true"
-                                srcset="https://rafael.sirv.com/Images/htf1.png?h=200&format=webp&webp.fallback=png&png.optimize=true 1x,
-                                https://rafael.sirv.com/Images/htf1.png?h=400&format=webp&webp.fallback=png&png.optimize=true 2x,
-                                https://rafael.sirv.com/Images/htf1.png?h=600&format=webp&webp.fallback=png&png.optimize=true 3x,
-                                https://rafael.sirv.com/Images/htf1.png?h=800&format=webp&webp.fallback=png&png.optimize=true 4x"
-                                alt="Hack the Fog 1.0 Logo" loading="lazy" />
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="experience-img">
-                                <img src="https://rafael.sirv.com/Images/htf2.png?h=200&format=webp&webp.fallback=png&png.optimize=true"
-                                srcset="https://rafael.sirv.com/Images/htf2.png?h=200&format=webp&webp.fallback=png&png.optimize=true 1x,
-                                https://rafael.sirv.com/Images/htf2.png?h=200&format=webp&webp.fallback=png&png.optimize=true 2x,
-                                https://rafael.sirv.com/Images/htf2.png?h=600&format=webp&webp.fallback=png&png.optimize=true 3x,
-                                https://rafael.sirv.com/Images/htf2.png?h=800&format=webp&webp.fallback=png&png.optimize=true 4x"
-                                alt="Hack the Fog 2.0 Logo" loading="lazy" />
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="experience-img">
-                                <img src="https://rafael.sirv.com/Images/hackthecloudWhitetext.png?h=200&format=webp&webp.fallback=png&png.optimize=true"
-                                srcset="https://rafael.sirv.com/Images/hackthecloudWhitetext.png?h=200&format=webp&webp.fallback=png&png.optimize=true 1x,
-                                https://rafael.sirv.com/Images/hackthecloudWhitetext.png?h=400&format=webp&webp.fallback=png&png.optimize=true 2x,
-                                https://rafael.sirv.com/Images/hackthecloudWhitetext.png?h=600&format=webp&webp.fallback=png&png.optimize=true 3x,
-                                https://rafael.sirv.com/Images/hackthecloudWhitetext.png?h=800&format=webp&webp.fallback=png&png.optimize=true 4x"
-                                alt="Hack the Cloud Logo" loading="lazy" />
-                            </div>
-                        </div>
-                    </div>
-                    <h4>Co-Founder and Director</h4>
-                    <p class="experience-description">Hack the Fog (HTF) is a Non-Profit organization that I <strong>co-founded</strong>. In March 2018 HTF made history by hosting the <strong>first high school hackathon in San Francisco</strong>, HTF got featured in the SF Chronicle for this achievement. Since July 2019 HTF started organizing HTF 2.0, but due to COVID-19 the event was canceled. In 3 months part of the HTF organization hosted <strong>Hack the Cloud, HTF's reaction COVID-19</strong> to bring the hackathon experience to high school students during the shelter in place.</p>
-                    <div class="links">
-			<p><a target="_blank" rel="noopener" href="https://www.hackthefog.com">hackthefog.com</a></p>
-                        <p><a target="_blank" rel="noopener" href="https://htf.hackthefog.com">htf.hackthefog.com</a></p>
-                        <p><a target="_blank" rel="noopener" href="https://htc.hackthefog.com">htc.hackthefog.com</a></p>
-                        <p><a target="_blank" rel="noopener" href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">sfchonicle.com</a></p>
-                    </div>
-                    <div class="positions">
-                        <p>- Director of Hack the Cloud 2.0 (Planned for July 10th 2021)</p>
-                        <p>- Co-Director of Hack the Cloud (Hosted July 11th 2020)</p>
-                        <p>- Co-Director and Director of Internal Affairs of Hack the Fog 2.0 (Canceled)</p>
-                        <p>- Co-Founder and Organizer of Hack the Fog (Hosted March 3rd 2018)</p>
-                    </div>
-                </div>
-            </div>
-            <div class="column is-half">
-                <div class="experience-container">
-                    <h3>Lowell Dev Club</h3>
-                    <div class="columns is-centered is-vcentered is-mobile images">
-                        <div class="column">
-                            <div class="experience-img">
-                                <img src="https://rafael.sirv.com/Images/devclub.png?h=200&format=webp&webp.fallback=png&png.optimize=true"
-                                srcset="https://rafael.sirv.com/Images/devclub.png?h=200&format=webp&webp.fallback=png&png.optimize=true 1x,
-                                https://rafael.sirv.com/Images/devclub.png?h=400&format=webp&webp.fallback=png&png.optimize=true 2x,
-                                https://rafael.sirv.com/Images/devclub.png?h=600&format=webp&webp.fallback=png&png.optimize=true 3x,
-                                https://rafael.sirv.com/Images/devclub.png?h=800&format=webp&webp.fallback=png&png.optimize=true 4x"
-                                alt="Lowell Dev Club Logo" loading="lazy" />
-                            </div>
-                        </div>
-                    </div>
-                    <h4>Co-Founder and Co-President</h4>
-                    <p class="experience-description">Lowell Dev Club is a <strong>Hack Club</strong> at Lowell highschool. Dev Club was founded after ByteLab, the previous cs club at Lowell, ended and was created to improve on the weakness of ByteLab. We founded Dev Club to bring <strong>meaningful CS experiences and lessons</strong> to fellow students. We also wanted to <strong>prepare and connect students to CS experiences</strong> like Hackathons.</p>
-                    <div class="links">
-                        <p><a target="_blank" rel="noopener" href="https://www.lowelldev.club">lowelldev.club</a></p>
-                        <p><a target="_blank" rel="noopener" href="https://hackclub.com">hackclub.com</a></p>
-                    </div>
-                    <div class="positions">
-                        <p>- Co-Founder and Co-President Since May 2019</p>
-                    </div>
-                </div>
-            </div>
-            <div class="column is-half">
-                <div class="experience-container">
-                    <h3>Japantown Youth Leaders</h3>
-                    <div class="columns is-centered is-vcentered is-mobile images">
-                        <div class="column">
-                            <div class="experience-img">
-                                <img src="https://rafael.sirv.com/Images/jyl.png?h=200&format=webp&webp.fallback=png&png.optimize=true"
-                                srcset="https://rafael.sirv.com/Images/jyl.png?h=200&format=webp&webp.fallback=png&png.optimize=true 1x,
-                                https://rafael.sirv.com/Images/jyl.png?h=400&format=webp&webp.fallback=png&png.optimize=true 2x,
-                                https://rafael.sirv.com/Images/jyl.png?h=600&format=webp&webp.fallback=png&png.optimize=true 3x,
-                                https://rafael.sirv.com/Images/jyl.png?h=800&format=webp&webp.fallback=png&png.optimize=true 4x"
-                                alt="Japantown Youth Leaders Logo" loading="lazy" />
-                            </div>
-                        </div>
-                    </div>
-                    <h4>Youth Leader</h4>
-                    <p class="experience-description">Japantown Youth Leaders (JYL) is a youth leaders program through JCYC. Leaders <strong>volunteer throughout the year at various events in japantown and the city</strong>. Leaders have weekly meetings diving more in depth in skills  like leadership, public speaking, and volunteerism. I have <strong>volunteered 208.5 hours</strong> since I started JYL</p>
-                    <div class="links">
-                        <p><a target="_blank" rel="noopener" href="https://jcyc.org/jyl.htm">jcyc.org/jyl</a></p>
-                    </div>
-                    <div class="positions">
-                        <p>- JYL toolbox creator and maintainer Since March 2020</p>
-                        <p>- Youth Leader Since September 2017</p>
-                    </div>
-                </div>
-            </div>
-            <div class="column is-half">
-                <div class="experience-container">
-                    <h3>ByteLab</h3>
-                    <div class="columns is-centered is-vcentered is-mobile images">
-                        <div class="column">
-                            <div class="experience-img">
-                                <img src="https://rafael.sirv.com/Images/bytelab.png?h=200&format=webp&webp.fallback=png&png.optimize=true"
-                                srcset="https://rafael.sirv.com/Images/bytelab.png?h=200&format=webp&webp.fallback=png&png.optimize=true 1x,
-                                https://rafael.sirv.com/Images/bytelab.png?h=800&format=webp&webp.fallback=png&png.optimize=true 2x"
-                                alt="Bytelab Logo" loading="lazy" />
-                            </div>
-                        </div>
-                    </div>
-                    <h4>Club Secretary</h4>
-                    <p class="experience-description">Bytelab was a coding club created to teach students how to become fullstack developers.</p>
-                    <div class="links">
-                        <p><a target="_blank" rel="noopener" href="https://bytelab.rafaelcenzano.com">bytelab.rafaelcenzano.com</a></p>
-                    </div>
-                    <div class="positions">
-                        <p>- Club Secretary 2018-2019</p>
-                        <p>- Club Member 2017-2019</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     {% include 'footer.html' %}
-    </div>
 
+{% endblock %}
+
+{% block trailing_js %}
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="{{ url_for('static', filename='js/home.js') }}"></script>
 {% endblock %}
