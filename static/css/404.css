@@ -1,0 +1,31 @@
+body {
+    background:#00b4ff;
+    color:#333;
+    font:100% Arial,Sans Serif;
+    height:100vh;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+h1 {
+    color:#ddd;
+    text-align:center;
+    font-size:8em;
+    margin:10% 0px 0px 0px;
+}
+p {
+    color: rgb(240, 240, 240);
+    text-align: center;
+    text-decoration: none;
+}
+a, a:visited {
+    color: rgb(240, 240, 240);
+    transition-duration: 0.5s;
+    height:25vh;
+    font:100% Arial,Sans Serif;
+    text-decoration: none;
+}
+a:hover, a:hover:visited {
+    color: rgb(28, 234, 83);
+    text-decoration: none;
+}
