@@ -1,37 +1,112 @@
-{% extends 'base_file.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Title -->
+	<title>Tendron</title>
 
-{% block title %}Tendron{% endblock %}
+	<!-- Meta Data -->
+	<meta charset="utf-8">
+	<meta name="robots" content="index,follow">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="keywords" content="Rafael Cenzano">
+	<meta name="description" content="Website for Rafael Cenzano.">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="author" href="https://rafaelcenzano.com">
 
-{% block head_css %}
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ url_for('static', filename='css/apjava.min.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.min.css') }}">
-{% endblock %}
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="32x32" href="https://rafael.sirv.com/Images/favicon.png?w=32&png.optimize=true">
+	<link rel="icon" type="image/png" sizes="64x64" href="https://rafael.sirv.com/Images/favicon.png?w=64&png.optimize=true">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://rafael.sirv.com/Images/favicon.png?w=96&png.optimize=true">
+	<link rel="icon" type="image/png" sizes="100x100" href="https://rafael.sirv.com/Images/favicon.png?w=100&png.optimize=true">
+	<link rel="icon" type="image/png" sizes="200x200" href="https://rafael.sirv.com/Images/favicon.png?w=200&png.optimize=true">
+	<link rel="icon" type="image/png" sizes="300x300" href="https://rafael.sirv.com/Images/favicon.png?w=300&png.optimize=true">
+	<link rel="icon" type="image/png" sizes="400x400" href="https://rafael.sirv.com/Images/favicon.png?w=400&png.optimize=true">
+	<link rel="icon" type="image/png" sizes="500x500" href="https://rafael.sirv.com/Images/favicon.png?w=500&png.optimize=true">
+	<link rel="alternate icon" href="https://rafael.sirv.com/Images/favicon.ico">
 
-{% block head_js %}
-<script type="text/javascript" src="{{ url_for('static', filename='js/p5.min.js') }}"></script>
-{% endblock %}
+	<!-- Apple Icon -->
+	<link rel="apple-touch-icon" sizes="57x57"   href="https://rafael.sirv.com/Images/favicon.png?w=57&png.optimize=true">
+	<link rel="apple-touch-icon" sizes="60x60"   href="https://rafael.sirv.com/Images/favicon.png?w=60&png.optimize=true">
+	<link rel="apple-touch-icon" sizes="72x72"   href="https://rafael.sirv.com/Images/favicon.png?w=72&png.optimize=true">
+	<link rel="apple-touch-icon" sizes="76x76"   href="https://rafael.sirv.com/Images/favicon.png?w=76&png.optimize=true">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://rafael.sirv.com/Images/favicon.png?w=114&png.optimize=true">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://rafael.sirv.com/Images/favicon.png?w=120&png.optimize=true">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://rafael.sirv.com/Images/favicon.png?w=144&png.optimize=true">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://rafael.sirv.com/Images/favicon.png?w=152&png.optimize=true">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://rafael.sirv.com/Images/favicon.png?w=180&png.optimize=true">
 
-{% block content %}
-		<header>
-			<h1>Fractal tree? no a weird mess of tendrils</h1>
-			<p>Not quite a mess though...</p>
-			<p>Seems to have a recursive/fractal pattern...</p>
-		</header>
-		<div class="button-wrapper center">
-        	<a href="{{ url_for('apjava') }}" class="back-other">Back</a>
+	<!-- Andriod Icon -->
+	<link rel="icon" type="image/png" sizes="36x36"    href="https://rafael.sirv.com/Images/favicon.png?w=36&png.optimize=true">
+	<link rel="icon" type="image/png" sizes="48x48"    href="https://rafael.sirv.com/Images/favicon.png?w=48&png.optimize=true">
+	<link rel="icon" type="image/png" sizes="72x72"    href="https://rafael.sirv.com/Images/favicon.png?w=72&png.optimize=true">
+	<link rel="icon" type="image/png" sizes="96x96"    href="https://rafael.sirv.com/Images/favicon.png?w=96&png.optimize=true">
+	<link rel="icon" type="image/png" sizes="144x144"  href="https://rafael.sirv.com/Images/favicon.png?w=144&png.optimize=true">
+	<link rel="icon" type="image/png" sizes="192x192"  href="https://rafael.sirv.com/Images/favicon.png?w=192&png.optimize=true">
+
+	<!-- Facebook -->
+	<meta property="og:title" content="Rafael Cenzano">
+	<meta property="og:site_name" content="Rafael Cenzano's Personal website">
+	<meta property="og:description" content="Personal website to display Rafael Cenzano's work">
+	<meta property="og:url" content="https://rafaelcenzano.com/">
+	<meta property="og:image" content="https://rafael.sirv.com/Images/rafael.jpeg">
+
+	<!-- Twitter -->
+	<meta name="twitter:title" content="Rafael Cenzano">
+	<meta name="twitter:card" content="Rafael Cenzano's Personal website">
+	<meta name="twitter:description" content="Personal website to display Rafael Cenzano's work">	
+	<meta name="twitter:url" content="https://rafaelcenzano.com/">
+	<meta name="twitter:image" content="https://rafael.sirv.com/Images/rafael.jpeg">
+
+	<!-- Google+ -->
+	<meta itemprop="name" content="Rafael Cenzano">
+	<meta itemprop="description" content="Personal website to display Rafael Cenzano's work">
+	<meta itemprop="image" content="https://rafael.sirv.com/Images/rafael.jpeg">
+	
+	<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fe53422b151a40f8a75e39619e8cd5ba"}'></script><!-- End Cloudflare Web Analytics -->
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/home.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="/static/js/p5.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div>
+            <button aria-label="Toggle dark mode" class="muted pointer no-select tooltipped tooltipped--s moon-button" data-behavior="toggle_theme" id="color-mode-switch" onclick="switchTheme()" role="button" tabindex="0"><svg height="36" id="openMoon" style="display:none;" viewbox="0 0 32 32" width="36" xmlns="http://www.w3.org/2000/svg">
+            <path clip-rule="evenodd" d="M23.116 22.885h-.001c-7.732 0-14-6.268-14-14v-.001a9.952 9.952 0 0 0-2 6.001c0 5.523 4.477 10 10 10 2.251 0 4.329-.743 6.001-2zm2.422-2.245c.903-.185 1.721.724 1.166 1.46a11.982 11.982 0 0 1-9.59 4.785c-6.627 0-12-5.373-12-12 0-3.92 1.88-7.4 4.786-9.59.736-.554 1.645.264 1.46 1.167-.16.783-.245 1.593-.245 2.423 0 6.627 5.373 12 12 12 .83 0 1.64-.084 2.423-.245z" fill-rule="evenodd"></path></svg> <svg height="36" id="fullMoon" viewbox="0 0 32 32" width="36" xmlns="http://www.w3.org/2000/svg">
+            <path d="M26.704 22.1c.555-.736-.263-1.645-1.166-1.46-.783.16-1.593.245-2.423.245-6.627 0-12-5.373-12-12 0-.83.084-1.64.245-2.423.185-.903-.724-1.721-1.46-1.166a11.982 11.982 0 0 0-4.785 9.59c0 6.627 5.373 12 12 12 3.92 0 7.4-1.88 9.59-4.786z"></path></svg></button>
         </div>
-        <br>
-		<section id="content">
-			<canvas id="Tendron" data-processing-sources="{{ url_for('static', filename='tendron/Tendron.pde') }} {{ url_for('static', filename='tendron/Cluster.pde') }} {{ url_for('static', filename='tendron/Tendril.pde') }}">
-			</canvas>
-	    </section>
-	    <div class="desc">
-	    	Click to redraw and place the center of the Tendron in another location.
-	    	<br>
-		    Created by Rafael for APCS A (Java) with Processing
-		    <br>
-		    <a href="https://github.com/RafaelCenzano/Tendron" class="pdesource">Check out the code!</a>
+        <div class="options">
+            <p><a href="#experiences">Experiences</a></p>
+        </div>
+        <div class="options">
+            <p><a href="/apcs">AP CS A</a></p>
+        </div>
+    </nav>
+	<header>
+		<h1 class="center">Fractal tree? no a weird mess of tendrils</h1>
+		<p class="center">Not quite a mess though...</p>
+		<p class="center">Seems to have a recursive/fractal pattern...</p><br>
+	</header>
+	<section id="content">
+		<canvas id="Tendron" data-processing-sources="/static/tendron/Tendron.pde /static/tendron/Cluster.pde /static/tendron/Tendril.pde">
+		</canvas>
+	</section>
+	<div class="desc">
+		Click to redraw and place the center of the Tendron in another location.<br>
+		Created by Rafael for APCS A (Java) with Processing
+	</div>
+	<footer>
+		<p class="copyright">© 2022 Rafael Cenzano</p>
+		<div class="source-wrapper">
+			<p>
+				<a rel="noopener" href="https://github.com/RafaelCenzano/rafaelcenzano.com" class="source">Source</a>
+			</p>
 		</div>
-	    {% include 'footer.html' %}
-{% endblock %}
+	</footer>
+	
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+	<script src="/static/js/home.js"></script>
+</body>
+</html>
