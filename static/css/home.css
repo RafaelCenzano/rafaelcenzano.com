@@ -219,3 +219,34 @@ footer {
     float: none;
   }
 }
+
+.java {
+  text-align: center;
+  padding-top: 15px;
+  max-width: 70%;
+  margin: auto;
+}
+
+.java h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.java h4 span {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.desc{
+  text-align: center;
+  margin: auto;
+}
+
+.desc ol {
+  text-align: left;
+}
+
+#content {
+  text-align: center;
+  margin: auto;
+}
